@@ -1,0 +1,24 @@
+---
+title: "Paper"
+author: ""
+colorlinks: true
+output:
+  bookdown::pdf_document2:
+    keep_tex: false
+    toc: false
+documentclass: article
+bibliography: "bibliography_paper.bib"
+suppress-bibliography: FALSE
+---
+
+# Introduction
+
+How citizens manage to stay informed about politics---or not---has been a long-standing concern of political science [@Lippmann1922; @Berelsonetal1954]. In a complex world, people must turn to others for such information. Today, the Internet's "many-to-many" structure [@Tuckeretal2017] makes it harder to know what sources to turn to: trust in professional media has been waning in many Western democracies [@Gallup2019; @PWC2018] and is increasingly related to partisanship [@Arceneauxetal2012; @TsfatiAriely2014]. At the same time, the spread of misinformation is rampant [@Guess2018-gw; @Vosoughi2018-nh]. How do news sources affect belief and sharing of information in this environment?
+
+# References
+
+
+
+
+
+
