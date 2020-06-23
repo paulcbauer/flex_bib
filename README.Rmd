@@ -5,7 +5,7 @@ output: github_document
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
-# tidy_bib_file 
+# tidy_bib
 
 
 `tidy_bib_file` can be used to tidy up (delete unused references from) a larger bib file based on the citations in a .rmd file. It creates a new cleaned bib file. Depending on how "clean" the original bib file is the function may throw errors. Normally, R will tell you in which line of your bib file the error is once you compile paper.rmd.
