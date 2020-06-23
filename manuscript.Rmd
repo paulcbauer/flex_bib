@@ -1,0 +1,90 @@
+---
+title: "Using `tidy_bib`"
+
+author:
+  - Paul C. Bauer^[University of Mannheim, paul.bauer@mzes.uni-mannheim.de]
+  - Denis Cohen^[University of Mannheim, denis.cohen@mzes.uni-mannheim.de]
+date: "`r Sys.Date()`"
+
+
+fontsize: 11pt
+linestretch: 1
+
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    number_sections: no
+    toc: false
+    pandoc_args: --lua-filter=multiple-bibliographies.lua
+    keep_tex: no
+
+header-includes:
+  - \usepackage {hyperref}
+  - \hypersetup {colorlinks = true, linkcolor = blue, urlcolor = blue}
+
+bibliography_main:
+  - partial_bib_1.bib
+bibliography_app:
+  - partial_bib_2.bib
+link-citations: yes
+linkcolor: blue
+---
+  
+```{r setup, include=FALSE}
+## ---- Setup ----
+## Save package names as a vector of strings
+pkgs <-
+  c("rmarkdown",
+    "stringr",
+    "bib2df",
+    "dplyr")
+
+## Install uninstalled packages
+lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
+
+## Load all packages to library and adjust options
+lapply(pkgs, library, character.only = TRUE)
+
+## Source functions
+source("tidy_bib.R")
+
+## Set display options
+options(scipen=999)
+```
+
+```{r tidy-bib, include=FALSE}
+tidy_bib(
+  rmarkdownfile = "manuscript.Rmd",
+  old_bib_file = c("references1.bib", "references2.bib"),
+  new_bib_file = "partial_bib.bib",
+  by_sections = c("<!--- appendix split -->"),
+  repair = TRUE,
+  replace_curly_braces = FALSE,
+  removeISSN = TRUE,
+  removeISBN = TRUE,
+  removeDOI = TRUE,
+  removeURL = TRUE
+)
+```
+
+## Main Text
+
+This is the main text. It cites one paper by @Athey2019-fy inline.
+We also cite another one by @Arceneauxetal2012. 
+
+Let's also cite a paper in parantheses [@Loges2001-bh].
+Here is also some more intricate stuff with prefixes and suffixes
+[e.g., @Hargittai2008-fa; @AllcottGentzkow2017, pp. 31-57].
+
+## References
+<div id="refs_main"></div>
+
+\newpage
+
+<!--- appendix split -->
+## Appendix
+
+This is the appendix. It cites some other paper [@Friedman2009-gx].
+
+## References
+<div id="refs_app"></div>
