@@ -140,11 +140,11 @@ On the following page, you can see the knitted PDF output generated from `manusc
 
 ## FAQ: Variations in using `tidy_bib`
 
-### What if I have 1 (or $geq$ 3) input `.bib` files?
+### What if I have 1 (or many) input `.bib` files?
 
-For a single `.bib` files, simply specify `bib_input = "path/to/my/bibfile.bib"`. For any number of `.bib` files, collected the path names and/or file names in a vector, e.g. `bib_input = c("path/to/my/first/bibfile1.bib", "path/to/my/other/bibfile2.bib", "path/to/my/last/bibfile3.bib")`.
+For a single `.bib` files, simply specify `bib_input = "path/to/my/bibfile.bib"`. For any number of `.bib` files, collected the path names and/or file names in a vector, e.g. `bib_input = c("my/first/bibfile1.bib", "my/other/bibfile2.bib", "my/last/bibfile3.bib")`.
 
-### In a document with many sections/chapters, how can I include separate bibliography for each of them? 
+### In a document with many sections/chapters, how can I include separate bibliographies for each of them? 
 
 Embedding many chapter or section-specific bibliographies is easy, as long as you keep track of
 
@@ -153,7 +153,7 @@ Embedding many chapter or section-specific bibliographies is easy, as long as yo
 1. the specification of your partial bibliographies in your YAML header;
 1. and the placement of the partial bibliographies in your `.Rmd file`
     
-Here is the rough structure of an `.Rmd` file for a thesis with five chapters with chapter-specific bibliographies, using a single large input `.bib` file. Not that we only need to specify four anchors to obtain five separate bibliographies:
+Here is the rough structure of an `.Rmd` file for a thesis with five chapters with chapter-specific bibliographies. Note that we only need to specify four anchors to obtain five separate bibliographies:
 
 ```{yaml, eval = F}
 ---
