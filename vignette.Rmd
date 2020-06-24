@@ -237,5 +237,5 @@ These are my really cool findings.
 This is my conclusion.
 
 ## References
-<div id="refs_intro"></div>  
+<div id="refs_conclusion"></div>  
 ```
