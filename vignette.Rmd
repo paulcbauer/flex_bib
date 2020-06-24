@@ -34,16 +34,16 @@ linkcolor: blue
 
 In this example, we use the `tidy_bib()` function to 
 
-1. combine two separate `.bib`-files, `references1.bib` and `references2.bib`
-1. clean and repair the resulting bib-files (e.g., by removing unwanted fields such as the ISSN, ISBN, DOI, and URL)
-1. freely cite works from the combined `.bib`-files in an RMarkdown document which consists of a main text and an appendix
-1. create separate `.bib`-files for the main text and the appendix, each containing only those entries which were cited in the respective sections
-1. embed the corresponding separate bibliographies for the main text and the appendix
+1. combine two separate `.bib`-files, `references1.bib` and `references2.bib`;
+1. clean and repair the resulting bib-files (e.g., by removing unwanted fields such as the ISSN, ISBN, DOI, and URL);
+1. freely cite works from the combined `.bib`-files in an RMarkdown document which consists of a main text and an appendix;
+1. create separate `.bib`-files for the main text and the appendix, each containing only those entries which were cited in the respective sections;
+1. embed the corresponding separate bibliographies for the main text and the appendix.
 
 
 ## YAML Header
 
-In order for this to work, we must specify some information in the YAML header of our `.Rmd`file:
+In order for this to work, we must specify some arguments in the YAML header of our `.Rmd` file:
 
 ```{yaml, eval = F}
 output:
@@ -53,10 +53,6 @@ output:
     pandoc_args: --lua-filter=multiple-bibliographies.lua
     keep_tex: no
 
-header-includes:
-  - \usepackage {hyperref}
-  - \hypersetup {colorlinks = true, linkcolor = blue, urlcolor = blue}
-
 bibliography_main:
   - partial_bib_1.bib
 bibliography_app:
@@ -65,9 +61,9 @@ link-citations: yes
 linkcolor: blue
 ```
 
-There are two important additions. 
+These are the important additions:
 
-1. `pandoc_args: --lua-filter=multiple-bibliographies.lua` calls the lua-filter
+1. The argument `pandoc_args: --lua-filter=multiple-bibliographies.lua` calls the lua-filter
 [`multiple-bibliographies`](https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies)
 for the creation and inclusion of multiple bibliographies using
 `pandoc-citeproc`. 
@@ -79,9 +75,9 @@ After the YAML header, make sure to include a (hidden, yet evaluating) R code ch
 
 ```{r, eval = F}
 tidy_bib(
-  rmarkdownfile = "manuscript.Rmd",
-  old_bib_file = c("references1.bib", "references2.bib"),
-  new_bib_file = "partial_bib.bib",
+  rmarkdown_file = "manuscript.Rmd",
+  bib_input = c("references1.bib", "references2.bib"),
+  bib_output = "partial_bib.bib",
   by_sections = c("<!--- appendix split -->"),
   repair = TRUE,
   replace_curly_braces = FALSE,
@@ -92,36 +88,39 @@ tidy_bib(
 )
 ```
 
-- `rmarkdownfile = "manuscript.Rmd"` specifies that the very same RMarkdown script in which we are writing our paper will be scanned for citations. 
-- `old_bib_file = c("references1.bib", "references2.bib")` means that we supply two larger bib files which will be combined and cleaned before the entries matching the citations in `manuscript.Rmd` will be extracted. 
-- `new_bib_file = "partial_bib.bib"` specifies the name of the newly created (partial) `.bib` files. If we, as in the current examples, request separate `.bib` files for different sections of the document, these will by default be saved by adding `_1`, `_2`,  etc. before the file extensions. As we request separate bibliographies for the main text and the appendix, the files will be stored as `partial_bib_1.bib` and `partial_bib_2.bib`. Note that we must already supply matching file names for the bibliographies in our YAML header.
-- `by_sections = c("<!--- appendix split -->")` defines the split point included in our `.Rmd` script. Here, we only supply one split point, which means that `tidy_bib()` will extract citations separately before and after the split point (and thus produce two separate `.bib` files). Note that we can easily add split points, e.g., by including distinct comments in the `.Rmd` script and adding them to the input vector for the `by_sections` argument.
+- `rmarkdown_file = "manuscript.Rmd"` specifies that the very same RMarkdown script in which we are writing our paper will be scanned for citations. 
+- `bib_input = c("references1.bib", "references2.bib")` means that we supply two larger bib files which will be combined and cleaned before the entries matching the citations in `manuscript.Rmd` will be extracted. 
+- `bib_output = "partial_bib.bib"` specifies the name of the newly created (partial) `.bib` files. If we request multiple separate `.bib` files for different sections of the document, these will by default be saved with numerical suffixes before the file extensions, e.g. `partial_bib_1.bib`, `partial_bib_2.bib`, etc. *Note that we must already supply matching file names for these bibliographies in our YAML header.*
+- `by_sections = c("<!--- appendix split -->")` defines the split point included in our `.Rmd` script. Here, we only supply one split point, which means that `tidy_bib()` will extract citations separately before and after the split point (and thus produce two separate `.bib` files). Note that we can easily add more split points, e.g., by including distinct comments in the `.Rmd` script and adding them to the input vector for the `by_sections` argument.
 - `repair`, `replace_curly_braces`, `removeISSN`, `removeISBN`, `removeDOI`, and `remove URL` are additional options that define how we want to tidy up our new `.bib` file(s).
 
+\newpage
+
 ## Document body
+
+The following is the text body of the script `manuscript.Rmd`:
 
 ```{markdown, eval = F}
 ## Main Text
 
 This is the main text. It cites one paper by @Athey2019-fy inline.
-We also cite another one by @Arceneauxetal2012. 
+We also cite a book by @Berelsonetal1954. 
 
-Let's also cite a paper in parantheses [@Loges2001-bh].
+Let's also cite a report in parantheses [@Gallup2019].
 Here is also some more intricate stuff with prefixes and suffixes
-[e.g., @Hargittai2008-fa; @AllcottGentzkow2017, pp. 31-57].
+[e.g., @Hargittai2008-fa, pp. 31-57].
 
-## References
+## Main Text References
 <div id="refs_main"></div>
-
-\newpage
 
 <!--- appendix split -->
 ## Appendix
 
 This is the appendix. It cites some other paper [@Friedman2009-gx].
 
-## References
+## Appendix References
 <div id="refs_app"></div>
+
 ```
 
 
@@ -130,7 +129,7 @@ In the document body, we can then freely include citations as we usually would. 
 1. `<!--- tidy_bib appendix split -->`, supplied as a Markdown comment, defines the split point.
 1. We override the default of printing bibliograpfies at the end of the document by adding `<div id="refs_main"></div>` and `<div id="refs_app"></div>`, respectively. This ensure that the two bibliographies will be printed where we want them to be printed. Note that the names of the arguments must match those defined in the YAML header, just like the file names of the corresponding `.bib` files must match those of the new `.bib` files produced by `tidy_bib`.
 
-On the following page, you can see the knitted PDF document generated from `manuscript.Rmd`.
+On the following page, you can see the knitted PDF output generated from `manuscript.Rmd`.
 
 
 \clearpage

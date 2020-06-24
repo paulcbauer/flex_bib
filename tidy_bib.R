@@ -1,7 +1,7 @@
 # FUNCTION ####
-tidy_bib <- function(rmarkdownfile,
-                     old_bib_file,
-                     new_bib_file,
+tidy_bib <- function(rmarkdown_file,
+                     bib_input,
+                     bib_output,
                      by_sections = NULL,
                      repair = TRUE,
                      replace_curly_braces = FALSE,
@@ -15,10 +15,106 @@ tidy_bib <- function(rmarkdownfile,
   library(bib2df)
   library(dplyr)
   
-  # ---- Source sub-functions ----
-  source("tidy_bib_file_core.R")
-  source("repair_bib_file.R")
-  source("remove_curly_braces.R")
+  # ---- Sub-functions ----
+  tidy_bib_file_core <- function(text,
+                                 bib_input) {
+    
+    # Extract citation keys
+    citation_keys1 <-
+      gsub("]$", "", unlist(regmatches(
+        text, gregexpr("@[-A-Za-z0-9_]*\\]", text)
+      )))
+    citation_keys2 <-
+      gsub("\\s$", "", unlist(regmatches(
+        text, gregexpr("@[-A-Za-z0-9_]*\\s", text)
+      )))
+    citation_keys3 <-
+      gsub("\\;$", "", unlist(regmatches(
+        text, gregexpr("@[-A-Za-z0-9_]*;", text)
+      )))
+    citation_keys4 <-
+      gsub("\\,$", "", unlist(regmatches(
+        text, gregexpr("@[-A-Za-z0-9_]*,", text)
+      )))
+    citation_keys5 <-
+      gsub("\\.$", "", unlist(regmatches(
+        text, gregexpr("@[-A-Za-z0-9_]*\\.", text)
+      )))
+    
+    # Merge citation keys and keep unique
+    citation_keys <-
+      gsub("@", "", unique(
+        c(
+          citation_keys1,
+          citation_keys2,
+          citation_keys3,
+          citation_keys4,
+          citation_keys5
+        )
+      ))
+    citation_keys <-
+      data.frame(BIBTEXKEY = as.character(citation_keys))
+    
+    cat("Finished extracting bibtexkeys.\n")
+    
+    
+    # Create new bib file ####
+    bibliography_new <-
+      inner_join(bib_input, citation_keys, by = "BIBTEXKEY")
+    
+    # Clean title
+    bibliography_new$TITLE <- str_replace_all(bibliography_new$TITLE,
+                                              "\\}|\\{", "")
+    bibliography_new$TITLE <- str_to_title(bibliography_new$TITLE)
+    
+    # Return object
+    return(bibliography_new)
+  }
+  
+  repair_bib_file <- function(bib_output){
+    bibfile <- readLines(bib_output, encoding = "UTF-8")
+    accents <- c(
+      "\\`",
+      "\\'",
+      "\\^",
+      '\\"',
+      "\\~",
+      "\\=",
+      "\\.",
+      "\\u",
+      "\\v",
+      "\\H",
+      "\\t",
+      "\\c",
+      "\\d",
+      "\\b",
+      "\\k"
+    )
+    accentletters <- expand.grid(accents, letters)
+    accentletters <-
+      sprintf('%s%s', accentletters[, 1], accentletters[, 2])
+    accentletters <- gsub("\\\\", "", accentletters)
+    
+    # for(i in accentletters){bibfile <- gsub("\\{\\\\i\\}", "\\{\\\\i\\}\\}", bibfile)}
+    bibfile <- gsub("\\{\\\\'e\\}", "\\{\\\\'e\\}\\}", bibfile)
+    bibfile <- gsub("\\{\\\\'a\\}", "\\{\\\\'a\\}\\}", bibfile)
+    bibfile <- gsub("\\{\\\\'o\\}", "\\{\\\\'o\\}\\}", bibfile)
+    
+    # Return output
+    return(bibfile)
+  }
+  
+  remove_curly_braces <- function(bib_output){
+    bibfile <- readLines(bib_output, encoding = "UTF-8")
+    bibfile <- str_replace_all(bibfile, "\\s\\{", ' "')
+    bibfile[nchar(bibfile) > 1] <-
+      str_replace_all(bibfile[nchar(bibfile) > 1],
+                      "\\}", '"')
+    #bibfile <- bibfile[!bibfile==""]
+    
+    # Return output
+    return(bibfile)
+  }
   
   # ---- Define fields to be removed ----
   to_remove <- c("ISSN", "ISBN", "DOI", "URL")
@@ -29,9 +125,10 @@ tidy_bib <- function(rmarkdownfile,
   
   # ---- Import, append multiple bib-files, remove non-essential columns ----
   complete_bib <- NULL
-  if (length(old_bib_file) > 1) {
-    for (file in old_bib_file) {
-      partial_bib <- bib2df(file)
+  if (length(bib_input) > 1) {
+    for (file in bib_input) {
+      partial_bib <- bib2df(file) %>%
+        mutate(YEAR = as.character(YEAR))
       complete_bib <- bind_rows(complete_bib, partial_bib) %>%
         dplyr::select(-contains("ABSTRACT"),
                       -contains("MENDELEY.TAGS"),
@@ -39,7 +136,7 @@ tidy_bib <- function(rmarkdownfile,
         dplyr::select(-one_of(to_remove))
     }
   } else {
-    complete_bib <- bib2df(old_bib_file) %>%
+    complete_bib <- bib2df(bib_input) %>%
       dplyr::select(-contains("ABSTRACT"),
                     -contains("MENDELEY.TAGS"),
                     -contains("HYPOTHESIZED")) %>%
@@ -50,26 +147,26 @@ tidy_bib <- function(rmarkdownfile,
   # ---- Run core function ----
   # ---- by_sections == NULL: read in rmd file as one long string ----
   if (is.null(by_sections)) {
-    rmd_text <- paste(readLines(rmarkdownfile), collapse = " ")
+    rmd_text <- paste(readLines(rmarkdown_file), collapse = " ")
     
     # Run core function
     bibliography_new <- tidy_bib_file_core(rmd_text, complete_bib)
     
     # Write bib
-    df2bib(bibliography_new,  new_bib_file)
+    df2bib(bibliography_new,  bib_output)
     cat("New bib file created.\n")
     
     # Repair?
     if (isTRUE(repair)) {
-      bibfile <- repair_bib_file(new_bib_file)
-      writeLines(bibfile, new_bib_file)
+      bibfile <- repair_bib_file(bib_output)
+      writeLines(bibfile, bib_output, useBytes = TRUE)
       cat("Repaired new bib file.\n")
     }
     
     # Remove curly braces?
     if (isTRUE(replace_curly_braces)) {
-      bibfile <- remove_curly_braces(new_bib_file)
-      writeLines(bibfile, new_bib_file)
+      bibfile <- remove_curly_braces(bib_output)
+      writeLines(bibfile, bib_output, useBytes = TRUE)
       cat("Also replaced curly braces.\n")
     }
     
@@ -89,11 +186,11 @@ tidy_bib <- function(rmarkdownfile,
     }
     
     # Read in rmd file as vector of lines
-    rmd_text <- readLines(rmarkdownfile)
+    rmd_text <- readLines(rmarkdown_file)
     
     # Define split points
     if (is.numeric(by_sections)) {
-      rmarkdownfile <-
+      rmarkdown_file <-
         split(rmd_text, cumsum(seq_along(rmd_text) %in% by_sections))
     } else if (is.character(by_sections)) {
       by_sections <-
@@ -102,7 +199,7 @@ tidy_bib <- function(rmarkdownfile,
       
       # Re-validate by_section input
       if (any(sapply(by_sections, length) != 1)) {
-        stop("by_sections input not found in rmarkdownfile")
+        stop("by_sections input not found in rmarkdown_file")
       }
       
       # Split and concatenate
@@ -111,17 +208,17 @@ tidy_bib <- function(rmarkdownfile,
     }
     
     # Run core function across splits of the .Rmd
-    new_bib_files <-
-      lapply(rmd_text, tidy_bib_file_core, old_bib_file = complete_bib)
+    bib_outputs <-
+      lapply(rmd_text, tidy_bib_file_core, bib_input = complete_bib)
     
     # Write multiple bib files
-    for (file in seq_along(new_bib_files)) {
+    for (file in seq_along(bib_outputs)) {
       # Define file anme
       new_file_name <-
-        paste0(gsub(".bib$", "", new_bib_file), "_", file, ".bib")
+        paste0(gsub(".bib$", "", bib_output), "_", file, ".bib")
       
       # Write file
-      df2bib(new_bib_files[[file]] %>%
+      df2bib(bib_outputs[[file]] %>%
                select(-one_of(to_remove)),
              new_file_name)
       cat(paste0(new_file_name, " created.\n"))
@@ -129,14 +226,14 @@ tidy_bib <- function(rmarkdownfile,
       # Repair?
       if (isTRUE(repair)) {
         bibfile <- repair_bib_file(new_file_name)
-        writeLines(bibfile, new_file_name)
+        writeLines(bibfile, new_file_name, useBytes = TRUE)
         cat(paste0(new_file_name, " repaired.\n"))
       }
       
       # Remove curly braces?
       if (isTRUE(replace_curly_braces)) {
         bibfile <- remove_curly_braces(new_file_name)
-        writeLines(bibfile, new_file_name)
+        writeLines(bibfile, new_file_name, useBytes = TRUE)
         cat(paste0("Curly braces removed from ", new_file_name, ".\n"))
       }
     }

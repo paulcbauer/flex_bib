@@ -54,9 +54,9 @@ options(scipen=999)
 
 ```{r tidy-bib, include=FALSE}
 tidy_bib(
-  rmarkdownfile = "manuscript.Rmd",
-  old_bib_file = c("references1.bib", "references2.bib"),
-  new_bib_file = "partial_bib.bib",
+  rmarkdown_file = "manuscript.Rmd",
+  bib_input = c("references1.bib", "references2.bib"),
+  bib_output = "partial_bib.bib",
   by_sections = c("<!--- appendix split -->"),
   repair = TRUE,
   replace_curly_braces = FALSE,
@@ -70,21 +70,19 @@ tidy_bib(
 ## Main Text
 
 This is the main text. It cites one paper by @Athey2019-fy inline.
-We also cite another one by @Arceneauxetal2012. 
+We also cite a book by @Berelsonetal1954. 
 
-Let's also cite a paper in parantheses [@Loges2001-bh].
+Let's also cite a report in parantheses [@Gallup2019].
 Here is also some more intricate stuff with prefixes and suffixes
-[e.g., @Hargittai2008-fa; @AllcottGentzkow2017, pp. 31-57].
+[e.g., @Hargittai2008-fa, pp. 31-57].
 
-## References
+## Main Text References
 <div id="refs_main"></div>
-
-\newpage
 
 <!--- appendix split -->
 ## Appendix
 
 This is the appendix. It cites some other paper [@Friedman2009-gx].
 
-## References
+## Appendix References
 <div id="refs_app"></div>
