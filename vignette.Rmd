@@ -80,7 +80,6 @@ tidy_bib(
   bib_output = "partial_bib.bib",
   by_sections = c("<!--- appendix split -->"),
   repair = TRUE,
-  replace_curly_braces = FALSE,
   removeISSN = TRUE,
   removeISBN = TRUE,
   removeDOI = TRUE,
@@ -92,7 +91,7 @@ tidy_bib(
 - `bib_input = c("references1.bib", "references2.bib")` means that we supply two larger bib files which will be combined and cleaned before the entries matching the citations in `manuscript.Rmd` will be extracted. 
 - `bib_output = "partial_bib.bib"` specifies the name of the newly created (partial) `.bib` files. If we request multiple separate `.bib` files for different sections of the document, these will by default be saved with numerical suffixes before the file extensions, e.g. `partial_bib_1.bib`, `partial_bib_2.bib`, etc. *Note that we must already supply matching file names for these bibliographies in our YAML header.*
 - `by_sections = c("<!--- appendix split -->")` defines the split point included in our `.Rmd` script. Here, we only supply one split point, which means that `tidy_bib()` will extract citations separately before and after the split point (and thus produce two separate `.bib` files). Note that we can easily add more split points, e.g., by including distinct comments in the `.Rmd` script and adding them to the input vector for the `by_sections` argument.
-- `repair`, `replace_curly_braces`, `removeISSN`, `removeISBN`, `removeDOI`, and `remove URL` are additional options that define how we want to tidy up our new `.bib` file(s).
+- `repair`, `removeISSN`, `removeISBN`, `removeDOI`, and `remove URL` are additional options that define how we want to tidy up our new `.bib` file(s).
 
 \newpage
 
@@ -137,4 +136,106 @@ On the following page, you can see the knitted PDF output generated from `manusc
 ```{r child = 'manuscript.Rmd'}
 ```
 
+\clearpage
 
+## FAQ: Variations in using `tidy_bib`
+
+### What if I have 1 (or $geq$ 3) input `.bib` files?
+
+For a single `.bib` files, simply specify `bib_input = "path/to/my/bibfile.bib"`. For any number of `.bib` files, collected the path names and/or file names in a vector, e.g. `bib_input = c("path/to/my/first/bibfile1.bib", "path/to/my/other/bibfile2.bib", "path/to/my/last/bibfile3.bib")`.
+
+### In a document with many sections/chapters, how can I include separate bibliography for each of them? 
+
+Embedding many chapter or section-specific bibliographies is easy, as long as you keep track of
+
+1. the anchors you set for the split points in your `.Rmd` file;
+1. the enumerated `bib_output` files that `tidy_bib()` will produce;
+1. the specification of your partial bibliographies in your YAML header;
+1. and the placement of the partial bibliographies in your `.Rmd file`
+    
+Here is the rough structure of an `.Rmd` file for a thesis with five chapters with chapter-specific bibliographies, using a single large input `.bib` file. Not that we only need to specify four anchors to obtain five separate bibliographies:
+
+```{yaml, eval = F}
+---
+title: "My Thesis"
+author: "Me"
+
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    number_sections: no
+    toc: false
+    pandoc_args: --lua-filter=multiple-bibliographies.lua
+    keep_tex: no
+
+bibliography_intro:
+  - bib_for_chapter_1.bib
+bibliography_theory:
+  - bib_for_chapter_2.bib
+bibliography_methods:
+  - bib_for_chapter_3.bib
+bibliography_results:
+  - bib_for_chapter_4.bib
+bibliography_conclusion:
+  - bib_for_chapter_5.bib
+---
+```
+
+```{r, eval=FALSE}
+tidy_bib(
+  rmarkdown_file = "my_thesis.Rmd",
+  bib_input = "some/folder/my_bib_bibfile.bib",
+  bib_output = "bib_for_chapter.bib",
+  by_sections = c(
+    "<!--- bib-anchor intro -->",
+    "<!--- bib-anchor theory -->",
+    "<!--- bib-anchor methods -->",
+    "<!--- bib-anchor results -->"),
+  repair = TRUE,
+  removeISSN = TRUE,
+  removeISBN = TRUE,
+  removeDOI = TRUE,
+  removeURL = TRUE
+)
+```
+
+```{markdown, eval=FALSE}
+# Introduction
+
+This is my introduction.
+
+<!--- bib-anchor intro -->
+## References
+<div id="refs_intro"></div>  
+
+# Theory
+
+This is my theory chapter.
+
+<!--- bib-anchor theory -->
+## References
+<div id="refs_theory"></div>  
+  
+# Methods
+
+This is where I explicate my methods.
+
+<!--- bib-anchor methods -->
+## References
+<div id="refs_methods"></div>  
+  
+# Results
+
+These are my really cool findings.
+
+<!--- bib-anchor results -->
+## References
+<div id="refs_results"></div>  
+  
+# Conclusion
+
+This is my conclusion.
+
+## References
+<div id="refs_intro"></div>  
+```

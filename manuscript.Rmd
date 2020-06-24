@@ -59,7 +59,6 @@ tidy_bib(
   bib_output = "partial_bib.bib",
   by_sections = c("<!--- appendix split -->"),
   repair = TRUE,
-  replace_curly_braces = FALSE,
   removeISSN = TRUE,
   removeISBN = TRUE,
   removeDOI = TRUE,

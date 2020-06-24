@@ -32,7 +32,7 @@ simply download this repository and source the function `tidy_bib.R`
 The use of `tidy_bib` requires the installation of the following R
 packages:
 
-  - [`bib2df`](https://cran.r-project.org/web/packages/bib2df/index.html). *Note:* Until [this issue](https://github.com/ropensci/bib2df/issues/37) is resolved, please make sure to install this issue-specific version of the `bib2df` packages via `remotes::install_github("ropensci/bib2df@issue_#29")`.
+  - [`bib2df`](https://cran.r-project.org/web/packages/bib2df/index.html). *Note:* Until [this issue](https://github.com/ropensci/bib2df/issues/37) is resolved, please make sure to install this issue-specific version of the `bib2df` package via `remotes::install_github("ropensci/bib2df@issue_#29")`.
   - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
   - [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html)
 

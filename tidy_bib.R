@@ -4,7 +4,6 @@ tidy_bib <- function(rmarkdown_file,
                      bib_output,
                      by_sections = NULL,
                      repair = TRUE,
-                     replace_curly_braces = FALSE,
                      removeISSN = TRUE,
                      removeISBN = TRUE,
                      removeDOI = TRUE,
@@ -104,18 +103,6 @@ tidy_bib <- function(rmarkdown_file,
     return(bibfile)
   }
   
-  remove_curly_braces <- function(bib_output){
-    bibfile <- readLines(bib_output, encoding = "UTF-8")
-    bibfile <- str_replace_all(bibfile, "\\s\\{", ' "')
-    bibfile[nchar(bibfile) > 1] <-
-      str_replace_all(bibfile[nchar(bibfile) > 1],
-                      "\\}", '"')
-    #bibfile <- bibfile[!bibfile==""]
-    
-    # Return output
-    return(bibfile)
-  }
-  
   # ---- Define fields to be removed ----
   to_remove <- c("ISSN", "ISBN", "DOI", "URL")
   to_remove <- to_remove[c(removeISSN,
@@ -162,13 +149,7 @@ tidy_bib <- function(rmarkdown_file,
       writeLines(bibfile, bib_output, useBytes = TRUE)
       cat("Repaired new bib file.\n")
     }
-    
-    # Remove curly braces?
-    if (isTRUE(replace_curly_braces)) {
-      bibfile <- remove_curly_braces(bib_output)
-      writeLines(bibfile, bib_output, useBytes = TRUE)
-      cat("Also replaced curly braces.\n")
-    }
+
     
   # ---- by_sections != NULL: split by sections ----
   } else {
@@ -228,13 +209,6 @@ tidy_bib <- function(rmarkdown_file,
         bibfile <- repair_bib_file(new_file_name)
         writeLines(bibfile, new_file_name, useBytes = TRUE)
         cat(paste0(new_file_name, " repaired.\n"))
-      }
-      
-      # Remove curly braces?
-      if (isTRUE(replace_curly_braces)) {
-        bibfile <- remove_curly_braces(new_file_name)
-        writeLines(bibfile, new_file_name, useBytes = TRUE)
-        cat(paste0("Curly braces removed from ", new_file_name, ".\n"))
       }
     }
   }
