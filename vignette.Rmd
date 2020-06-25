@@ -30,6 +30,14 @@ link-citations: yes
 linkcolor: blue
 ---
 
+# Problem
+The package/function deals with two problems:
+
+1. We normally use (one or several) large .bib files as input for our paper .rmd files. These are based on one or several authors' literature databases. However, we ideally want to end up with one single .bib file that includes only those references that were cited in our paper, e.g., if we prepare reproduction files.
+2. Papers normally have at least two sections namely a main section and an appendix that also have independent bibliographies. Ideally, in compiling our RMarkdown paper we want two independent bibliographies that correspond to those sections and are located at their end.
+
+The idea is to provide functions that automatically solve these problems for us.
+
 # An example
 
 In this example, we use the `tidy_bib()` function to 
@@ -69,7 +77,7 @@ for the creation and inclusion of multiple bibliographies using
 `pandoc-citeproc`. 
 1. The definitions of `bibliography_main` and `bibliography_app` specify the suffixes of our partial bibliographies as well as the file names of the corresponding `.bib`files, which will be produced by `tidy_bib()` in the next step.
 
-## `tidybib()` code chunk
+## `tidy_bib()` code chunk
 
 After the YAML header, make sure to include a (hidden, yet evaluating) R code chunk in your RMarkdown document. Here, we specify the following:
 
@@ -105,7 +113,7 @@ The following is the text body of the script `manuscript.Rmd`:
 This is the main text. It cites one paper by @Athey2019-fy inline.
 We also cite a book by @Berelsonetal1954. 
 
-Let's also cite a report in parantheses [@Gallup2019].
+Let's also cite a report in parentheses [@Gallup2019].
 Here is also some more intricate stuff with prefixes and suffixes
 [e.g., @Hargittai2008-fa, pp. 31-57].
 
@@ -126,7 +134,7 @@ This is the appendix. It cites some other paper [@Friedman2009-gx].
 In the document body, we can then freely include citations as we usually would. When it comes to printing our bibliographies, there are two things that we handle slightly differently from the default way of including bibliographies in Markdown.
 
 1. `<!--- tidy_bib appendix split -->`, supplied as a Markdown comment, defines the split point.
-1. We override the default of printing bibliograpfies at the end of the document by adding `<div id="refs_main"></div>` and `<div id="refs_app"></div>`, respectively. This ensure that the two bibliographies will be printed where we want them to be printed. Note that the names of the arguments must match those defined in the YAML header, just like the file names of the corresponding `.bib` files must match those of the new `.bib` files produced by `tidy_bib`.
+1. We override the default of printing bibliographies at the end of the document by adding `<div id="refs_main"></div>` and `<div id="refs_app"></div>`, respectively. This ensure that the two bibliographies will be printed where we want them to be printed. Note that the names of the arguments must match those defined in the YAML header, just like the file names of the corresponding `.bib` files must match those of the new `.bib` files produced by `tidy_bib`.
 
 On the following page, you can see the knitted PDF output generated from `manuscript.Rmd`.
 

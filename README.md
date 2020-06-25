@@ -1,48 +1,43 @@
-# tidy_bib
 
-`tidy_bib` can be used to combine and tidy up (i.e., delete unused references from) a (set of) larger `.bib` file(s) based on the citations in an RMarkdown script. It creates either a single cleaned `.bib` file containing only those references cited in the `.Rmd` file or a set of cleaned `.bib` files, containing only those references cited in pre-defined sections of the RMarkdown document, which can then be embedded as section-specific bibliographies. 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-Depending on how 'clean' the original `.bib file is`, the function may throw some errors. Normally, R will tell you in which line of your bib file the error is once you compile RMarkdown document.
+# tidy\_bib
 
-## Contributors
+The package/function is being developed by [Paul C.
+Bauer](http://paulcbauer.eu/) and [Denis
+Cohen](https://denis-cohen.github.io/) .
 
-**Paul C. Bauer**
+It deals with two problems:
 
-- Mannheim Centre for European Social Research 
-- University of Mannheim 
-- [paulcbauer.eu](https://sites.google.com/view/paulcbauer)
-- [\@p_c_bauer](https://twitter.com/p_c_bauer)
+1.  We normally use (one or several) large .bib files as input for our
+    paper .rmd files. These are based on one or several authors’
+    literature databases. However, we ideally want to end up with one
+    single .bib file that includes only those references that were cited
+    in our paper, e.g., if we prepare reproduction files.
+2.  Papers normally have at least two sections namely a main section and
+    an appendix that also have independent bibliographies. Ideally, in
+    compiling our RMarkdown paper we want two independent bibliographies
+    that correspond to those sections and are located at their end.
 
-
-**Denis Cohen** 
-
-- Mannheim Centre for European Social Research 
-- University of Mannheim 
-- [denis-cohen.github.io](https://denis-cohen.github.io)
-- [\@denis_cohen](https://twitter.com/denis_cohen)
+`tidy_bib` can solve those problems automatically for us namely to tidy
+up (delete unused references from) a larger bib file based on the
+citations in a .rmd file. It creates a new cleaned bib file(s).
+`tidy_bib` can also rely on several bib files as input and merge them.
 
 ## Installation
 
-The function `tidy_bib` is currently not part of a package. You can
-simply download this repository and source the function `tidy_bib.R`
-(which will in turn load all required dependencies).
+The function `tidy_bib_file` is currently not part of a package. So
+simply run the code below to source the function from github. You will
+need the `df2bib` package.
 
-## Dependencies
+``` r
+library(devtools)
+source_url("https://raw.githubusercontent.com/paulcbauer/tidy_bib/master/tidy_bib.R")
+```
 
-The use of `tidy_bib` requires the installation of the following R
-packages:
+## How to
 
-  - [`bib2df`](https://cran.r-project.org/web/packages/bib2df/index.html). *Note:* Until [this issue](https://github.com/ropensci/bib2df/issues/37) is resolved, please make sure to install this issue-specific version of the `bib2df` package via `remotes::install_github("ropensci/bib2df@issue_#29")`.
-  - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
-  - [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html)
-
-Additionally, `tidy_bib` uses the lua-filter
-[`multiple-bibliographies`](https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies)
-for the creation and inclusion of multiple bibliographies using
-`pandoc-citeproc`.
-
-
-## Using `tidy_bib`
-
-For the use of `tidy_bib`, please see the
-[vignette](https://github.com/paulcbauer/tidy_bib/blob/master/vignette.pdf).
+Information on how to use the function can be found in the vignette:
+<https://github.com/paulcbauer/tidy_bib/blob/master/vignette.pdf>
+([Download
+link](https://github.com/paulcbauer/tidy_bib/raw/master/vignette.pdf))
