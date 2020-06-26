@@ -82,6 +82,8 @@ for the creation and inclusion of multiple bibliographies using
 After the YAML header, make sure to include a (hidden, yet evaluating) R code chunk in your RMarkdown document. Here, we specify the following:
 
 ```{r, eval = F}
+library(devtools)
+source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/flex_bib.R")
 flex_bib(
   rmarkdown_file = "manuscript.Rmd",
   bib_input = c("references1.bib", "references2.bib"),
