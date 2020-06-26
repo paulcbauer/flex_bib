@@ -36,6 +36,23 @@ library(devtools)
 source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/flex_bib.R")
 ```
 
+The use of `flex_bib` requires the installation of the following R
+packages:
+
+  - [`bib2df`](https://cran.r-project.org/web/packages/bib2df/index.html).
+    *Note:* Until [this
+    issue](https://github.com/ropensci/bib2df/issues/37) is resolved,
+    please make sure to install this issue-specific version of the
+    `bib2df` package via
+    `remotes::install_github("ropensci/bib2df@issue_#29")`.
+  - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
+  - [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html)
+
+Additionally, `flex_bib` uses the lua-filter
+[`multiple-bibliographies`](https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies)
+for the creation and inclusion of multiple bibliographies using
+`pandoc-citeproc`.
+
 ## How to
 
 Information on how to use the function can be found in the vignette:
@@ -58,22 +75,3 @@ link](https://github.com/paulcbauer/flex_bib/raw/master/vignette.pdf))
   - University of Mannheim
   - [denis-cohen.github.io](https://denis-cohen.github.io)
   - [@denis\_cohen](https://twitter.com/denis_cohen)
-
-## Dependencies
-
-The use of `flex_bib` requires the installation of the following R
-packages:
-
-  - [`bib2df`](https://cran.r-project.org/web/packages/bib2df/index.html).
-    *Note:* Until [this
-    issue](https://github.com/ropensci/bib2df/issues/37) is resolved,
-    please make sure to install this issue-specific version of the
-    `bib2df` package via
-    `remotes::install_github("ropensci/bib2df@issue_#29")`.
-  - [`dplyr`](https://cran.r-project.org/web/packages/dplyr/index.html)
-  - [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html)
-
-Additionally, `flex_bib` uses the lua-filter
-[`multiple-bibliographies`](https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies)
-for the creation and inclusion of multiple bibliographies using
-`pandoc-citeproc`.

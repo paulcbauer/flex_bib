@@ -1,22 +1,24 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1593175244317.000,
+    "created" : 1593175557136.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2384804988",
-    "id" : "3C9D00EE",
-    "lastKnownWriteTime" : 1593174984,
-    "last_content_update" : 1593174984,
+    "hash" : "1824355967",
+    "id" : "AEA63969",
+    "lastKnownWriteTime" : 1593175594,
+    "last_content_update" : 1593175594872,
     "path" : "C:/Users/Paul/Google Drive/7-Software/flex_bib/README.Rmd",
     "project_path" : "README.Rmd",
     "properties" : {
+        "cursorPosition" : "27,0",
+        "scrollLine" : "17"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 1,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"
