@@ -38,6 +38,8 @@ Additionally, `flex_bib` uses the lua-filter
 for the creation and inclusion of multiple bibliographies using
 `pandoc-citeproc`.
 
+  - Download the file `multiple-bibliographies.lua` and store it as `multiple-bibliographies.lua` (not as .txt file) in the same folder as your Rmarkdown file.
+
 ## How to
 
 Information on how to use the function can be found in the vignette: 

@@ -7,7 +7,8 @@ flex_bib <- function(rmarkdown_file,
                      removeISSN = TRUE,
                      removeISBN = TRUE,
                      removeDOI = TRUE,
-                     removeURL = TRUE) {
+                     removeURL = TRUE,
+                     removeFILE = TRUE) {
   
   # ---- Load dependencies ----
   library(stringr)
@@ -104,11 +105,12 @@ flex_bib <- function(rmarkdown_file,
   }
   
   # ---- Define fields to be removed ----
-  to_remove <- c("ISSN", "ISBN", "DOI", "URL")
+  to_remove <- c("ISSN", "ISBN", "DOI", "URL", "FILE")
   to_remove <- to_remove[c(removeISSN,
                            removeISBN,
                            removeDOI,
-                           removeURL)]
+                           removeURL,
+                           removeFILE)]
   
   # ---- Import, append multiple bib-files, remove non-essential columns ----
   complete_bib <- NULL
