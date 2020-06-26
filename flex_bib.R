@@ -100,6 +100,11 @@ flex_bib <- function(rmarkdown_file,
     bibfile <- gsub("\\{\\\\'a\\}", "\\{\\\\'a\\}\\}", bibfile)
     bibfile <- gsub("\\{\\\\'o\\}", "\\{\\\\'o\\}\\}", bibfile)
     
+    # Replace faulty urls
+    bibfile <- gsub("url\\{", "", bibfile)
+    
+    
+    
     # Return output
     return(bibfile)
   }
