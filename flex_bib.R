@@ -7,8 +7,7 @@ flex_bib <- function(rmarkdown_file,
                      removeISSN = TRUE,
                      removeISBN = TRUE,
                      removeDOI = TRUE,
-                     removeURL = TRUE,
-                     removeFILE = TRUE) {
+                     removeURL = TRUE) {
   
   # ---- Load dependencies ----
   library(stringr)
@@ -114,8 +113,7 @@ flex_bib <- function(rmarkdown_file,
   to_remove <- to_remove[c(removeISSN,
                            removeISBN,
                            removeDOI,
-                           removeURL,
-                           removeFILE)]
+                           removeURL)]
   
   # ---- Import, append multiple bib-files, remove non-essential columns ----
   complete_bib <- NULL
@@ -126,22 +124,14 @@ flex_bib <- function(rmarkdown_file,
       complete_bib <- bind_rows(complete_bib, partial_bib) %>%
         dplyr::select(-contains("ABSTRACT"),
                       -contains("MENDELEY.TAGS"),
-                      -contains("HYPOTHESIZED"),
-                      -contains("FILE"),
-                      -contains("KEYWORDS"),
-                      -contains("LANGUAGE"),
-                      -contains("ORIGINAL_ID"))  %>%
+                      -contains("HYPOTHESIZED"))  %>%
         dplyr::select(-one_of(to_remove))
     }
   } else {
     complete_bib <- bib2df(bib_input) %>%
       dplyr::select(-contains("ABSTRACT"),
                     -contains("MENDELEY.TAGS"),
-                    -contains("HYPOTHESIZED"),
-                    -contains("FILE"),
-                    -contains("KEYWORDS"),
-                    -contains("LANGUAGE"),
-                    -contains("ORIGINAL_ID")) %>%
+                    -contains("HYPOTHESIZED")) %>%
       dplyr::select(-one_of(to_remove))
   }
   cat("Imported old bib file(s).\n")
@@ -161,7 +151,7 @@ flex_bib <- function(rmarkdown_file,
     # Repair?
     if (isTRUE(repair)) {
       bibfile <- repair_bib_file(bib_output)
-      writeLines(bibfile, bib_output, useBytes = TRUE)
+      stringi::stri_write_lines(bibfile, bib_output)
       cat("Repaired new bib file.\n")
     }
 
@@ -222,7 +212,7 @@ flex_bib <- function(rmarkdown_file,
       # Repair?
       if (isTRUE(repair)) {
         bibfile <- repair_bib_file(new_file_name)
-        writeLines(bibfile, new_file_name, useBytes = TRUE)
+        stringi::stri_write_lines(bibfile, new_file_name)
         cat(paste0(new_file_name, " repaired.\n"))
       }
     }
