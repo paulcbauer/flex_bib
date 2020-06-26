@@ -12,8 +12,9 @@ It deals with two problems:
 1.  We normally use (one or several) large .bib files as input for our
     paper .rmd files. These are based on one or several authors’
     literature databases. However, we ideally want to end up with one
-    single .bib file that includes only those references that were cited
-    in our paper, e.g., if we prepare reproduction files.
+    single (max. two) .bib file(s) that includes only those references
+    that were cited in our paper, e.g., if we prepare reproduction
+    files.
 2.  Papers normally have at least two sections namely a main section and
     an appendix that also have independent bibliographies. Ideally, in
     compiling our RMarkdown paper we want two independent bibliographies
