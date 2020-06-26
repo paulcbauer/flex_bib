@@ -56,9 +56,13 @@ for the creation and inclusion of multiple bibliographies using
 ## How to
 
 Information on how to use the function can be found in the vignette:
-<https://github.com/paulcbauer/flex_bib/blob/master/vignette.pdf>
-([Download
-link](https://github.com/paulcbauer/flex_bib/raw/master/vignette.pdf))
+
+  - PDF:
+    <https://github.com/paulcbauer/flex_bib/blob/master/vignette.pdf>
+    ([Download
+    link](https://github.com/paulcbauer/flex_bib/raw/master/vignette.pdf))
+  - HTML:
+    [Link](https://htmlpreview.github.io/?https://github.com/paulcbauer/flex_bib/blob/master/vignette_html.html)
 
 ## Contributors
 
