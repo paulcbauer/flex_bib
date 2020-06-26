@@ -1,5 +1,5 @@
 # FUNCTION ####
-tidy_bib <- function(rmarkdown_file,
+flex_bib <- function(rmarkdown_file,
                      bib_input,
                      bib_output,
                      by_sections = NULL,
@@ -15,7 +15,7 @@ tidy_bib <- function(rmarkdown_file,
   library(dplyr)
   
   # ---- Sub-functions ----
-  tidy_bib_file_core <- function(text,
+  flex_bib_file_core <- function(text,
                                  bib_input) {
     
     # Extract citation keys
@@ -137,7 +137,7 @@ tidy_bib <- function(rmarkdown_file,
     rmd_text <- paste(readLines(rmarkdown_file), collapse = " ")
     
     # Run core function
-    bibliography_new <- tidy_bib_file_core(rmd_text, complete_bib)
+    bibliography_new <- flex_bib_file_core(rmd_text, complete_bib)
     
     # Write bib
     df2bib(bibliography_new,  bib_output)
@@ -190,7 +190,7 @@ tidy_bib <- function(rmarkdown_file,
     
     # Run core function across splits of the .Rmd
     bib_outputs <-
-      lapply(rmd_text, tidy_bib_file_core, bib_input = complete_bib)
+      lapply(rmd_text, flex_bib_file_core, bib_input = complete_bib)
     
     # Write multiple bib files
     for (file in seq_along(bib_outputs)) {

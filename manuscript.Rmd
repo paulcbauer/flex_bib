@@ -1,5 +1,5 @@
 ---
-title: "Using `tidy_bib`"
+title: "Using `flex_bib`"
 
 author:
   - Paul C. Bauer^[University of Mannheim, paul.bauer@mzes.uni-mannheim.de]
@@ -46,14 +46,14 @@ lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
 lapply(pkgs, library, character.only = TRUE)
 
 ## Source functions
-source("tidy_bib.R")
+source("flex_bib.R")
 
 ## Set display options
 options(scipen=999)
 ```
 
 ```{r tidy-bib, include=FALSE}
-tidy_bib(
+flex_bib(
   rmarkdown_file = "manuscript.Rmd",
   bib_input = c("references1.bib", "references2.bib"),
   bib_output = "partial_bib.bib",
