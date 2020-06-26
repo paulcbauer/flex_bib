@@ -124,14 +124,16 @@ flex_bib <- function(rmarkdown_file,
       complete_bib <- bind_rows(complete_bib, partial_bib) %>%
         dplyr::select(-contains("ABSTRACT"),
                       -contains("MENDELEY.TAGS"),
-                      -contains("HYPOTHESIZED"))  %>%
+                      -contains("HYPOTHESIZED"),
+                      -contains("X."))  %>%
         dplyr::select(-one_of(to_remove))
     }
   } else {
     complete_bib <- bib2df(bib_input) %>%
       dplyr::select(-contains("ABSTRACT"),
                     -contains("MENDELEY.TAGS"),
-                    -contains("HYPOTHESIZED")) %>%
+                    -contains("HYPOTHESIZED"),
+                    -contains("X.")) %>%
       dplyr::select(-one_of(to_remove))
   }
   cat("Imported old bib file(s).\n")
