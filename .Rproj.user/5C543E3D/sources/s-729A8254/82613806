@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2742841855",
+    "hash" : "0",
     "id" : "82613806",
-    "lastKnownWriteTime" : 1593176347,
-    "last_content_update" : 1593176347038,
-    "path" : "C:/Users/Paul/Google Drive/7-Software/flex_bib/vignette.Rmd",
-    "project_path" : "vignette.Rmd",
+    "lastKnownWriteTime" : 1593176664,
+    "last_content_update" : 1593176664525,
+    "path" : "C:/Users/Paul/Google Drive/7-Software/flex_bib/vignette_html.Rmd",
+    "project_path" : "vignette_html.Rmd",
     "properties" : {
-        "cursorPosition" : "85,85",
-        "scrollLine" : "74"
+        "cursorPosition" : "12,7",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
