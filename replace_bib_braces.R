@@ -2,6 +2,7 @@ replace_bib_braces <- function(x){
   
   # ---- Load dependencies ----
   library(stringr)
+  library(dplyr)
 
   
   
