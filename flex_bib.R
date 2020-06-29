@@ -125,6 +125,10 @@ flex_bib <- function(rmarkdown_file,
         dplyr::select(-contains("ABSTRACT"),
                       -contains("MENDELEY.TAGS"),
                       -contains("HYPOTHESIZED"),
+                      -contains("FILE"),
+                      -contains("KEYWORDS"),
+                      -contains("LANGUAGE"),
+                      -contains("ORIGINAL_ID"),
                       -contains("X."))  %>%
         dplyr::select(-one_of(to_remove))
     }
@@ -133,6 +137,10 @@ flex_bib <- function(rmarkdown_file,
       dplyr::select(-contains("ABSTRACT"),
                     -contains("MENDELEY.TAGS"),
                     -contains("HYPOTHESIZED"),
+                    -contains("FILE"),
+                    -contains("KEYWORDS"),
+                    -contains("LANGUAGE"),
+                    -contains("ORIGINAL_ID"),
                     -contains("X.")) %>%
       dplyr::select(-one_of(to_remove))
   }
