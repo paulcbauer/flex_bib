@@ -1,4 +1,10 @@
 replace_bib_braces <- function(x){
+  
+  # ---- Load dependencies ----
+  library(stringr)
+
+  
+  
   # Function replaces braces for bad bibtex entries
   
   x <- gsub("= \"", "= \\{", x)

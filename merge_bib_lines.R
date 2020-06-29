@@ -1,5 +1,8 @@
 merge_bib_lines <- function(x){
   
+  # ---- Load dependencies ----
+  library(stringr)
+  
   # Function merges bib argument entries that span several lines
   # If line does not end with }, take the next line(s) and add it to this line
   lines_wo_end <- !str_detect(x, "\\}$|\\},$") & !str_detect(x, "@") & x!="" & !str_detect(x, "^%")
