@@ -37,7 +37,8 @@ pkgs <-
   c("rmarkdown",
     "stringr",
     "bib2df",
-    "dplyr")
+    "dplyr",
+    "devtools")
 
 ## Install uninstalled packages
 lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
@@ -45,19 +46,17 @@ lapply(pkgs[!(pkgs %in% installed.packages())], install.packages)
 ## Load all packages to library and adjust options
 lapply(pkgs, library, character.only = TRUE)
 
-## Source functions
-source("flex_bib.R")
-
 ## Set display options
 options(scipen=999)
 ```
 
 ```{r tidy-bib, include=FALSE}
+source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/flex_bib.R")
 flex_bib(
   rmarkdown_file = "manuscript.Rmd",
   bib_input = c("references1.bib", "references2.bib"),
   bib_output = "partial_bib.bib",
-  by_sections = c("<!--- appendix split -->"),
+  by_sections = c("<!--- flex_bib appendix split -->"),
   repair = TRUE,
   removeISSN = TRUE,
   removeISBN = TRUE,
@@ -78,7 +77,7 @@ Here is also some more intricate stuff with prefixes and suffixes
 ## Main Text References
 <div id="refs_main"></div>
 
-<!--- appendix split -->
+<!--- flex_bib appendix split -->
 ## Appendix
 
 This is the appendix. It cites some other paper [@Friedman2009-gx].

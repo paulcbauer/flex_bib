@@ -3,33 +3,33 @@
 
 # flex\_bib
 
-The package/function is being developed by [Paul C.
-Bauer](http://paulcbauer.eu/) and [Denis
-Cohen](https://denis-cohen.github.io/) .
+`flex_bib` is being developed by [Paul C. Bauer](http://paulcbauer.eu/)
+and [Denis Cohen](https://denis-cohen.github.io/). It deals with two
+problems:
 
-It deals with two problems:
-
-1.  We normally use (one or several) large .bib files as input for our
-    paper .rmd files. These are based on one or several authors’
+1.  We normally use (one or several) large `.bib` files as input for our
+    paper `.rmd` files. These are based on one or several authors’
     literature databases. However, we ideally want to end up with one
-    single (max. two) .bib file(s) that includes only those references
+    single (max. two) `.bib` file(s) that includes only those references
     that were cited in our paper, e.g., if we prepare reproduction
     files.
-2.  Papers normally have at least two sections namely a main section and
-    an appendix that also have independent bibliographies. Ideally, in
-    compiling our RMarkdown paper we want two independent bibliographies
-    that correspond to those sections and are located at their end.
+2.  Papers normally have at least two sections – namely a main text and
+    an appendix – that often have separate bibliographies. Ideally, in
+    compiling our RMarkdown paper, we want two independent
+    bibliographies that correspond to those sections and are located at
+    their end. While one way of achieving this is two set up seprate
+    `.rmd` files for the main text and the appendix, this approach does
+    not allow for cross-referencing across the two parts.
 
-`flex_bib` can solve those problems automatically for us namely to tidy
-up (delete unused references from) a larger bib file based on the
-citations in a .rmd file. It creates a new cleaned bib file(s).
-`flex_bib` can also rely on several bib files as input and merge them.
+`flex_bib` offers an automated solution to these problems. Based on the
+citations from one or several input bib file(s) in a `.rmd` file, it
+creates new output bib files that only contain the cited works within
+predefined reference sections.
 
-## Installation
+## Installation and dependencies
 
-The function `flex_bib_file` is currently not part of a package. So
-simply run the code below to source the function from github. You will
-need the `df2bib` package.
+The function `flex_bib()` is currently not part of a package. You can
+simply run the code below to source the function from GitHub:
 
 ``` r
 library(devtools)
@@ -54,19 +54,8 @@ for the creation and inclusion of multiple bibliographies using
 `pandoc-citeproc`.
 
   - Download the file `multiple-bibliographies.lua` and store it as
-    `multiple-bibliographies.lua` (not as .txt file) in the same folder
-    as your Rmarkdown file.
-
-## How to
-
-Information on how to use the function can be found in the vignette:
-
-  - PDF:
-    <https://github.com/paulcbauer/flex_bib/blob/master/vignette.pdf>
-    ([Download
-    link](https://github.com/paulcbauer/flex_bib/raw/master/vignette.pdf))
-  - HTML:
-    [Link](https://htmlpreview.github.io/?https://github.com/paulcbauer/flex_bib/blob/master/vignette_html.html)
+    `multiple-bibliographies.lua` (not as a `.txt` file) in the same
+    folder as your RMarkdown file.
 
 ## Contributors
 
@@ -83,3 +72,101 @@ Information on how to use the function can be found in the vignette:
   - University of Mannheim
   - [denis-cohen.github.io](https://denis-cohen.github.io)
   - [@denis\_cohen](https://twitter.com/denis_cohen)
+
+## Using `flex_bib()`: A walkthrough
+
+In this walkthrough, we use the `flex_bib()` function to
+
+1.  combine two separate `.bib`-files, `references1.bib` and
+    `references2.bib`;
+2.  clean and repair the resulting bib-files (e.g., by removing unwanted
+    fields such as the ISSN, ISBN, DOI, and URL);
+3.  freely cite works from the combined `.bib`-files in an RMarkdown
+    document which consists of a main text and an appendix;
+4.  create separate `.bib`-files for the main text and the appendix,
+    each containing only those entries which were cited in the
+    respective sections;
+5.  embed the corresponding separate bibliographies for the main text
+    and the appendix.
+
+### YAML Header
+
+In order for this to work, we must specify some arguments in the YAML
+header of our `.Rmd` file:
+
+These are the important additions:
+
+1.  The argument `pandoc_args: --lua-filter=multiple-bibliographies.lua`
+    calls the lua-filter
+    [`multiple-bibliographies`](https://github.com/pandoc/lua-filters/tree/master/multiple-bibliographies)
+    for the creation and inclusion of multiple bibliographies using
+    `pandoc-citeproc`.
+2.  The definitions of `bibliography_main` and `bibliography_app`
+    specify the suffixes of our partial bibliographies as well as the
+    file names of the corresponding `.bib`files, which will be produced
+    by `flex_bib()` in the next step.
+
+### `flex_bib()` code chunk
+
+After the YAML header, make sure to include a (hidden, yet evaluating) R
+code chunk in your RMarkdown document. Here, we specify the following:
+
+  - `rmarkdown_file = "manuscript.Rmd"` specifies that the very same
+    RMarkdown script in which we are writing our paper will be scanned
+    for citations.
+  - `bib_input = c("references1.bib", "references2.bib")` means that we
+    supply two larger bib files which will be combined and cleaned
+    before the entries matching the citations in `manuscript.Rmd` will
+    be extracted.
+  - `bib_output = "partial_bib.bib"` specifies the name of the newly
+    created (partial) `.bib` files. If we request multiple separate
+    `.bib` files for different sections of the document, these will by
+    default be saved with numerical suffixes before the file extensions,
+    e.g. `partial_bib_1.bib`, `partial_bib_2.bib`, etc. *Note that we
+    must already supply matching file names for these bibliographies in
+    our YAML header.*
+  - `by_sections = c("<!--- flex_bib appendix split -->")` defines the
+    split point included in our `.Rmd` script. Here, we only supply one
+    split point, which means that `flex_bib()` will extract citations
+    separately before and after the split point (and thus produce two
+    separate `.bib` files). Note that we can easily add more split
+    points, e.g., by including distinct comments in the `.Rmd` script
+    and adding them to the input vector for the `by_sections` argument.
+  - `repair`, `removeISSN`, `removeISBN`, `removeDOI`, and `remove URL`
+    are additional options that define how we want to tidy up our new
+    `.bib` file(s).
+
+### Document body
+
+The following is the text body of the script `manuscript.Rmd`:
+
+In the document body, we can then freely include citations as we usually
+would. When it comes to printing our bibliographies, there are two
+things that we handle slightly differently from the default way of
+including bibliographies in Markdown.
+
+1.  `<!--- flex_bib appendix split -->`, supplied as a Markdown comment,
+    defines the split point.
+2.  We override the default of printing bibliographies at the end of the
+    document by adding `<div id="refs_main"></div>` and `<div
+    id="refs_app"></div>`, respectively. This ensure that the two
+    bibliographies will be printed where we want them to be printed.
+    Note that the names of the arguments must match those defined in the
+    YAML header, just like the file names of the corresponding `.bib`
+    files must match those of the new `.bib` files produced by
+    `flex_bib`.
+
+[Here](https://github.com/paulcbauer/flex_bib/blob/master/manuscript.pdf),
+you can see the knitted PDF output generated from `manuscript.Rmd`.
+
+## Vignette
+
+Additional information on how to use the function can be found in the
+vignette:
+
+  - PDF:
+    [Link](https://github.com/paulcbauer/flex_bib/blob/master/vignette.pdf)
+    ([Download
+    link](https://github.com/paulcbauer/flex_bib/raw/master/vignette.pdf))
+  - HTML:
+    [Link](https://htmlpreview.github.io/?https://github.com/paulcbauer/flex_bib/blob/master/vignette_html.html)
