@@ -188,7 +188,7 @@ There are [different bibtex formats](https://tex.stackexchange.com/questions/109
 }
 ```
 
-If you entries look more like this that is include lines breaks and quotation marks (sometimes not) as separators...
+If your entries look more like this, i.e., include lines breaks and quotation marks (sometimes not) as separators...
 
 ```{r echo=TRUE, message=FALSE, eval = FALSE}
 @ARTICLE{Ermisch2009-qf,

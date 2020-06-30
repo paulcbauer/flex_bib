@@ -227,7 +227,7 @@ w/o line breaks in entries as `bib2df()` has problems with those):
 }
 ```
 
-If you entries look more like this that is include lines breaks and
+If your entries look more like this, i.e., include lines breaks and
 quotation marks (sometimes not) as separators…
 
 ``` r
