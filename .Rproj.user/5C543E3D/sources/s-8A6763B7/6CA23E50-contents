@@ -1,406 +1,261 @@
 
 % The entry below contains non-ASCII chars that could not be converted
 % to a LaTeX equivalent.
+
+
+
+@ARTICLE{Freelon2020-pj,
+  title     = {Disinformation as Political Communication},
+  author    = {Freelon, Deen and Wells, Chris},
+  abstract  = {ABSTRACT This introduction to the special issue ?Beyond Fake News: The Politics of Disinformation? contains four main sections. In the first, we discuss the major sociopolitical factors that have allowed disinformation to flourish in recent years. Second, we review the very short history of disinformation research, devoting particular attention to two of its more extensively studied conceptual relatives: propaganda and misinformation. Third, we preview the seven articles in this issue, which we divide into two types: studies of disinformation content and of disinformation reception. We conclude by advancing a few suggestions for future disinformation research.},
+  journal   = {Political Communication},
+  publisher = {Routledge},
+  volume    = {37},
+  number    = {2},
+  pages     = {145--156},
+  month     = {mar},
+  year      = {2020}
+}
+
+
+
+@ARTICLE{Guess2020-er,
+  title     = {A digital media literacy intervention increases discernment between mainstream and false news in the United States and India},
+  author    = {Guess, Andrew M and Lerner, Michael and Lyons, Benjamin and Montgomery, Jacob M and Nyhan, Brendan and Reifler, Jason and Sircar, Neelanjan},
+  abstract  = {Widespread belief in misinformation circulating online is a critical challenge for modern societies. While research to date has focused on psychological and political antecedents to this phenomenon, few studies have explored the role of digital media literacy shortfalls. Using data from preregistered survey experiments conducted around recent elections in the United States and India, we assess the effectiveness of an intervention modeled closely on the world's largest media literacy campaign, which provided ``tips'' on how to spot false news to people in 14 countries. Our results indicate that exposure to this intervention reduced the perceived accuracy of both mainstream and false news headlines, but effects on the latter were significantly larger. As a result, the intervention improved discernment between mainstream and false news headlines among both a nationally representative sample in the United States (by 26.5\%) and a highly educated online sample in India (by 17.5\%). This increase in discernment remained measurable several weeks later in the United States (but not in India). However, we find no effects among a representative sample of respondents in a largely rural area of northern India, where rates of social media use are far lower.},
+  journal   = {Proc. Natl. Acad. Sci. U. S. A.},
+  publisher = {National Acad Sciences},
+  month     = {jun},
+  year      = {2020},
+  keywords  = {digital literacy; misinformation; social media},
+  language  = {en}
+}
+
+
+
 @INCOLLECTION{Athey2017-sy,
-  title     = "The Econometrics of Randomized Experiments",
-  booktitle = "Handbook of Economic Field Experiments",
-  author    = "Athey, Susan and Imbens, Guido W",
-  abstract  = "In this chapter, we present econometric and statistical methods
-               for analyzing randomized experiments. For basic experiments, we
-               stress randomization-based inference as opposed to
-               sampling-based inference. In randomization-based inference,
-               uncertainty in estimates …",
-  publisher = "Elsevier",
-  volume    =  1,
-  pages     = "73--140",
-  year      =  2017
+  title     = {The Econometrics of Randomized Experiments},
+  booktitle = {Handbook of Economic Field Experiments},
+  author    = {Athey, Susan and Imbens, Guido W},
+  abstract  = {In this chapter, we present econometric and statistical methods for analyzing randomized experiments. For basic experiments, we stress randomization-based inference as opposed to sampling-based inference. In randomization-based inference, uncertainty in estimates …},
+  publisher = {Elsevier},
+  volume    = {1},
+  pages     = {73--140},
+  year      = {2017}
 }
 
 
 
 @ARTICLE{Athey2019-jd,
-  title         = "Estimating Treatment Effects with Causal Forests: An
-                   Application",
-  author        = "Athey, Susan and Wager, Stefan",
-  abstract      = "We apply causal forests to a dataset derived from the
-                   National Study of Learning Mindsets, and consider resulting
-                   practical and conceptual challenges. In particular, we
-                   discuss how causal forests use estimated propensity scores
-                   to be more robust to confounding, and how they handle data
-                   with clustered errors.",
-  month         =  feb,
-  year          =  2019,
-  archivePrefix = "arXiv",
-  primaryClass  = "stat.ME",
-  eprint        = "1902.07409"
+  title         = {Estimating Treatment Effects with Causal Forests: An Application},
+  author        = {Athey, Susan and Wager, Stefan},
+  abstract      = {We apply causal forests to a dataset derived from the National Study of Learning Mindsets, and consider resulting practical and conceptual challenges. In particular, we discuss how causal forests use estimated propensity scores to be more robust to confounding, and how they handle data with clustered errors.},
+  month         = {feb},
+  year          = {2019},
+  archivePrefix = {arXiv},
+  primaryClass  = {stat.ME},
+  eprint        = {1902.07409}
 }
 
 @ARTICLE{Barbera2015-ej,
-  title    = "The Critical Periphery in the Growth of Social Protests",
-  author   = "Barber{\'a}, Pablo and Wang, Ning and Bonneau, Richard and Jost,
-              John T and Nagler, Jonathan and Tucker, Joshua A. and
-              Gonz{\'a}lez-Bail{\'o}n, Sandra",
-  abstract = "Social media have provided instrumental means of communication in
-              many recent political protests. The efficiency of online networks
-              in disseminating timely information has been praised by many
-              commentators; at the same time, users are often derided as
-              ``slacktivists'' because of the shallow commitment involved in
-              clicking a forwarding button. Here we consider the role of these
-              peripheral online participants, the immense majority of users who
-              surround the small epicenter of protests, representing layers of
-              diminishing online activity around the committed minority. We
-              analyze three datasets tracking protest communication in
-              different languages and political contexts through the social
-              media platform Twitter and employ a network decomposition
-              technique to examine their hierarchical structure. We provide
-              consistent evidence that peripheral participants are critical in
-              increasing the reach of protest messages and generating online
-              content at levels that are comparable to core participants.
-              Although committed minorities may constitute the heart of protest
-              movements, our results suggest that their success in maximizing
-              the number of online citizens exposed to protest messages
-              depends, at least in part, on activating the critical periphery.
-              Peripheral users are less active on a per capita basis, but their
-              power lies in their numbers: their aggregate contribution to the
-              spread of protest messages is comparable in magnitude to that of
-              core participants. An analysis of two other datasets unrelated to
-              mass protests strengthens our interpretation that core-periphery
-              dynamics are characteristically important in the context of
-              collective action events. Theoretical models of diffusion in
-              social networks would benefit from increased attention to the
-              role of peripheral nodes in the propagation of information and
-              behavior.",
-  journal  = "PLoS One",
-  volume   =  10,
-  number   =  11,
-  pages    = "e0143611",
-  month    =  nov,
-  year     =  2015,
-  language = "en"
+  title    = {The Critical Periphery in the Growth of Social Protests},
+  author   = {Barber{\'a}, Pablo and Wang, Ning and Bonneau, Richard and Jost, John T and Nagler, Jonathan and Tucker, Joshua A. and Gonz{\'a}lez-Bail{\'o}n, Sandra},
+  abstract = {Social media have provided instrumental means of communication in many recent political protests. The efficiency of online networks in disseminating timely information has been praised by many commentators; at the same time, users are often derided as ``slacktivists'' because of the shallow commitment involved in clicking a forwarding button. Here we consider the role of these peripheral online participants, the immense majority of users who surround the small epicenter of protests, representing layers of diminishing online activity around the committed minority. We analyze three datasets tracking protest communication in different languages and political contexts through the social media platform Twitter and employ a network decomposition technique to examine their hierarchical structure. We provide consistent evidence that peripheral participants are critical in increasing the reach of protest messages and generating online content at levels that are comparable to core participants. Although committed minorities may constitute the heart of protest movements, our results suggest that their success in maximizing the number of online citizens exposed to protest messages depends, at least in part, on activating the critical periphery. Peripheral users are less active on a per capita basis, but their power lies in their numbers: their aggregate contribution to the spread of protest messages is comparable in magnitude to that of core participants. An analysis of two other datasets unrelated to mass protests strengthens our interpretation that core-periphery dynamics are characteristically important in the context of collective action events. Theoretical models of diffusion in social networks would benefit from increased attention to the role of peripheral nodes in the propagation of information and behavior.},
+  journal  = {PLoS One},
+  volume   = {10},
+  number   = {11},
+  pages    = {e0143611},
+  month    = {nov},
+  year     = {2015},
+  language = {en}
 }
 
 
 @ARTICLE{Bastos2019-nr,
-  title     = "The Brexit Botnet and {User-Generated} Hyperpartisan News",
-  author    = "Bastos, Marco T and Mercea, Dan",
-  abstract  = "In this article, we uncover a network of Twitterbots comprising
-               13,493 accounts that tweeted the United Kingdom European Union
-               membership referendum, only to disappear from Twitter shortly
-               after the ballot. We compare active users to this set of
-               political bots with respect to temporal tweeting behavior, the
-               size and speed of retweet cascades, and the composition of their
-               retweet cascades (user-to-bot vs. bot-to-bot) to evidence
-               strategies for bot deployment. Our results move forward the
-               analysis of political bots by showing that Twitterbots can be
-               effective at rapidly generating small- to medium-sized cascades;
-               that the retweeted content comprises user-generated
-               hyperpartisan news, which is not strictly fake news, but whose
-               shelf life is remarkably short; and, finally, that a botnet may
-               be organized in specialized tiers or clusters dedicated to
-               replicating either active users or content generated by other
-               bots.",
-  journal   = "Soc. Sci. Comput. Rev.",
-  publisher = "SAGE Publications Inc",
-  volume    =  37,
-  number    =  1,
-  pages     = "38--54",
-  month     =  feb,
-  year      =  2019
+  title     = {The Brexit Botnet and {User-Generated} Hyperpartisan News},
+  author    = {Bastos, Marco T and Mercea, Dan},
+  abstract  = {In this article, we uncover a network of Twitterbots comprising 13,493 accounts that tweeted the United Kingdom European Union membership referendum, only to disappear from Twitter shortly after the ballot. We compare active users to this set of political bots with respect to temporal tweeting behavior, the size and speed of retweet cascades, and the composition of their retweet cascades (user-to-bot vs. bot-to-bot) to evidence strategies for bot deployment. Our results move forward the analysis of political bots by showing that Twitterbots can be effective at rapidly generating small- to medium-sized cascades; that the retweeted content comprises user-generated hyperpartisan news, which is not strictly fake news, but whose shelf life is remarkably short; and, finally, that a botnet may be organized in specialized tiers or clusters dedicated to replicating either active users or content generated by other bots.},
+  journal   = {Soc. Sci. Comput. Rev.},
+  publisher = {SAGE Publications Inc},
+  volume    = {37},
+  number    = {1},
+  pages     = {38--54},
+  month     = {feb},
+  year      = {2019}
 }
 
 
 @ARTICLE{Guess2019-ks,
-  title     = "How Accurate Are Survey Responses on Social Media and Politics?",
-  author    = "Guess, Andrew and Munger, Kevin and Nagler, Jonathan and Tucker,
-               Joshua A.",
-  abstract  = "How accurate are survey-based measures of social media use, in
-               particular about political topics? We answer this question by
-               linking original survey data collected during the U.S. 2016
-               election campaign with respondents? observed social media
-               activity. We use supervised machine learning to classify whether
-               these Twitter and Facebook account data are content related to
-               politics. We then benchmark our survey measures on frequency of
-               posting about politics and the number of political figures
-               followed. We find that, on average, our self-reported survey
-               measures tend to correlate with observed social media activity.
-               At the same time, we also find a worrying amount of
-               individual-level discrepancy and problems related to extreme
-               outliers. Our recommendations are twofold. The first is for
-               survey questions about social media use to provide respondents
-               with options covering a wider range of activity, especially in
-               the long tail. The second is for survey questions to include
-               specific content and anchors defining what it means for a post
-               to be ?about politics.?",
-  journal   = "Political Communication",
-  publisher = "Routledge",
-  volume    =  36,
-  number    =  2,
-  pages     = "241--258",
-  month     =  apr,
-  year      =  2019
+  title     = {How Accurate Are Survey Responses on Social Media and Politics?},
+  author    = {Guess, Andrew and Munger, Kevin and Nagler, Jonathan and Tucker, Joshua A.},
+  abstract  = {How accurate are survey-based measures of social media use, in particular about political topics? We answer this question by linking original survey data collected during the U.S. 2016 election campaign with respondents? observed social media activity. We use supervised machine learning to classify whether these Twitter and Facebook account data are content related to politics. We then benchmark our survey measures on frequency of posting about politics and the number of political figures followed. We find that, on average, our self-reported survey measures tend to correlate with observed social media activity. At the same time, we also find a worrying amount of individual-level discrepancy and problems related to extreme outliers. Our recommendations are twofold. The first is for survey questions about social media use to provide respondents with options covering a wider range of activity, especially in the long tail. The second is for survey questions to include specific content and anchors defining what it means for a post to be ?about politics.?},
+  journal   = {Political Communication},
+  publisher = {Routledge},
+  volume    = {36},
+  number    = {2},
+  pages     = {241--258},
+  month     = {apr},
+  year      = {2019}
 }
 
 
 @ARTICLE{Fletcher2017-nl,
-  title     = "The Impact of Trust in the News Media on Online News Consumption
-               and Participation",
-  author    = "Fletcher, Richard and Park, Sora",
-  abstract  = "Trust has long been considered an important factor that
-               influences people?s relationship with news. However, the
-               increase in the volume of information available online, together
-               with the emergence of new tools and services that act as
-               intermediaries and enable interactivity around the news, may
-               have changed this relationship. Using Reuters Institute Digital
-               News Report survey data (N = 21,524), this study explores the
-               impact of individual trust in the news media on source
-               preferences and online news participation behaviour, in
-               particular sharing and commenting, across 11 countries. The
-               results show that those with low levels of trust tend to prefer
-               non-mainstream news sources like social media, blogs, and
-               digital-born providers, and are more likely to engage in various
-               forms of online news participation. These associations tend to
-               be strongest in northern European countries, but are weaker
-               elsewhere. Seeking alternative views and attempting to validate
-               the credibility of news may be among the motivations behind
-               these associations.",
-  journal   = "Digital Journalism",
-  publisher = "Routledge",
-  volume    =  5,
-  number    =  10,
-  pages     = "1281--1299",
-  month     =  nov,
-  year      =  2017
+  title     = {The Impact of Trust in the News Media on Online News Consumption and Participation},
+  author    = {Fletcher, Richard and Park, Sora},
+  abstract  = {Trust has long been considered an important factor that influences people?s relationship with news. However, the increase in the volume of information available online, together with the emergence of new tools and services that act as intermediaries and enable interactivity around the news, may have changed this relationship. Using Reuters Institute Digital News Report survey data (N
+  journal   = {Digital Journalism},
+  publisher = {Routledge},
+  volume    = {5},
+  number    = {10},
+  pages     = {1281--1299},
+  month     = {nov},
+  year      = {2017}
 }
 
 
 @ARTICLE{Tsfati2005-va,
-  title     = "Why Do People Watch News They Do Not Trust? The Need for
-               Cognition as a Moderator in the Association Between News Media
-               Skepticism and Exposure",
-  author    = "Tsfati, Yariv and Cappella, Joseph N",
-  abstract  = "Prior research has found only modest associations between news
-               media trust and exposure. Many news skeptics report moderate to
-               high levels of mainstream news exposure, despite their mistrust
-               of mainstream news. Why do people watch news they do not trust?
-               This study investigates the moderating role played by the
-               psychological construct of ``the need for cognition'' (NFC) in
-               this association. An NFC ? Media Skepticism interaction is
-               hypothesized and tested on survey data (N = 424). Results
-               provide evidence for such an interaction. For those with a
-               reduced NFC, mainstream media skepticism is strongly associated
-               with news exposure. As NFC increases, the association between
-               news skepticism and exposure disappears. It is concluded that
-               people consume news they do not trust when their media
-               skepticism is irrelevant to their motivation for news exposure.",
-  journal   = "Media Psychol.",
-  publisher = "Routledge",
-  volume    =  7,
-  number    =  3,
-  pages     = "251--271",
-  month     =  aug,
-  year      =  2005
+  title     = {Why Do People Watch News They Do Not Trust? The Need for Cognition as a Moderator in the Association Between News Media Skepticism and Exposure},
+  author    = {Tsfati, Yariv and Cappella, Joseph N},
+  abstract  = {Prior research has found only modest associations between news media trust and exposure. Many news skeptics report moderate to high levels of mainstream news exposure, despite their mistrust of mainstream news. Why do people watch news they do not trust? This study investigates the moderating role played by the psychological construct of ``the need for cognition'' (NFC) in this association. An NFC ? Media Skepticism interaction is hypothesized and tested on survey data (N
+  journal   = {Media Psychol.},
+  publisher = {Routledge},
+  volume    = {7},
+  number    = {3},
+  pages     = {251--271},
+  month     = {aug},
+  year      = {2005}
 }
 
 
 
 @ARTICLE{Berghel2017-nu,
-  title     = "Lies, Damn Lies, and Fake News",
-  author    = "Berghel, H",
-  abstract  = "The Oxford Dictionaries selected ``post-truth'' as the 2016
-               international word of the year. This is such a preposterous
-               recognition from a heretofore august publication that I just
-               can't allow it to pass in silence.",
-  journal   = "Computer",
-  publisher = "ieeexplore.ieee.org",
-  volume    =  50,
-  number    =  2,
-  pages     = "80--85",
-  month     =  feb,
-  year      =  2017,
-  keywords  = "social networking (online);fake news;Oxford dictionaries;history
-               of computing;Out of Band;fake news;politics"
+  title     = {Lies, Damn Lies, and Fake News},
+  author    = {Berghel, H},
+  abstract  = {The Oxford Dictionaries selected ``post-truth'' as the 2016 international word of the year. This is such a preposterous recognition from a heretofore august publication that I just can't allow it to pass in silence.},
+  journal   = {Computer},
+  publisher = {ieeexplore.ieee.org},
+  volume    = {50},
+  number    = {2},
+  pages     = {80--85},
+  month     = {feb},
+  year      = {2017},
+  keywords  = {social networking (online);fake news;Oxford dictionaries;history of computing;Out of Band;fake news;politics}
 }
 
 
 @ARTICLE{Naughton2017-qt,
-  title    = "How a half-educated tech elite delivered us into evil",
-  author   = "Naughton, John",
-  abstract = "If our supersmart tech leaders knew a bit more about history or
-              philosophy we wouldn't be in the mess we're in now",
-  journal  = "The Guardian",
-  month    =  nov,
-  year     =  2017
+  title    = {How a half-educated tech elite delivered us into evil},
+  author   = {Naughton, John},
+  abstract = {If our supersmart tech leaders knew a bit more about history or philosophy we wouldn't be in the mess we're in now},
+  journal  = {The Guardian},
+  month    = {nov},
+  year     = {2017}
 }
 
 
 @ARTICLE{Nyhan2015-pw,
-  title     = "Does correcting myths about the flu vaccine work? An
-               experimental evaluation of the effects of corrective information",
-  author    = "Nyhan, Brendan and Reifler, Jason",
-  abstract  = "Seasonal influenza is responsible for thousands of deaths and
-               billions of dollars of medical costs per year in the United
-               States, but influenza vaccination coverage remains substantially
-               below public health targets. One possible obstacle to greater
-               immunization rates is the false belief that it is possible to
-               contract the flu from the flu vaccine. A nationally
-               representative survey experiment was conducted to assess the
-               extent of this flu vaccine misperception. We find that a
-               substantial portion of the public (43\%) believes that the flu
-               vaccine can give you the flu. We also evaluate how an
-               intervention designed to address this concern affects belief in
-               the myth, concerns about flu vaccine safety, and future intent
-               to vaccinate. Corrective information adapted from the Centers
-               for Disease Control and Prevention (CDC) website significantly
-               reduced belief in the myth that the flu vaccine can give you the
-               flu as well as concerns about its safety. However, the
-               correction also significantly reduced intent to vaccinate among
-               respondents with high levels of concern about vaccine side
-               effects--a response that was not observed among those with low
-               levels of concern. This result, which is consistent with
-               previous research on misperceptions about the MMR vaccine,
-               suggests that correcting myths about vaccines may not be an
-               effective approach to promoting immunization.",
-  journal   = "Vaccine",
-  publisher = "Elsevier",
-  volume    =  33,
-  number    =  3,
-  pages     = "459--464",
-  month     =  jan,
-  year      =  2015,
-  keywords  = "Belief; Flu; Influenza; Misperceptions; Myth; Vaccine",
-  language  = "en"
+  title     = {Does correcting myths about the flu vaccine work? An experimental evaluation of the effects of corrective information},
+  author    = {Nyhan, Brendan and Reifler, Jason},
+  abstract  = {Seasonal influenza is responsible for thousands of deaths and billions of dollars of medical costs per year in the United States, but influenza vaccination coverage remains substantially below public health targets. One possible obstacle to greater immunization rates is the false belief that it is possible to contract the flu from the flu vaccine. A nationally representative survey experiment was conducted to assess the extent of this flu vaccine misperception. We find that a substantial portion of the public (43\%) believes that the flu vaccine can give you the flu. We also evaluate how an intervention designed to address this concern affects belief in the myth, concerns about flu vaccine safety, and future intent to vaccinate. Corrective information adapted from the Centers for Disease Control and Prevention (CDC) website significantly reduced belief in the myth that the flu vaccine can give you the flu as well as concerns about its safety. However, the correction also significantly reduced intent to vaccinate among respondents with high levels of concern about vaccine side effects--a response that was not observed among those with low levels of concern. This result, which is consistent with previous research on misperceptions about the MMR vaccine, suggests that correcting myths about vaccines may not be an effective approach to promoting immunization.},
+  journal   = {Vaccine},
+  publisher = {Elsevier},
+  volume    = {33},
+  number    = {3},
+  pages     = {459--464},
+  month     = {jan},
+  year      = {2015},
+  keywords  = {Belief; Flu; Influenza; Misperceptions; Myth; Vaccine},
+  language  = {en}
 }
 
 
 @ARTICLE{Rotter1971-wk,
-  title       = "Public Attitudes Toward the Trustworthiness, Competence, and
-                 Altruism of Twenty Selected Occupations",
-  author      = "Rotter, Julian B and Stein, Donald K",
-  journal     = "J. Appl. Soc. Psychol.",
-  volume      =  1,
-  number      =  4,
-  pages       = "334--343",
-  year        =  1971,
-  original_id = "36250a78-d1e4-0948-bb5b-b81d9eca3086"
+  title       = {Public Attitudes Toward the Trustworthiness, Competence, and Altruism of Twenty Selected Occupations},
+  author      = {Rotter, Julian B and Stein, Donald K},
+  journal     = {J. Appl. Soc. Psychol.},
+  volume      = {1},
+  number      = {4},
+  pages       = {334--343},
+  year        = {1971},
+  original_id = {36250a78-d1e4-0948-bb5b-b81d9eca3086}
 }
 
 
 @ARTICLE{Rousseau1998-ib,
-  title     = "Not so different after all: A cross-discipline view of trust",
-  author    = "Rousseau, Denise M and Sitkin, Sim B and Burt, Ronald S and
-               Camerer, Colin",
-  journal   = "Acad. Manage. Rev.",
-  publisher = "Academy of Management",
-  volume    =  23,
-  number    =  3,
-  pages     = "393--404",
-  year      =  1998
+  title     = {Not so different after all: A cross-discipline view of trust},
+  author    = {Rousseau, Denise M and Sitkin, Sim B and Burt, Ronald S and Camerer, Colin},
+  journal   = {Acad. Manage. Rev.},
+  publisher = {Academy of Management},
+  volume    = {23},
+  number    = {3},
+  pages     = {393--404},
+  year      = {1998}
 }
 
 
 @MISC{Wikipedia_contributors2019-ry,
-  title        = "Indian {WhatsApp} lynchings",
-  booktitle    = "Wikipedia, The Free Encyclopedia",
-  author       = "{Wikipedia contributors}",
-  abstract     = "The Indian WhatsApp lynchings are a spate of mob-related
-                  violence and killings following the spread of rumours,
-                  primarily relating to child-abduction and organ harvesting,
-                  via the WhatsApp message service. The spate of lynchings
-                  commenced in May 2017 with the killing of seven men in
-                  Jharkhand, but did not become a national trend until the
-                  beginning of the following year. Fake messages customised
-                  with locally specific details are circulated along with real
-                  videos attached to fake messages or claims.",
-  month        =  may,
-  year         =  2019,
-  howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Indian_WhatsApp_lynchings&oldid=895073576}",
-  note         = "Accessed: 2019-8-12"
+  title        = {Indian {WhatsApp} lynchings},
+  booktitle    = {Wikipedia, The Free Encyclopedia},
+  author       = {{Wikipedia contributors}},
+  abstract     = {The Indian WhatsApp lynchings are a spate of mob-related violence and killings following the spread of rumours, primarily relating to child-abduction and organ harvesting, via the WhatsApp message service. The spate of lynchings commenced in May 2017 with the killing of seven men in Jharkhand, but did not become a national trend until the beginning of the following year. Fake messages customised with locally specific details are circulated along with real videos attached to fake messages or claims.},
+  month        = {may},
+  year         = {2019},
+  howpublished = {\url{https://en.wikipedia.org/w/index.php?title
+  note         = {Accessed: 2019-8-12}
 }
 
 
 @ARTICLE{Buskens2000-fv,
-  title     = "An experiment on the effects of embeddedness in trust
-               situations: Buying a used car",
-  author    = "Buskens, Vincent and Weesie, Jeroen",
-  abstract  = "This article describes a vignette experiment on the effects of
-               temporal embeddedness and network embeddedness in trust
-               situations. The experiment uses a setting in which a buyer wants
-               to buy a used car from a car dealer. We distinguish between
-               effects on trust of the past relation and the effects of the
-               expected future relation between the buyer and the dealer. A
-               buyer can learn about the trustworthiness of the dealer from
-               past transactions of the dealer. Moreover, the buyer can control
-               the dealer if the buyer and the dealer expect more transactions
-               in the future, because the buyer may sanction the dealer if the
-               dealer would act untrustworthy in the present transaction, for
-               example, by refraining from future transactions. Temporal
-               embeddedness facilitates learning and control through the
-               bilateral relation of the buyer and the dealer, while network
-               embeddedness facilitates learning and control through third
-               parties. In the experiment, subjects are asked to compare
-               different settings for buying a used car, while the relation
-               between the buyer and dealer is varied in these settings. We
-               conclude that both learning and control affect trust at the
-               level of the dyad (temporal embeddedness) as well as at the
-               group-level (network embeddedness).",
-  journal   = "Ration. Soc.",
-  publisher = "SAGE Publications Ltd",
-  volume    =  12,
-  number    =  2,
-  pages     = "227--253",
-  month     =  may,
-  year      =  2000
+  title     = {An experiment on the effects of embeddedness in trust situations: Buying a used car},
+  author    = {Buskens, Vincent and Weesie, Jeroen},
+  abstract  = {This article describes a vignette experiment on the effects of temporal embeddedness and network embeddedness in trust situations. The experiment uses a setting in which a buyer wants to buy a used car from a car dealer. We distinguish between effects on trust of the past relation and the effects of the expected future relation between the buyer and the dealer. A buyer can learn about the trustworthiness of the dealer from past transactions of the dealer. Moreover, the buyer can control the dealer if the buyer and the dealer expect more transactions in the future, because the buyer may sanction the dealer if the dealer would act untrustworthy in the present transaction, for example, by refraining from future transactions. Temporal embeddedness facilitates learning and control through the bilateral relation of the buyer and the dealer, while network embeddedness facilitates learning and control through third parties. In the experiment, subjects are asked to compare different settings for buying a used car, while the relation between the buyer and dealer is varied in these settings. We conclude that both learning and control affect trust at the level of the dyad (temporal embeddedness) as well as at the group-level (network embeddedness).},
+  journal   = {Ration. Soc.},
+  publisher = {SAGE Publications Ltd},
+  volume    = {12},
+  number    = {2},
+  pages     = {227--253},
+  month     = {may},
+  year      = {2000}
 }
 
 
 @ARTICLE{Axelrod1981-ch,
-  title     = "The evolution of cooperation",
-  author    = "Axelrod, R and Hamilton, W D",
-  abstract  = "Cooperation in organisms, whether bacteria or primates, has been
-               a difficulty for evolutionary theory since Darwin. On the
-               assumption that interactions between pairs of individuals occur
-               on a probabilistic basis, a model is developed based on the
-               concept of an evolutionarily stable strategy in the context of
-               the Prisoner's Dilemma game. Deductions from the model, and the
-               results of a computer tournament show how cooperation based on
-               reciprocity can get started in an asocial world, can thrive
-               while interacting with a wide range of other strategies, and can
-               resist invasion once fully established. Potential applications
-               include specific aspects of territoriality, mating, and disease.",
-  journal   = "Science",
-  publisher = "science.sciencemag.org",
-  volume    =  211,
-  number    =  4489,
-  pages     = "1390--1396",
-  month     =  mar,
-  year      =  1981,
-  language  = "en"
+  title     = {The evolution of cooperation},
+  author    = {Axelrod, R and Hamilton, W D},
+  abstract  = {Cooperation in organisms, whether bacteria or primates, has been a difficulty for evolutionary theory since Darwin. On the assumption that interactions between pairs of individuals occur on a probabilistic basis, a model is developed based on the concept of an evolutionarily stable strategy in the context of the Prisoner's Dilemma game. Deductions from the model, and the results of a computer tournament show how cooperation based on reciprocity can get started in an asocial world, can thrive while interacting with a wide range of other strategies, and can resist invasion once fully established. Potential applications include specific aspects of territoriality, mating, and disease.},
+  journal   = {Science},
+  publisher = {science.sciencemag.org},
+  volume    = {211},
+  number    = {4489},
+  pages     = {1390--1396},
+  month     = {mar},
+  year      = {1981},
+  language  = {en}
 }
 
 
 @ARTICLE{Ermisch2009-qf,
-  title       = "Measuring people's trust",
-  author      = "Ermisch, John and Gambetta, Diego and Laurie, Heather and
-                 Siedler, Thomas and Uhrig, S C Noah",
-  journal     = "Journal of the Royal Statistical Society",
-  volume      =  172,
-  number      =  4,
-  pages       = "749--769",
-  year        =  2009,
-  original_id = "b31bb1e5-cd76-05f3-bd88-1bc100a30e24"
+  title       = {Measuring people's trust},
+  author      = {Ermisch, John and Gambetta, Diego and Laurie, Heather and Siedler, Thomas and Uhrig, S C Noah},
+  journal     = {Journal of the Royal Statistical Society},
+  volume      = {172},
+  number      = {4},
+  pages       = {749--769},
+  year        = {2009},
+  original_id = {b31bb1e5-cd76-05f3-bd88-1bc100a30e24}
 }
 
 
 @INCOLLECTION{Bacharach2001-wv,
-  title       = "Trust in Signs",
-  booktitle   = "Trust in Society",
-  author      = "Bacharach, Michael and Gambetta, Diego",
-  editor      = "Cook, Karen S",
-  publisher   = "Russell Sage Foundation",
-  pages       = "148--184",
-  year        =  2001,
-  address     = "New York",
-  original_id = "2d41c395-8935-069d-9171-b56e82d25a4e"
+  title       = {Trust in Signs},
+  booktitle   = {Trust in Society},
+  author      = {Bacharach, Michael and Gambetta, Diego},
+  editor      = {Cook, Karen S},
+  publisher   = {Russell Sage Foundation},
+  pages       = {148--184},
+  year        = {2001},
+  address     = {New York},
+  original_id = {2d41c395-8935-069d-9171-b56e82d25a4e}
 }
 
 
@@ -408,127 +263,66 @@
 % The entry below contains non-ASCII chars that could not be converted
 % to a LaTeX equivalent.
 @INPROCEEDINGS{Remus2010-iv,
-  title       = "{SentiWS-A} Publicly Available German-language Resource for
-                 Sentiment Analysis",
-  booktitle   = "{LREC}",
-  author      = "Remus, Robert and Quasthoff, Uwe and Heyer, Gerhard",
-  abstract    = "SentimentWortschatz, or SentiWS for short, is a publicly
-                 available German-language resource for sentiment analysis,
-                 opinion mining etc. It lists positive and negative sentiment
-                 bearing words weighted within the interval of [− 1; 1] plus
-                 their part of speech tag, and if applicable, their
-                 inflections. The current version of SentiWS (v1. 8b) contains
-                 1,650 negative and 1,818 positive words, which sum up to
-                 16,406 positive and 16,328 negative word forms, respectively.
-                 It not only contains adjectives and adverbs explicitly
-                 expressing a sentiment …",
-  publisher   = "Citeseer",
-  institution = "Citeseer",
-  year        =  2010
+  title       = {{SentiWS-A} Publicly Available German-language Resource for Sentiment Analysis},
+  booktitle   = {{LREC}},
+  author      = {Remus, Robert and Quasthoff, Uwe and Heyer, Gerhard},
+  abstract    = {SentimentWortschatz, or SentiWS for short, is a publicly available German-language resource for sentiment analysis, opinion mining etc. It lists positive and negative sentiment bearing words weighted within the interval of [− 1; 1] plus their part of speech tag, and if applicable, their inflections. The current version of SentiWS (v1. 8b) contains 1,650 negative and 1,818 positive words, which sum up to 16,406 positive and 16,328 negative word forms, respectively. It not only contains adjectives and adverbs explicitly expressing a sentiment …},
+  publisher   = {Citeseer},
+  institution = {Citeseer},
+  year        = {2010}
 }
 
 
 @ARTICLE{Berghel2017-nu,
-  title     = "Lies, Damn Lies, and Fake News",
-  author    = "Berghel, H",
-  abstract  = "The Oxford Dictionaries selected ``post-truth'' as the 2016
-               international word of the year. This is such a preposterous
-               recognition from a heretofore august publication that I just
-               can't allow it to pass in silence.",
-  journal   = "Computer",
-  publisher = "ieeexplore.ieee.org",
-  volume    =  50,
-  number    =  2,
-  pages     = "80--85",
-  month     =  feb,
-  year      =  2017,
-  keywords  = "social networking (online);fake news;Oxford dictionaries;history
-               of computing;Out of Band;fake news;politics"
+  title     = {Lies, Damn Lies, and Fake News},
+  author    = {Berghel, H},
+  abstract  = {The Oxford Dictionaries selected ``post-truth'' as the 2016 international word of the year. This is such a preposterous recognition from a heretofore august publication that I just can't allow it to pass in silence.},
+  journal   = {Computer},
+  publisher = {ieeexplore.ieee.org},
+  volume    = {50},
+  number    = {2},
+  pages     = {80--85},
+  month     = {feb},
+  year      = {2017},
+  keywords  = {social networking (online);fake news;Oxford dictionaries;history of computing;Out of Band;fake news;politics}
 }
 
 
 @ARTICLE{Reuters2017-vh,
-  title    = "Lithuania looking for source of false accusation of rape by
-              German troops",
-  author   = "{Reuters}",
-  abstract = "Lithuanian prosecutors opened a criminal investigation into a
-              false report of rape by German soldiers stationed there as part
-              of NATO a mission to deter Russia.",
-  journal  = "Reuters",
-  month    =  feb,
-  year     =  2017
+  title    = {Lithuania looking for source of false accusation of rape by German troops},
+  author   = {{Reuters}},
+  abstract = {Lithuanian prosecutors opened a criminal investigation into a false report of rape by German soldiers stationed there as part of NATO a mission to deter Russia.},
+  journal  = {Reuters},
+  month    = {feb},
+  year     = {2017}
 }
 
 
 @ARTICLE{Eady2019-uk,
-  title     = "How Many People Live in Political Bubbles on Social Media?
-               Evidence From Linked Survey and Twitter Data",
-  author    = "Eady, Gregory and Nagler, Jonathan and Guess, Andrew and Zilinsky,
-               Jan and Tucker, Joshua A.",
-  abstract  = "A major point of debate in the study of the Internet and
-               politics is the extent to which social media platforms encourage
-               citizens to inhabit online ?bubbles? or ?echo chambers,? exposed
-               primarily to ideologically congenial political information. To
-               investigate this question, we link a representative survey of
-               Americans with data from respondents? public Twitter accounts (N
-               = 1,496). We then quantify the ideological distributions of
-               users? online political and media environments by merging
-               validated estimates of user ideology with the full set of
-               accounts followed by our survey respondents (N = 642,345) and
-               the available tweets posted by those accounts (N ~ 1.2 billion).
-               We study the extent to which liberals and conservatives
-               encounter counter-attitudinal messages in two distinct ways: (a)
-               by the accounts they follow and (b) by the tweets they receive
-               from those accounts, either directly or indirectly (via
-               retweets). More than a third of respondents do not follow any
-               media sources, but among those who do, we find a substantial
-               amount of overlap (51\%) in the ideological distributions of
-               accounts followed by users on opposite ends of the political
-               spectrum. At the same time, however, we find asymmetries in
-               individuals? willingness to venture into cross-cutting spaces,
-               with conservatives more likely to follow media and political
-               accounts classified as left-leaning than the reverse. Finally,
-               we argue that such choices are likely tempered by online news
-               watching behavior.",
-  journal   = "SAGE Open",
-  publisher = "SAGE Publications",
-  volume    =  9,
-  number    =  1,
-  pages     = "2158244019832705",
-  month     =  jan,
-  year      =  2019
+  title     = {How Many People Live in Political Bubbles on Social Media? Evidence From Linked Survey and Twitter Data},
+  author    = {Eady, Gregory and Nagler, Jonathan and Guess, Andrew and Zilinsky, Jan and Tucker, Joshua A.},
+  abstract  = {A major point of debate in the study of the Internet and politics is the extent to which social media platforms encourage citizens to inhabit online ?bubbles? or ?echo chambers,? exposed primarily to ideologically congenial political information. To investigate this question, we link a representative survey of Americans with data from respondents? public Twitter accounts (N
+  journal   = {SAGE Open},
+  publisher = {SAGE Publications},
+  volume    = {9},
+  number    = {1},
+  pages     = {2158244019832705},
+  month     = {jan},
+  year      = {2019}
 }
 
 
 @ARTICLE{Vosoughi2018-nh,
-  title    = "The spread of true and false news online",
-  author   = "Vosoughi, Soroush and Roy, Deb and Aral, Sinan",
-  abstract = "We investigated the differential diffusion of all of the verified
-              true and false news stories distributed on Twitter from 2006 to
-              2017. The data comprise ~126,000 stories tweeted by ~3 million
-              people more than 4.5 million times. We classified news as true or
-              false using information from six independent fact-checking
-              organizations that exhibited 95 to 98\% agreement on the
-              classifications. Falsehood diffused significantly farther,
-              faster, deeper, and more broadly than the truth in all categories
-              of information, and the effects were more pronounced for false
-              political news than for false news about terrorism, natural
-              disasters, science, urban legends, or financial information. We
-              found that false news was more novel than true news, which
-              suggests that people were more likely to share novel information.
-              Whereas false stories inspired fear, disgust, and surprise in
-              replies, true stories inspired anticipation, sadness, joy, and
-              trust. Contrary to conventional wisdom, robots accelerated the
-              spread of true and false news at the same rate, implying that
-              false news spreads more than the truth because humans, not
-              robots, are more likely to spread it.",
-  journal  = "Science",
-  volume   =  359,
-  number   =  6380,
-  pages    = "1146--1151",
-  month    =  mar,
-  year     =  2018,
-  language = "en"
+  title    = {The spread of true and false news online},
+  author   = {Vosoughi, Soroush and Roy, Deb and Aral, Sinan},
+  abstract = {We investigated the differential diffusion of all of the verified true and false news stories distributed on Twitter from 2006 to 2017. The data comprise ~126,000 stories tweeted by ~3 million people more than 4.5 million times. We classified news as true or false using information from six independent fact-checking organizations that exhibited 95 to 98\% agreement on the classifications. Falsehood diffused significantly farther, faster, deeper, and more broadly than the truth in all categories of information, and the effects were more pronounced for false political news than for false news about terrorism, natural disasters, science, urban legends, or financial information. We found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust. Contrary to conventional wisdom, robots accelerated the spread of true and false news at the same rate, implying that false news spreads more than the truth because humans, not robots, are more likely to spread it.},
+  journal  = {Science},
+  volume   = {359},
+  number   = {6380},
+  pages    = {1146--1151},
+  month    = {mar},
+  year     = {2018},
+  language = {en}
 }
 
 
@@ -721,7 +515,7 @@ title = {{Fake images: The effects of source, intermediary, and digital media li
 year = {2018}
 }
 @article{TsfatiCappella2005,
-abstract = {Prior research has found only modest associations between news media trust and ex- posure.Many news skeptics report moderate to high levels of mainstream news expo- sure, despite their mistrust of mainstream news. Why do people watch news they do not trust? This study investigates the moderating role played by the psychological construct of “the need for cognition” (NFC) in this association. An NFC × Media Skepticism interaction is hypothesized and tested on survey data (N = 424). Results provide evidence for such an interaction. For those with a reduced NFC, mainstream media skepticism is strongly associated with news exposure. As NFC increases, the association between news skepticism and exposure disappears. It is concluded that people consume news they do not trust when their media skepticism is irrelevant to their motivation for news exposure. Trust},
+abstract = {Prior research has found only modest associations between news media trust and ex- posure.Many news skeptics report moderate to high levels of mainstream news expo- sure, despite their mistrust of mainstream news. Why do people watch news they do not trust? This study investigates the moderating role played by the psychological construct of “the need for cognition” (NFC) in this association. An NFC × Media Skepticism interaction is hypothesized and tested on survey data (N
 author = {Tsfati, Yariv and Cappella, Joseph N.},
 journal = {Media Psychology},
 keywords = {Media Scepticism,Media Trust,Need for cognition,Observational,Survey},
@@ -832,7 +626,7 @@ volume = {108},
 year = {1990}
 }
 @article{Rotter1967,
-abstract = {One of the most salient factors m the effecdveness of our present complex social organization is the willmgness of one or more mdividuals m a social unit to trust others The efficiency, adjustment, and even survival of any social group depends upon the presence or absence of such trust. Interpersonal tmst is defined here as an expectancy held by an mdividual or a group that the word, promise, verbal or wntten statement of another individual or group can be relied upon. This definition clearly departs significandy from Enkson's (1953) broad use of the concept of basic trust which Enkson descnbes as a central ingredient m "the healthy personality "},
+abstract = {One of the most salient factors m the effecdveness of our present complex social organization is the willmgness of one or more mdividuals m a social unit to trust others The efficiency, adjustment, and even survival of any social group depends upon the presence or absence of such trust. Interpersonal tmst is defined here as an expectancy held by an mdividual or a group that the word, promise, verbal or wntten statement of another individual or group can be relied upon. This definition clearly departs significandy from Enkson's (1953) broad use of the concept of basic trust which Enkson descnbes as a central ingredient m }the healthy personality }},
 author = {Rotter, Julian B.},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Rotter (1967).pdf:pdf},
 isbn = {0022-3506},
@@ -862,7 +656,7 @@ title = {{How a Refugee's Selfie With Merkel Led to a Facebook Lawsuit}},
 year = {2017}
 }
 @article{DelVicarioetal2016,
-abstract = {SignificanceThe wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web is a fruitful environment for the massive diffusion of unverified rumors. In this work, using a massive quantitative analysis of Facebook, we show that information related to distinct narratives--conspiracy theories and scientific news--generates homogeneous and polarized communities (i.e., echo chambers) having similar information consumption patterns. Then, we derive a data-driven percolation model of rumor spreading that demonstrates that homogeneity and polarization are the main determinants for predicting cascades size. The wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web (WWW) also allows for the rapid dissemination of unsubstantiated rumors and conspiracy theories that often elicit rapid, large, but naive social responses such as the recent case of Jade Helm 15--where a simple military exercise turned out to be perceived as the beginning of a new civil war in the United States. In this work, we address the determinants governing misinformation spreading through a thorough quantitative analysis. In particular, we focus on how Facebook users consume information related to two distinct narratives: scientific and conspiracy news. We find that, although consumers of scientific and conspiracy stories present similar consumption patterns with respect to content, cascade dynamics differ. Selective exposure to content is the primary driver of content diffusion and generates the formation of homogeneous clusters, i.e., "echo chambers." Indeed, homogeneity appears to be the primary driver for the diffusion of contents and each echo chamber has its own cascade dynamics. Finally, we introduce a data-driven percolation model mimicking rumor spreading and we show that homogeneity and polarization are the main determinants for predicting cascades size.},
+abstract = {SignificanceThe wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web is a fruitful environment for the massive diffusion of unverified rumors. In this work, using a massive quantitative analysis of Facebook, we show that information related to distinct narratives--conspiracy theories and scientific news--generates homogeneous and polarized communities (i.e., echo chambers) having similar information consumption patterns. Then, we derive a data-driven percolation model of rumor spreading that demonstrates that homogeneity and polarization are the main determinants for predicting cascades size. The wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web (WWW) also allows for the rapid dissemination of unsubstantiated rumors and conspiracy theories that often elicit rapid, large, but naive social responses such as the recent case of Jade Helm 15--where a simple military exercise turned out to be perceived as the beginning of a new civil war in the United States. In this work, we address the determinants governing misinformation spreading through a thorough quantitative analysis. In particular, we focus on how Facebook users consume information related to two distinct narratives: scientific and conspiracy news. We find that, although consumers of scientific and conspiracy stories present similar consumption patterns with respect to content, cascade dynamics differ. Selective exposure to content is the primary driver of content diffusion and generates the formation of homogeneous clusters, i.e., }echo chambers.} Indeed, homogeneity appears to be the primary driver for the diffusion of contents and each echo chamber has its own cascade dynamics. Finally, we introduce a data-driven percolation model mimicking rumor spreading and we show that homogeneity and polarization are the main determinants for predicting cascades size.},
 author = {{Del Vicario}, Michela and Bessi, Alessandro and Zollo, Fabiana and Petroni, Fabio and Scala, Antonio and Caldarelli, Guido and Stanley, H. Eugene and Quattrociocchi, Walter},
 issn = {0027-8424},
 journal = {Proceedings of the National Academy of Sciences},
@@ -990,7 +784,7 @@ author = {Kelman, Herbert C. and Hovland, Carl I.},
 journal = {The Journal of Abnormal and Social Psychology},
 number = {3},
 pages = {327--335},
-title = {{"Reinstatement" of the communicator in delayed measurement of opinion change}},
+title = {{}Reinstatement} of the communicator in delayed measurement of opinion change}},
 volume = {48},
 year = {1953}
 }
@@ -1073,7 +867,7 @@ volume = {9},
 year = {2007}
 }
 @article{Meijndersetal2009,
-author = {Meijnders, Anneloes and Midden, Cees and Olofsson, Anna and {\"{O}}hman, Susanna and Matthes, J{\"{o}}rg and Bondarenko, Olha and Gutteling, Jan and Rusanen, Maria},
+author = {Meijnders, Anneloes and Midden, Cees and Olofsson, Anna and {\}{O}}hman, Susanna and Matthes, J{\}{o}}rg and Bondarenko, Olha and Gutteling, Jan and Rusanen, Maria},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Meijnders (2009).pdf:pdf},
 journal = {Risk Analysis},
 number = {8},
@@ -1159,7 +953,7 @@ journal = {The Public Opinion Quarterly},
 number = {1},
 pages = {59--70},
 title = {{Effects of Media, Communicator, and Message Position on Attitude Change}},
-url = {http://www.jstor.org/stable/2748091{\%}255Cnhttp://www.jstor.org/stable/2748091?seq=1{\&}cid=pdf-reference{\#}references{\_}tab{\_}contents{\%}255Cnhttp://about.jstor.org/terms},
+url = {http://www.jstor.org/stable/2748091{\%}255Cnhttp://www.jstor.org/stable/2748091?seq
 volume = {42},
 year = {1978}
 }
@@ -1281,7 +1075,7 @@ year = {2014}
 }
 @article{Trillingetal2017,
 abstract = {2015, June). . Paper presented at the , Buenos Aires, Argentinia.},
-author = {Trilling, Damian and Tolochko, Petro and Burscher, Bj{\"{o}}rn},
+author = {Trilling, Damian and Tolochko, Petro and Burscher, Bj{\}{o}}rn},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Trilling et al. (2017).pdf:pdf},
 isbn = {1535-1386 (Electronic) 0021-9355 (Linking)},
 issn = {2161430X},
@@ -1314,9 +1108,9 @@ volume = {2},
 year = {2012}
 }
 @article{Sulflow2018,
-abstract = {Social networking sites such as Facebook are becoming increasingly important as a source for news. However, few studies have investigated what drives attention to content within the news feed and what influences the selection of news posts. We hypothesized that attitude consistency, the credibility of a source, and comments of other users raise interest in a news post in the news feed and influence the selection decision. A 2 × 2 × 2 laboratory experiment (N = 103) using eye-tracking measurement showed that attitude consistency did not influence attention distribution in the news feed, but users preferred to select news posts with content reinforcing their attitudes. Participants spent more time with news posts from sources with high credibility and selected them more frequently. Comments were not relevant for selection but were for attention within the news feed: If the news post and the comment did not share the same opinion, readers spent more time reading the content.},
-author = {S{\"{u}}lflow, Michael and Sch{\"{a}}fer, Svenja and Winter, Stephan},
-file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/S{\"{u}}lflow et al. (2018).pdf:pdf},
+abstract = {Social networking sites such as Facebook are becoming increasingly important as a source for news. However, few studies have investigated what drives attention to content within the news feed and what influences the selection of news posts. We hypothesized that attitude consistency, the credibility of a source, and comments of other users raise interest in a news post in the news feed and influence the selection decision. A 2 × 2 × 2 laboratory experiment (N
+author = {S{\}{u}}lflow, Michael and Sch{\}{a}}fer, Svenja and Winter, Stephan},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/S{\}{u}}lflow et al. (2018).pdf:pdf},
 issn = {1461-4448},
 journal = {New Media {\&} Society},
 title = {{Selective attention in the news feed: An eye-tracking study on the perception and selection of political news posts on Facebook}},
@@ -1372,7 +1166,7 @@ volume = {34},
 year = {2004}
 }
 @article{KohringMatthes2007,
-author = {Kohring, Matthias and Matthes, J{\"{o}}rg},
+author = {Kohring, Matthias and Matthes, J{\}{o}}rg},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Kohring {\&} Matthes (2007).pdf:pdf},
 journal = {Communication Quarterly},
 number = {34},
@@ -1454,7 +1248,7 @@ volume = {28},
 year = {2011}
 }
 @article{BaumGroeling2009,
-abstract = {Research has shown that messages of intra-party harmony tend to be ignored by the news media, while internal disputes, especially within the governing party, generally receive prominent coverage. We examine how messages of party conflict and cooperation affect public opinion regarding national security, as well as whether and how the reputations of media outlets matter. We develop a typology of partisan messages in the news, determining their likely effects based on the char- acteristics of the speaker, listener, news outlet, and message content. We hypothesize that criticism of a Republican president by his fellow partisan elites should be exceptionally damaging (especially on a conservative media outlet), while opposition party praise of the president should be the most helpful (especially on a liberal outlet). We test our hypotheses through an experiment and a national survey on attitudes regarding the Iraq War. The results show that credible communication (i.e., "costly" rhetoric harmful to a party) is more influential than "cheap talk" in moving public opinion. Ironically, news media outlets perceived as ideologically hostile can actually enhance the credibility of certain messages relative to "friendly" news sourc},
+abstract = {Research has shown that messages of intra-party harmony tend to be ignored by the news media, while internal disputes, especially within the governing party, generally receive prominent coverage. We examine how messages of party conflict and cooperation affect public opinion regarding national security, as well as whether and how the reputations of media outlets matter. We develop a typology of partisan messages in the news, determining their likely effects based on the char- acteristics of the speaker, listener, news outlet, and message content. We hypothesize that criticism of a Republican president by his fellow partisan elites should be exceptionally damaging (especially on a conservative media outlet), while opposition party praise of the president should be the most helpful (especially on a liberal outlet). We test our hypotheses through an experiment and a national survey on attitudes regarding the Iraq War. The results show that credible communication (i.e., }costly} rhetoric harmful to a party) is more influential than }cheap talk} in moving public opinion. Ironically, news media outlets perceived as ideologically hostile can actually enhance the credibility of certain messages relative to }friendly} news sourc},
 archivePrefix = {arXiv},
 arxivId = {arXiv:1011.1669v3},
 author = {Baum, Matthew A. and Groeling, Tim},
@@ -1550,7 +1344,7 @@ number = {2},
 pages = {198},
 pmid = {5002999},
 title = {{The Effect of Salesman Similarity and Expertise on Consumer Purchasing Behavior}},
-url = {https://www.jstor.org/stable/3150562?origin=crossref},
+url = {https://www.jstor.org/stable/3150562?origin
 volume = {11},
 year = {1974}
 }
@@ -1596,7 +1390,7 @@ journal = {Journal of Experimental Psychology: General},
 number = {12},
 pages = {1865--1880},
 title = {{Prior exposure increases perceived accuracy of fake news}},
-url = {https://papers.ssrn.com/sol3/papers.cfm?abstract{\_}id=3173303},
+url = {https://papers.ssrn.com/sol3/papers.cfm?abstract{\_}id
 volume = {147},
 year = {2018}
 }
@@ -1638,7 +1432,7 @@ volume = {9},
 year = {2004}
 }
 @article{Kuruetal2017,
-abstract = {How do citizens' motivations shape their perceptions of poll reports? Increasingly, scholars are finding that citizens engage in motivated reasoning, whereby they discredit information that differs from their preexisting attitudes. The perceived credibility of opinion polls might be prone to similar motivational processes, as individuals could discount results suggesting that they hold minority opinions. We assess whether motivated reasoning influences the credibility of poll results and whether features of the presentation of those results might moderate and potentially counteract these motivational processes. In an online survey experiment conducted with a national sample of American adults (N = 1,211), respondents were exposed to poll reports about both gun control and abortion and were asked to rate the credibility of these polls. For each report, three aspects of presentation were randomized: the direction of the poll result (majority supports/opposes), the news source reporting the poll (FoxNews/MSNBC), and the amount of methodological detail reported (none/a lot). In line with theories of motivated reasoning, respondents who held issue positions that contradicted the results of the polls found those polls less credible. Further, this decreased credibility was particularly evident among individuals with high levels of political knowledge. Source credibility cues—such as the ideological alignment of source and respondent and the presence of a message from an unexpected source—did not moderate this relationship and were unrelated to poll credibility. However, evidence suggests that methodological disclosure could moderate the motivational biases in credibility assessments.},
+abstract = {How do citizens' motivations shape their perceptions of poll reports? Increasingly, scholars are finding that citizens engage in motivated reasoning, whereby they discredit information that differs from their preexisting attitudes. The perceived credibility of opinion polls might be prone to similar motivational processes, as individuals could discount results suggesting that they hold minority opinions. We assess whether motivated reasoning influences the credibility of poll results and whether features of the presentation of those results might moderate and potentially counteract these motivational processes. In an online survey experiment conducted with a national sample of American adults (N
 author = {Kuru, Ozan and Pasek, Josh and Traugott, Michael W.},
 isbn = {0033-362X},
 issn = {15375331},
@@ -1651,7 +1445,7 @@ year = {2017}
 }
 @article{Gaechteretal2004,
 abstract = {We report survey and experimental evidence on trust and voluntary cooperation from more than 630 non-student and student participants in rural and urban Russia. Our subjects have a diverse socio-economic background that we relate to the answers of a survey on trust attitudes and to contribution behavior in a one-shot public goods game. We find that the socio-economic background affects trust attitudes, but we find no separate influence of socio-economic variables on cooperative behavior in a one-shot public goods experiment. However, cooperation is significantly positively correlated to trust toward strangers and beliefs about the fairness and helpfulness of others. {\textcopyright} 2004 Elsevier B.V. All rights reserved.},
-author = {G{\"{a}}chter, Simon and Herrmann, Benedikt and Th{\"{o}}ni, Christian},
+author = {G{\}{a}}chter, Simon and Herrmann, Benedikt and Th{\}{o}}ni, Christian},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Gaechteretal2004.pdf:pdf},
 issn = {01672681},
 journal = {Journal of Economic Behavior and Organization},
@@ -1738,8 +1532,8 @@ volume = {4},
 year = {1978}
 }
 @article{Kaiser2018,
-abstract = {Incidental exposure to shared news on Facebook is a vital but understudied aspect of how citizens get involved with politics. This experiment investigates the influence of recommender characteristics (tie strength, political knowledge, political similarity) and different media sources (tabloids, legacy, and digital-born outlets) including multiple mediators (e.g., social pressure, outlet credibility) on incidental exposure to political news on Facebook. A 3 × 3 multi-stimulus, between-subject experiment with two additional quasi-factors and 135 different stimuli was conducted using a representative sample (N = 507). Results showed that strong ties and recommenders with high knowledge increase news exposure, but the impact of knowledge is limited to recommenders with similar political opinions. Similar effects occur for different media types, which also have an independent impact on news exposure. Structural equation modeling reveals that media source effects are mediated through media perceptions, whereas...},
-author = {Kaiser, Johannes and Keller, Tobias R. and {Kleinen-von K{\"{o}}nigsl{\"{o}}w}, Katharina},
+abstract = {Incidental exposure to shared news on Facebook is a vital but understudied aspect of how citizens get involved with politics. This experiment investigates the influence of recommender characteristics (tie strength, political knowledge, political similarity) and different media sources (tabloids, legacy, and digital-born outlets) including multiple mediators (e.g., social pressure, outlet credibility) on incidental exposure to political news on Facebook. A 3 × 3 multi-stimulus, between-subject experiment with two additional quasi-factors and 135 different stimuli was conducted using a representative sample (N
+author = {Kaiser, Johannes and Keller, Tobias R. and {Kleinen-von K{\}{o}}nigsl{\}{o}}w}, Katharina},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Kaiser et al. (2018).pdf:pdf},
 issn = {0093-6502},
 journal = {Communication Research},
@@ -1788,7 +1582,7 @@ url = {https://ir.ua.edu/handle/123456789/2781},
 year = {2016}
 }
 @article{JensenThomsen2014,
-abstract = {Measuring citizens' political knowledge is important for understanding public opinion formation. In view of the increasing popularity of Web surveys, this paper examines the limitations of this interviewing facility when measuring factual political knowledge. We show that Web surveys contain a source of measurement error as respondents can " Google " the correct answers. This cheating activity is our principal concern. Past efforts are extended by: (1) offering a self-reported estimate of the share of Googling cheaters, (2) showing that the positive effect of education on factual political knowledge is most probably underestimated when cheating occurs, and (3) showing that self-reported cheating activity is inversely related to actual response time. In the concluding section, we discuss the implications of these results and the extent to which cheating can be reduced. The empirical analyses are based on a Danish Web sample from 2012 (N = 1,509).},
+abstract = {Measuring citizens' political knowledge is important for understanding public opinion formation. In view of the increasing popularity of Web surveys, this paper examines the limitations of this interviewing facility when measuring factual political knowledge. We show that Web surveys contain a source of measurement error as respondents can } Google } the correct answers. This cheating activity is our principal concern. Past efforts are extended by: (1) offering a self-reported estimate of the share of Googling cheaters, (2) showing that the positive effect of education on factual political knowledge is most probably underestimated when cheating occurs, and (3) showing that self-reported cheating activity is inversely related to actual response time. In the concluding section, we discuss the implications of these results and the extent to which cheating can be reduced. The empirical analyses are based on a Danish Web sample from 2012 (N
 author = {Jensen, Carsten and Thomsen, Jens Peter Fr{\o}lund},
 file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Jensen {\&} Thomsen (2014).pdf:pdf},
 issn = {15737845},

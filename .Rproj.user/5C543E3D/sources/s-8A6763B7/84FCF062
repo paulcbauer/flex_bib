@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593507644172.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "84FCF062",
+    "lastKnownWriteTime" : 1593506988,
+    "last_content_update" : 1593506988,
+    "path" : "C:/Users/Paul/Google Drive/7-Software/flex_bib/vignette.Rmd",
+    "project_path" : "vignette.Rmd",
+    "properties" : {
+        "cursorPosition" : "112,22",
+        "scrollLine" : "102"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

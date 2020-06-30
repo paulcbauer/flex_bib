@@ -59,16 +59,21 @@ for the creation and inclusion of multiple bibliographies using
 
 ## Contributors
 
-  - **Paul C. Bauer**: Mannheim Centre for European Social Research,
-    University of Mannheim
-      - [paulcbauer.eu](https://sites.google.com/view/paulcbauer)
-      - [@p\_c\_bauer](https://twitter.com/p_c_bauer)
-  - **Denis Cohen**: Mannheim Centre for European Social Research,
-    University of Mannheim
-      - [denis-cohen.github.io](https://denis-cohen.github.io)
-      - [@denis\_cohen](https://twitter.com/denis_cohen)
+**Paul C. Bauer**
 
-## Using `flex_bib()`: A short walkthrough
+  - Mannheim Centre for European Social Research
+  - University of Mannheim
+  - [paulcbauer.eu](https://sites.google.com/view/paulcbauer)
+  - [@p\_c\_bauer](https://twitter.com/p_c_bauer)
+
+**Denis Cohen**
+
+  - Mannheim Centre for European Social Research
+  - University of Mannheim
+  - [denis-cohen.github.io](https://denis-cohen.github.io)
+  - [@denis\_cohen](https://twitter.com/denis_cohen)
+
+## Using `flex_bib()`: A walkthrough
 
 In this walkthrough, we use the `flex_bib()` function to
 
@@ -89,22 +94,6 @@ In this walkthrough, we use the `flex_bib()` function to
 In order for this to work, we must specify some arguments in the YAML
 header of our `.Rmd` file:
 
-``` r
-output:
-  bookdown::html_document2:
-    fig_caption: yes
-    number_sections: no
-    toc: false
-    pandoc_args: --lua-filter=multiple-bibliographies.lua
-
-bibliography_main:
-  - partial_bib_1.bib
-bibliography_app:
-  - partial_bib_2.bib
-link-citations: yes
-linkcolor: blue
-```
-
 These are the important additions:
 
 1.  The argument `pandoc_args: --lua-filter=multiple-bibliographies.lua`
@@ -121,22 +110,6 @@ These are the important additions:
 
 After the YAML header, make sure to include a (hidden, yet evaluating) R
 code chunk in your RMarkdown document. Here, we specify the following:
-
-``` r
-library(devtools)
-source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/flex_bib.R")
-flex_bib(
-  rmarkdown_file = "manuscript.Rmd",
-  bib_input = c("references1.bib", "references2.bib"),
-  bib_output = "partial_bib.bib",
-  by_sections = c("<!--- flex_bib appendix split -->"),
-  repair = TRUE,
-  removeISSN = TRUE,
-  removeISBN = TRUE,
-  removeDOI = TRUE,
-  removeURL = TRUE
-)
-```
 
   - `rmarkdown_file = "manuscript.Rmd"` specifies that the very same
     RMarkdown script in which we are writing our paper will be scanned
@@ -167,28 +140,6 @@ flex_bib(
 
 The following is the text body of the script `manuscript.Rmd`:
 
-``` r
-## Main Text
-
-This is the main text. It cites one paper by @Athey2019-fy inline.
-We also cite a book by @Berelsonetal1954. 
-
-Let's also cite a report in parentheses [@Gallup2019].
-Here is also some more intricate stuff with prefixes and suffixes
-[e.g., @Hargittai2008-fa, pp. 31-57].
-
-## Main Text References
-<div id="refs_main"></div>
-
-<!--- flex_bib appendix split -->
-## Appendix
-
-This is the appendix. It cites some other paper [@Friedman2009-gx].
-
-## Appendix References
-<div id="refs_app"></div>
-```
-
 In the document body, we can then freely include citations as we usually
 would. When it comes to printing our bibliographies, there are two
 things that we handle slightly differently from the default way of
@@ -207,55 +158,6 @@ including bibliographies in Markdown.
 
 [Here](https://github.com/paulcbauer/flex_bib/blob/master/manuscript.pdf),
 you can see the knitted PDF output generated from `manuscript.Rmd`.
-
-## Caveats
-
-There are [different bibtex
-formats](https://tex.stackexchange.com/questions/109064/is-there-a-difference-between-and-in-bibtex).
-`flex_bib` likes bib entries of the following format (with braces and
-w/o line breaks in entries as `bib2df()` has problems with those):
-
-``` r
-@INCOLLECTION{Athey2017-sy,
-  title     = {The Econometrics of Randomized Experiments},
-  booktitle = {Handbook of Economic Field Experiments},
-  author    = {Athey, Susan and Imbens, Guido W},
-  publisher = {Elsevier},
-  volume    = {1},
-  pages     = {73--140},
-  year      = {2017}
-}
-```
-
-If you entries look more like this that is include lines breaks and
-quotation marks (sometimes not) as separators…
-
-``` r
-@ARTICLE{Ermisch2009-qf,
-  title       = "Measuring people's trust",
-  author      = "Ermisch, John and Gambetta, Diego and Laurie, Heather and
-                 Siedler, Thomas and Uhrig, S C Noah",
-  journal     = "Journal of the Royal Statistical Society",
-  volume      =  172,
-  number      =  4,
-  pages       = "749--769",
-  year        =  2009,
-}
-```
-
-…you can run your bib files through the following functions:
-
-``` r
-library(devtools)
-source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/replace_bib_braces.R")
-source_url("https://raw.githubusercontent.com/paulcbauer/flex_bib/master/merge_bib_lines.R")
-x <- stringi::stri_read_lines("references.bib")
-x <- replace_bib_braces(x = x)
-x  <- merge_bib_lines(x = x)
-stringi::stri_write_lines(x, "references_test.bib")
-```
-
-The resulting bib files can then be used as input for `flex_bib`.
 
 ## Vignette
 

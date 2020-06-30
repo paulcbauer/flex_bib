@@ -1,0 +1,2087 @@
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+
+
+
+@ARTICLE{Freelon2020-pj,
+  title     = "Disinformation as Political Communication",
+  author    = "Freelon, Deen and Wells, Chris",
+  abstract  = "ABSTRACT This introduction to the special issue ?Beyond Fake
+               News: The Politics of Disinformation? contains four main
+               sections. In the first, we discuss the major sociopolitical
+               factors that have allowed disinformation to flourish in recent
+               years. Second, we review the very short history of
+               disinformation research, devoting particular attention to two of
+               its more extensively studied conceptual relatives: propaganda
+               and misinformation. Third, we preview the seven articles in this
+               issue, which we divide into two types: studies of disinformation
+               content and of disinformation reception. We conclude by
+               advancing a few suggestions for future disinformation research.",
+  journal   = "Political Communication",
+  publisher = "Routledge",
+  volume    =  37,
+  number    =  2,
+  pages     = "145--156",
+  month     =  mar,
+  year      =  2020
+}
+
+
+
+@ARTICLE{Guess2020-er,
+  title     = "A digital media literacy intervention increases discernment
+               between mainstream and false news in the United States and India",
+  author    = "Guess, Andrew M and Lerner, Michael and Lyons, Benjamin and
+               Montgomery, Jacob M and Nyhan, Brendan and Reifler, Jason and
+               Sircar, Neelanjan",
+  abstract  = "Widespread belief in misinformation circulating online is a
+               critical challenge for modern societies. While research to date
+               has focused on psychological and political antecedents to this
+               phenomenon, few studies have explored the role of digital media
+               literacy shortfalls. Using data from preregistered survey
+               experiments conducted around recent elections in the United
+               States and India, we assess the effectiveness of an intervention
+               modeled closely on the world's largest media literacy campaign,
+               which provided ``tips'' on how to spot false news to people in
+               14 countries. Our results indicate that exposure to this
+               intervention reduced the perceived accuracy of both mainstream
+               and false news headlines, but effects on the latter were
+               significantly larger. As a result, the intervention improved
+               discernment between mainstream and false news headlines among
+               both a nationally representative sample in the United States (by
+               26.5\%) and a highly educated online sample in India (by
+               17.5\%). This increase in discernment remained measurable
+               several weeks later in the United States (but not in India).
+               However, we find no effects among a representative sample of
+               respondents in a largely rural area of northern India, where
+               rates of social media use are far lower.",
+  journal   = "Proc. Natl. Acad. Sci. U. S. A.",
+  publisher = "National Acad Sciences",
+  month     =  jun,
+  year      =  2020,
+  keywords  = "digital literacy; misinformation; social media",
+  language  = "en"
+}
+
+
+
+@INCOLLECTION{Athey2017-sy,
+  title     = "The Econometrics of Randomized Experiments",
+  booktitle = "Handbook of Economic Field Experiments",
+  author    = "Athey, Susan and Imbens, Guido W",
+  abstract  = "In this chapter, we present econometric and statistical methods
+               for analyzing randomized experiments. For basic experiments, we
+               stress randomization-based inference as opposed to
+               sampling-based inference. In randomization-based inference,
+               uncertainty in estimates …",
+  publisher = "Elsevier",
+  volume    =  1,
+  pages     = "73--140",
+  year      =  2017
+}
+
+
+
+@ARTICLE{Athey2019-jd,
+  title         = "Estimating Treatment Effects with Causal Forests: An
+                   Application",
+  author        = "Athey, Susan and Wager, Stefan",
+  abstract      = "We apply causal forests to a dataset derived from the
+                   National Study of Learning Mindsets, and consider resulting
+                   practical and conceptual challenges. In particular, we
+                   discuss how causal forests use estimated propensity scores
+                   to be more robust to confounding, and how they handle data
+                   with clustered errors.",
+  month         =  feb,
+  year          =  2019,
+  archivePrefix = "arXiv",
+  primaryClass  = "stat.ME",
+  eprint        = "1902.07409"
+}
+
+@ARTICLE{Barbera2015-ej,
+  title    = "The Critical Periphery in the Growth of Social Protests",
+  author   = "Barber{\'a}, Pablo and Wang, Ning and Bonneau, Richard and Jost,
+              John T and Nagler, Jonathan and Tucker, Joshua A. and
+              Gonz{\'a}lez-Bail{\'o}n, Sandra",
+  abstract = "Social media have provided instrumental means of communication in
+              many recent political protests. The efficiency of online networks
+              in disseminating timely information has been praised by many
+              commentators; at the same time, users are often derided as
+              ``slacktivists'' because of the shallow commitment involved in
+              clicking a forwarding button. Here we consider the role of these
+              peripheral online participants, the immense majority of users who
+              surround the small epicenter of protests, representing layers of
+              diminishing online activity around the committed minority. We
+              analyze three datasets tracking protest communication in
+              different languages and political contexts through the social
+              media platform Twitter and employ a network decomposition
+              technique to examine their hierarchical structure. We provide
+              consistent evidence that peripheral participants are critical in
+              increasing the reach of protest messages and generating online
+              content at levels that are comparable to core participants.
+              Although committed minorities may constitute the heart of protest
+              movements, our results suggest that their success in maximizing
+              the number of online citizens exposed to protest messages
+              depends, at least in part, on activating the critical periphery.
+              Peripheral users are less active on a per capita basis, but their
+              power lies in their numbers: their aggregate contribution to the
+              spread of protest messages is comparable in magnitude to that of
+              core participants. An analysis of two other datasets unrelated to
+              mass protests strengthens our interpretation that core-periphery
+              dynamics are characteristically important in the context of
+              collective action events. Theoretical models of diffusion in
+              social networks would benefit from increased attention to the
+              role of peripheral nodes in the propagation of information and
+              behavior.",
+  journal  = "PLoS One",
+  volume   =  10,
+  number   =  11,
+  pages    = "e0143611",
+  month    =  nov,
+  year     =  2015,
+  language = "en"
+}
+
+
+@ARTICLE{Bastos2019-nr,
+  title     = "The Brexit Botnet and {User-Generated} Hyperpartisan News",
+  author    = "Bastos, Marco T and Mercea, Dan",
+  abstract  = "In this article, we uncover a network of Twitterbots comprising
+               13,493 accounts that tweeted the United Kingdom European Union
+               membership referendum, only to disappear from Twitter shortly
+               after the ballot. We compare active users to this set of
+               political bots with respect to temporal tweeting behavior, the
+               size and speed of retweet cascades, and the composition of their
+               retweet cascades (user-to-bot vs. bot-to-bot) to evidence
+               strategies for bot deployment. Our results move forward the
+               analysis of political bots by showing that Twitterbots can be
+               effective at rapidly generating small- to medium-sized cascades;
+               that the retweeted content comprises user-generated
+               hyperpartisan news, which is not strictly fake news, but whose
+               shelf life is remarkably short; and, finally, that a botnet may
+               be organized in specialized tiers or clusters dedicated to
+               replicating either active users or content generated by other
+               bots.",
+  journal   = "Soc. Sci. Comput. Rev.",
+  publisher = "SAGE Publications Inc",
+  volume    =  37,
+  number    =  1,
+  pages     = "38--54",
+  month     =  feb,
+  year      =  2019
+}
+
+
+@ARTICLE{Guess2019-ks,
+  title     = "How Accurate Are Survey Responses on Social Media and Politics?",
+  author    = "Guess, Andrew and Munger, Kevin and Nagler, Jonathan and Tucker,
+               Joshua A.",
+  abstract  = "How accurate are survey-based measures of social media use, in
+               particular about political topics? We answer this question by
+               linking original survey data collected during the U.S. 2016
+               election campaign with respondents? observed social media
+               activity. We use supervised machine learning to classify whether
+               these Twitter and Facebook account data are content related to
+               politics. We then benchmark our survey measures on frequency of
+               posting about politics and the number of political figures
+               followed. We find that, on average, our self-reported survey
+               measures tend to correlate with observed social media activity.
+               At the same time, we also find a worrying amount of
+               individual-level discrepancy and problems related to extreme
+               outliers. Our recommendations are twofold. The first is for
+               survey questions about social media use to provide respondents
+               with options covering a wider range of activity, especially in
+               the long tail. The second is for survey questions to include
+               specific content and anchors defining what it means for a post
+               to be ?about politics.?",
+  journal   = "Political Communication",
+  publisher = "Routledge",
+  volume    =  36,
+  number    =  2,
+  pages     = "241--258",
+  month     =  apr,
+  year      =  2019
+}
+
+
+@ARTICLE{Fletcher2017-nl,
+  title     = "The Impact of Trust in the News Media on Online News Consumption
+               and Participation",
+  author    = "Fletcher, Richard and Park, Sora",
+  abstract  = "Trust has long been considered an important factor that
+               influences people?s relationship with news. However, the
+               increase in the volume of information available online, together
+               with the emergence of new tools and services that act as
+               intermediaries and enable interactivity around the news, may
+               have changed this relationship. Using Reuters Institute Digital
+               News Report survey data (N = 21,524), this study explores the
+               impact of individual trust in the news media on source
+               preferences and online news participation behaviour, in
+               particular sharing and commenting, across 11 countries. The
+               results show that those with low levels of trust tend to prefer
+               non-mainstream news sources like social media, blogs, and
+               digital-born providers, and are more likely to engage in various
+               forms of online news participation. These associations tend to
+               be strongest in northern European countries, but are weaker
+               elsewhere. Seeking alternative views and attempting to validate
+               the credibility of news may be among the motivations behind
+               these associations.",
+  journal   = "Digital Journalism",
+  publisher = "Routledge",
+  volume    =  5,
+  number    =  10,
+  pages     = "1281--1299",
+  month     =  nov,
+  year      =  2017
+}
+
+
+@ARTICLE{Tsfati2005-va,
+  title     = "Why Do People Watch News They Do Not Trust? The Need for
+               Cognition as a Moderator in the Association Between News Media
+               Skepticism and Exposure",
+  author    = "Tsfati, Yariv and Cappella, Joseph N",
+  abstract  = "Prior research has found only modest associations between news
+               media trust and exposure. Many news skeptics report moderate to
+               high levels of mainstream news exposure, despite their mistrust
+               of mainstream news. Why do people watch news they do not trust?
+               This study investigates the moderating role played by the
+               psychological construct of ``the need for cognition'' (NFC) in
+               this association. An NFC ? Media Skepticism interaction is
+               hypothesized and tested on survey data (N = 424). Results
+               provide evidence for such an interaction. For those with a
+               reduced NFC, mainstream media skepticism is strongly associated
+               with news exposure. As NFC increases, the association between
+               news skepticism and exposure disappears. It is concluded that
+               people consume news they do not trust when their media
+               skepticism is irrelevant to their motivation for news exposure.",
+  journal   = "Media Psychol.",
+  publisher = "Routledge",
+  volume    =  7,
+  number    =  3,
+  pages     = "251--271",
+  month     =  aug,
+  year      =  2005
+}
+
+
+
+@ARTICLE{Berghel2017-nu,
+  title     = "Lies, Damn Lies, and Fake News",
+  author    = "Berghel, H",
+  abstract  = "The Oxford Dictionaries selected ``post-truth'' as the 2016
+               international word of the year. This is such a preposterous
+               recognition from a heretofore august publication that I just
+               can't allow it to pass in silence.",
+  journal   = "Computer",
+  publisher = "ieeexplore.ieee.org",
+  volume    =  50,
+  number    =  2,
+  pages     = "80--85",
+  month     =  feb,
+  year      =  2017,
+  keywords  = "social networking (online);fake news;Oxford dictionaries;history
+               of computing;Out of Band;fake news;politics"
+}
+
+
+@ARTICLE{Naughton2017-qt,
+  title    = "How a half-educated tech elite delivered us into evil",
+  author   = "Naughton, John",
+  abstract = "If our supersmart tech leaders knew a bit more about history or
+              philosophy we wouldn't be in the mess we're in now",
+  journal  = "The Guardian",
+  month    =  nov,
+  year     =  2017
+}
+
+
+@ARTICLE{Nyhan2015-pw,
+  title     = "Does correcting myths about the flu vaccine work? An
+               experimental evaluation of the effects of corrective information",
+  author    = "Nyhan, Brendan and Reifler, Jason",
+  abstract  = "Seasonal influenza is responsible for thousands of deaths and
+               billions of dollars of medical costs per year in the United
+               States, but influenza vaccination coverage remains substantially
+               below public health targets. One possible obstacle to greater
+               immunization rates is the false belief that it is possible to
+               contract the flu from the flu vaccine. A nationally
+               representative survey experiment was conducted to assess the
+               extent of this flu vaccine misperception. We find that a
+               substantial portion of the public (43\%) believes that the flu
+               vaccine can give you the flu. We also evaluate how an
+               intervention designed to address this concern affects belief in
+               the myth, concerns about flu vaccine safety, and future intent
+               to vaccinate. Corrective information adapted from the Centers
+               for Disease Control and Prevention (CDC) website significantly
+               reduced belief in the myth that the flu vaccine can give you the
+               flu as well as concerns about its safety. However, the
+               correction also significantly reduced intent to vaccinate among
+               respondents with high levels of concern about vaccine side
+               effects--a response that was not observed among those with low
+               levels of concern. This result, which is consistent with
+               previous research on misperceptions about the MMR vaccine,
+               suggests that correcting myths about vaccines may not be an
+               effective approach to promoting immunization.",
+  journal   = "Vaccine",
+  publisher = "Elsevier",
+  volume    =  33,
+  number    =  3,
+  pages     = "459--464",
+  month     =  jan,
+  year      =  2015,
+  keywords  = "Belief; Flu; Influenza; Misperceptions; Myth; Vaccine",
+  language  = "en"
+}
+
+
+@ARTICLE{Rotter1971-wk,
+  title       = "Public Attitudes Toward the Trustworthiness, Competence, and
+                 Altruism of Twenty Selected Occupations",
+  author      = "Rotter, Julian B and Stein, Donald K",
+  journal     = "J. Appl. Soc. Psychol.",
+  volume      =  1,
+  number      =  4,
+  pages       = "334--343",
+  year        =  1971,
+  original_id = "36250a78-d1e4-0948-bb5b-b81d9eca3086"
+}
+
+
+@ARTICLE{Rousseau1998-ib,
+  title     = "Not so different after all: A cross-discipline view of trust",
+  author    = "Rousseau, Denise M and Sitkin, Sim B and Burt, Ronald S and
+               Camerer, Colin",
+  journal   = "Acad. Manage. Rev.",
+  publisher = "Academy of Management",
+  volume    =  23,
+  number    =  3,
+  pages     = "393--404",
+  year      =  1998
+}
+
+
+@MISC{Wikipedia_contributors2019-ry,
+  title        = "Indian {WhatsApp} lynchings",
+  booktitle    = "Wikipedia, The Free Encyclopedia",
+  author       = "{Wikipedia contributors}",
+  abstract     = "The Indian WhatsApp lynchings are a spate of mob-related
+                  violence and killings following the spread of rumours,
+                  primarily relating to child-abduction and organ harvesting,
+                  via the WhatsApp message service. The spate of lynchings
+                  commenced in May 2017 with the killing of seven men in
+                  Jharkhand, but did not become a national trend until the
+                  beginning of the following year. Fake messages customised
+                  with locally specific details are circulated along with real
+                  videos attached to fake messages or claims.",
+  month        =  may,
+  year         =  2019,
+  howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Indian_WhatsApp_lynchings&oldid=895073576}",
+  note         = "Accessed: 2019-8-12"
+}
+
+
+@ARTICLE{Buskens2000-fv,
+  title     = "An experiment on the effects of embeddedness in trust
+               situations: Buying a used car",
+  author    = "Buskens, Vincent and Weesie, Jeroen",
+  abstract  = "This article describes a vignette experiment on the effects of
+               temporal embeddedness and network embeddedness in trust
+               situations. The experiment uses a setting in which a buyer wants
+               to buy a used car from a car dealer. We distinguish between
+               effects on trust of the past relation and the effects of the
+               expected future relation between the buyer and the dealer. A
+               buyer can learn about the trustworthiness of the dealer from
+               past transactions of the dealer. Moreover, the buyer can control
+               the dealer if the buyer and the dealer expect more transactions
+               in the future, because the buyer may sanction the dealer if the
+               dealer would act untrustworthy in the present transaction, for
+               example, by refraining from future transactions. Temporal
+               embeddedness facilitates learning and control through the
+               bilateral relation of the buyer and the dealer, while network
+               embeddedness facilitates learning and control through third
+               parties. In the experiment, subjects are asked to compare
+               different settings for buying a used car, while the relation
+               between the buyer and dealer is varied in these settings. We
+               conclude that both learning and control affect trust at the
+               level of the dyad (temporal embeddedness) as well as at the
+               group-level (network embeddedness).",
+  journal   = "Ration. Soc.",
+  publisher = "SAGE Publications Ltd",
+  volume    =  12,
+  number    =  2,
+  pages     = "227--253",
+  month     =  may,
+  year      =  2000
+}
+
+
+@ARTICLE{Axelrod1981-ch,
+  title     = "The evolution of cooperation",
+  author    = "Axelrod, R and Hamilton, W D",
+  abstract  = "Cooperation in organisms, whether bacteria or primates, has been
+               a difficulty for evolutionary theory since Darwin. On the
+               assumption that interactions between pairs of individuals occur
+               on a probabilistic basis, a model is developed based on the
+               concept of an evolutionarily stable strategy in the context of
+               the Prisoner's Dilemma game. Deductions from the model, and the
+               results of a computer tournament show how cooperation based on
+               reciprocity can get started in an asocial world, can thrive
+               while interacting with a wide range of other strategies, and can
+               resist invasion once fully established. Potential applications
+               include specific aspects of territoriality, mating, and disease.",
+  journal   = "Science",
+  publisher = "science.sciencemag.org",
+  volume    =  211,
+  number    =  4489,
+  pages     = "1390--1396",
+  month     =  mar,
+  year      =  1981,
+  language  = "en"
+}
+
+
+@ARTICLE{Ermisch2009-qf,
+  title       = "Measuring people's trust",
+  author      = "Ermisch, John and Gambetta, Diego and Laurie, Heather and
+                 Siedler, Thomas and Uhrig, S C Noah",
+  journal     = "Journal of the Royal Statistical Society",
+  volume      =  172,
+  number      =  4,
+  pages       = "749--769",
+  year        =  2009,
+  original_id = "b31bb1e5-cd76-05f3-bd88-1bc100a30e24"
+}
+
+
+@INCOLLECTION{Bacharach2001-wv,
+  title       = "Trust in Signs",
+  booktitle   = "Trust in Society",
+  author      = "Bacharach, Michael and Gambetta, Diego",
+  editor      = "Cook, Karen S",
+  publisher   = "Russell Sage Foundation",
+  pages       = "148--184",
+  year        =  2001,
+  address     = "New York",
+  original_id = "2d41c395-8935-069d-9171-b56e82d25a4e"
+}
+
+
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@INPROCEEDINGS{Remus2010-iv,
+  title       = "{SentiWS-A} Publicly Available German-language Resource for
+                 Sentiment Analysis",
+  booktitle   = "{LREC}",
+  author      = "Remus, Robert and Quasthoff, Uwe and Heyer, Gerhard",
+  abstract    = "SentimentWortschatz, or SentiWS for short, is a publicly
+                 available German-language resource for sentiment analysis,
+                 opinion mining etc. It lists positive and negative sentiment
+                 bearing words weighted within the interval of [− 1; 1] plus
+                 their part of speech tag, and if applicable, their
+                 inflections. The current version of SentiWS (v1. 8b) contains
+                 1,650 negative and 1,818 positive words, which sum up to
+                 16,406 positive and 16,328 negative word forms, respectively.
+                 It not only contains adjectives and adverbs explicitly
+                 expressing a sentiment …",
+  publisher   = "Citeseer",
+  institution = "Citeseer",
+  year        =  2010
+}
+
+
+@ARTICLE{Berghel2017-nu,
+  title     = "Lies, Damn Lies, and Fake News",
+  author    = "Berghel, H",
+  abstract  = "The Oxford Dictionaries selected ``post-truth'' as the 2016
+               international word of the year. This is such a preposterous
+               recognition from a heretofore august publication that I just
+               can't allow it to pass in silence.",
+  journal   = "Computer",
+  publisher = "ieeexplore.ieee.org",
+  volume    =  50,
+  number    =  2,
+  pages     = "80--85",
+  month     =  feb,
+  year      =  2017,
+  keywords  = "social networking (online);fake news;Oxford dictionaries;history
+               of computing;Out of Band;fake news;politics"
+}
+
+
+@ARTICLE{Reuters2017-vh,
+  title    = "Lithuania looking for source of false accusation of rape by
+              German troops",
+  author   = "{Reuters}",
+  abstract = "Lithuanian prosecutors opened a criminal investigation into a
+              false report of rape by German soldiers stationed there as part
+              of NATO a mission to deter Russia.",
+  journal  = "Reuters",
+  month    =  feb,
+  year     =  2017
+}
+
+
+@ARTICLE{Eady2019-uk,
+  title     = "How Many People Live in Political Bubbles on Social Media?
+               Evidence From Linked Survey and Twitter Data",
+  author    = "Eady, Gregory and Nagler, Jonathan and Guess, Andrew and Zilinsky,
+               Jan and Tucker, Joshua A.",
+  abstract  = "A major point of debate in the study of the Internet and
+               politics is the extent to which social media platforms encourage
+               citizens to inhabit online ?bubbles? or ?echo chambers,? exposed
+               primarily to ideologically congenial political information. To
+               investigate this question, we link a representative survey of
+               Americans with data from respondents? public Twitter accounts (N
+               = 1,496). We then quantify the ideological distributions of
+               users? online political and media environments by merging
+               validated estimates of user ideology with the full set of
+               accounts followed by our survey respondents (N = 642,345) and
+               the available tweets posted by those accounts (N ~ 1.2 billion).
+               We study the extent to which liberals and conservatives
+               encounter counter-attitudinal messages in two distinct ways: (a)
+               by the accounts they follow and (b) by the tweets they receive
+               from those accounts, either directly or indirectly (via
+               retweets). More than a third of respondents do not follow any
+               media sources, but among those who do, we find a substantial
+               amount of overlap (51\%) in the ideological distributions of
+               accounts followed by users on opposite ends of the political
+               spectrum. At the same time, however, we find asymmetries in
+               individuals? willingness to venture into cross-cutting spaces,
+               with conservatives more likely to follow media and political
+               accounts classified as left-leaning than the reverse. Finally,
+               we argue that such choices are likely tempered by online news
+               watching behavior.",
+  journal   = "SAGE Open",
+  publisher = "SAGE Publications",
+  volume    =  9,
+  number    =  1,
+  pages     = "2158244019832705",
+  month     =  jan,
+  year      =  2019
+}
+
+
+@ARTICLE{Vosoughi2018-nh,
+  title    = "The spread of true and false news online",
+  author   = "Vosoughi, Soroush and Roy, Deb and Aral, Sinan",
+  abstract = "We investigated the differential diffusion of all of the verified
+              true and false news stories distributed on Twitter from 2006 to
+              2017. The data comprise ~126,000 stories tweeted by ~3 million
+              people more than 4.5 million times. We classified news as true or
+              false using information from six independent fact-checking
+              organizations that exhibited 95 to 98\% agreement on the
+              classifications. Falsehood diffused significantly farther,
+              faster, deeper, and more broadly than the truth in all categories
+              of information, and the effects were more pronounced for false
+              political news than for false news about terrorism, natural
+              disasters, science, urban legends, or financial information. We
+              found that false news was more novel than true news, which
+              suggests that people were more likely to share novel information.
+              Whereas false stories inspired fear, disgust, and surprise in
+              replies, true stories inspired anticipation, sadness, joy, and
+              trust. Contrary to conventional wisdom, robots accelerated the
+              spread of true and false news at the same rate, implying that
+              false news spreads more than the truth because humans, not
+              robots, are more likely to spread it.",
+  journal  = "Science",
+  volume   =  359,
+  number   =  6380,
+  pages    = "1146--1151",
+  month    =  mar,
+  year     =  2018,
+  language = "en"
+}
+
+
+@Article{Nannestad2008-fm,
+  Author = {Nannestad, Peter},
+  Journal = {Annu. Rev. Polit. Sci.},
+  Month = {may},
+  Number = {1},
+  Pages = {413--436},
+  Publisher = {Annual Reviews},
+  Title = {What Have We Learned About Generalized Trust, If Anything?},
+  Volume = {11},
+  Year = {2008},
+  Abstract = {After discussing issues related to the conceptualization}
+}
+
+
+@Book{Hardin2002-ve,
+  Address = {New York},
+  Author = {Hardin, Russell},
+  Month = {mar},
+  Publisher = {Russell Sage Foundation},
+  Title = {Trust and Trustworthiness},
+  Year = {2002},
+  Abstract = {What does it mean to ``trust?'' What makes us feel secure enough},
+  Language = {en}
+}
+
+
+@Incollection{Gambetta1988-yf,
+  Address = {Cambridge, Massachusetts},
+  Author = {Gambetta, Diego},
+  Booktitle = {Trust: Making and Breaking Cooperative Relations},
+  Editor = {Gambetta, Diego},
+  Pages = {213--237},
+  Publisher = {Basil Blackwell},
+  Title = {Can We Trust Trust?},
+  Year = {1988},
+  Original_id = {d28bcf87-51a7-0969-a2ed-68e57c1dcdf4}
+}
+
+
+@Article{Sturgis2010-sa,
+  Author = {Sturgis, Patrick and Smith, Patten},
+  Journal = {International journal of public opinion},
+  Number = {1},
+  Pages = {74--92},
+  Publisher = {academic.oup.com},
+  Title = {Assessing the validity of generalized trust questions: what kind},
+  Volume = {22},
+  Year = {2010},
+  Abstract = {Abstract In the social capital literature a distinction is made}
+}
+
+
+@Incollection{Bauer2018-ex,
+  Author = {Bauer, Paul C and Freitag, Markus},
+  Booktitle = {The Oxford Handbook of Social and Political Trust},
+  Editor = {Uslaner, Eric M},
+  Month = {mar},
+  Publisher = {Oxford University Press},
+  Title = {Measuring Trust},
+  Year = {2018},
+  Abstract = {This article focuses on the measurement of trust. First, we},
+  Keywords = {Measurement; trust; trust measurement; measurement; generalized}
+}
+
+
+@Article{Berg1995-yj,
+  Author = {Berg, Joyce and Dickhaut, John and McCabe, Kevin},
+  Journal = {Games Econ. Behav.},
+  Month = {jul},
+  Number = {1},
+  Pages = {122--142},
+  Title = {Trust, Reciprocity, and Social History},
+  Volume = {10},
+  Year = {1995},
+  Abstract = {We designed an experiment to study trust and reciprocity in an},
+  Keywords = {Subjective probability;Probabilistic expectations}
+}
+
+
+@Article{Baier1986-qg,
+  Author = {Baier, Annette},
+  Journal = {Ethics},
+  Pages = {231--260},
+  Title = {Trust and Antitrust},
+  Volume = {96},
+  Year = {1986},
+  Original_id = {abefdf72-0367-0739-9fef-ceb64eff898e}
+}
+
+
+@Article{Guess2018-gw,
+  Author = {Guess, Andrew and Nyhan, Brendan and Reifler, Jason},
+  Journal = {European Research Council},
+  Publisher = {ask-force.org},
+  Title = {Selective Exposure to Misinformation: Evidence from the},
+  Year = {2018},
+  Abstract = {Though some warnings about online ``echo chambers'' have been}
+}
+
+
+
+@article{FlanaginMetzger2000,
+author = {Flanagin, Andrew J. and Metzger, Miriam J.},
+isbn = {9781450310482},
+journal = {Journalism and Mass Communication Quarterly},
+number = {3},
+pages = {515--540},
+title = {{Perceptions of Internet Information Credibility}},
+volume = {77},
+year = {2000}
+}
+@article{Vaidya,
+author = {Vaidya, Tavish and Mazurek, Michelle L},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Vaidya et al. (2019).pdf:pdf},
+isbn = {9781450359702},
+keywords = {acm reference format,and micah,authentication,credibility,daniel votipka,mazurek,michelle l,social,tavish vaidya,trust,twitter},
+title = {{Does Being Verified Make You More Credible?Account Verification's Effect on Tweet Credibility}}
+}
+@article{Johnson2002,
+author = {Johnson, Thomas J. and Kaye, Barbara K},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Johnson {\&} Kaye (2002).pdf:pdf},
+journal = {Journalism {\&} Mass Communication QuarterlyMass Communication Quarterly},
+number = {3},
+pages = {619--642},
+title = {{Reliance Predict Online Credibility}},
+volume = {79},
+year = {2002}
+}
+@article{Newman,
+author = {Newman, Nic and Fletcher, Richard},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Newman, Fletcher - Unknown - Audience Perspectives on Low Trust in the Media.pdf:pdf},
+title = {{Audience Perspectives on Low Trust in the Media}},
+url = {http://reutersinstitute.politics.ox.ac.uk/sites/default/files/inline-files/Nic Newman and Richard Fletcher - Bias{\%}252C Bullshit and Lies - Report.pdf}
+}
+@article{Lupia1994,
+author = {Lupia, Arthur},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Lupia1994.pdf:pdf},
+journal = {The American Political Science Review,},
+number = {1},
+pages = {63--76},
+title = {{Shortcuts Versus Encyclopedias: Information and Voting Behavior in California Insurance Reform Elections}},
+volume = {88},
+year = {1994}
+}
+@article{GazianoMcGrath1986,
+author = {Gaziano, Cecilie and McGrath, Kristin},
+journal = {Journalism Quarterly},
+number = {3},
+pages = {451--462},
+title = {{Measuring the Concept of Credibility}},
+volume = {63},
+year = {1986}
+}
+@book{Hovlandetal1953,
+address = {New Haven, CT},
+author = {Hovland, Carl Iver and Janis, Irving Lester and Kelley, Harold H.},
+publisher = {Yale University Press},
+title = {{Communication and persuasion}},
+year = {1953}
+}
+@book{Zaller1992,
+address = {Cambridge},
+author = {Zaller, John},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Zaller - 1992 - The nature and origins of mass opinion.docx:docx},
+publisher = {Cambridge University Press},
+title = {{The nature and origins of mass opinion}},
+year = {1992}
+}
+@article{JohnsonKaye2010,
+author = {Johnson, Thomas J. and Kaye, Barbara K},
+isbn = {0002764210},
+journal = {American Behavioral Scientist},
+number = {1},
+pages = {57 --77},
+title = {{Still Cruising and Believing? An Analysis of Online Credibility Across Three Presidential Campaigns}},
+volume = {54},
+year = {2010}
+}
+@article{Shenetal2018,
+abstract = {Fake or manipulated images propagated through the Web and social media have the capacity to deceive, emotionally distress, and influence public opinions and actions. Yet few studies have examined how individuals evaluate the authenticity of images that accompany online stories. This article details a 6-batch large-scale online experiment using Amazon Mechanical Turk that probes how people evaluate image credibility across online platforms. In each batch, participants were randomly assigned to 1 of 28 news-source mockups featuring a forged image, and they evaluated the credibility of the images based on several features. We found that participants' Internet skills, photo-editing experience, and social media use were significant predictors of image credibility evaluation, while most social and heuristic cues of online credibility (e.g. source trustworthiness, bandwagon, intermediary trustworthiness) had no significant impact. Viewers' attitude toward a depicted issue also positively influenced their credibi...},
+author = {Shen, Cuihua and Kasra, Mona and Pan, Wenjing and Bassett, Grace A and Malloch, Yining and O'Brien, James F},
+file = {:Users/bernhardclemm/Downloads/Shen et al. (2018).pdf:pdf},
+issn = {1461-4448},
+journal = {New Media {\&} Society},
+pages = {146144481879952},
+title = {{Fake images: The effects of source, intermediary, and digital media literacy on contextual assessment of image credibility online}},
+year = {2018}
+}
+@article{TsfatiCappella2005,
+abstract = {Prior research has found only modest associations between news media trust and ex- posure.Many news skeptics report moderate to high levels of mainstream news expo- sure, despite their mistrust of mainstream news. Why do people watch news they do not trust? This study investigates the moderating role played by the psychological construct of “the need for cognition” (NFC) in this association. An NFC × Media Skepticism interaction is hypothesized and tested on survey data (N = 424). Results provide evidence for such an interaction. For those with a reduced NFC, mainstream media skepticism is strongly associated with news exposure. As NFC increases, the association between news skepticism and exposure disappears. It is concluded that people consume news they do not trust when their media skepticism is irrelevant to their motivation for news exposure. Trust},
+author = {Tsfati, Yariv and Cappella, Joseph N.},
+journal = {Media Psychology},
+keywords = {Media Scepticism,Media Trust,Need for cognition,Observational,Survey},
+mendeley-tags = {Media Scepticism,Media Trust,Need for cognition,Observational,Survey},
+pages = {251--271},
+title = {{Why Do People Watch News They Do Not Trust? The Need for Cognition as a Moderator in the Association Between News Media Skepticism and Exposure}},
+volume = {7},
+year = {2005}
+}
+@techreport{Pew2000,
+author = {{Pew Research Center}},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Pew (2000).pdf:pdf},
+title = {{Internet sapping broadcast news audience}},
+url = {https://www.people-press.org/2000/06/11/internet-sapping-broadcast-news-audience/},
+year = {2000}
+}
+@article{Pettyetal1981,
+abstract = {It was suggested that there are two basic routes to persuasion. One route is based on the thoughtful consideration of arguments central to the issue, whereas the other is based on peripheral cues in the persuasion situation. To test this view, undergraduates expressed their attitudes on an issue after exposure to a coun-terattitudinal advocacy containing either strong or weak arguments that ema-nated from a source of either high or low expertise. For some subjects, the communication was high in personal relevance, whereas for others it was low. Interactions of the personal relevance manipulation with the argument quality and expertise manipulations revealed that under high relevance, attitudes were influenced primarily by the quality of the arguments in the message, whereas under low relevance, attitudes were influenced primarily by the expertise of the source. This suggests that the personal relevance of an issue is one determinant of the route to persuasion that will be followed. In a recent review of the numerous ap-proaches to attitude change that have de-veloped over the past 35 years, Petty and Cacioppo (1981) suggested that these many approaches could be seen as proposing two distinct routes to persuasion. One, called the central route, views attitude change as re-sulting from a diligent consideration of issue-relevant arguments. The approaches that fall under this route have emphasized such fac-tors as the comprehension, learning, and re-tention of message arguments (e.g., Eagly, 1974; McGuire, 1968; Miller {\&} Campbell, 1959); the self-generation of arguments (e.g., The data reported here are based in part on a master's thesis conducted by the third author under the super-vision of the first two authors. The advice of thesis com-mittee members Russell Geen, Donald Granberg, and Larry Siegel is acknowledged with thanks.},
+author = {Petty, Richard E. and Cacioppo, John T. and Goldman, Rachel},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Petty et al. (1981).pdf:pdf},
+isbn = {00223514},
+issn = {00223514},
+journal = {Journal of Personality and Social Psychology},
+keywords = {attitude change,college students,personal relevance {\&} quality of arguments {\&} source},
+number = {5},
+pages = {847--855},
+pmid = {4520},
+title = {{Personal involvement as a determinant of argument-based persuasion}},
+volume = {41},
+year = {1981}
+}
+@article{Viviani2017,
+author = {Viviani, Marco and Pasi, Gabriella},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Viviani, Pasi - 2017 - Credibility in social media opinions, news, and health information-a survey.pdf:pdf;:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Viviani, Pasi - 2017 - Credibility in social media opinions, news, and health information-a survey.docx:docx},
+issn = {19424787},
+journal = {Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+keywords = {Algorithms,Credibility,Social Media},
+mendeley-tags = {Algorithms,Credibility,Social Media},
+month = {jun},
+publisher = {Wiley Periodicals, Inc},
+title = {{Credibility in social media: opinions, news, and health information-a survey}},
+year = {2017}
+}
+@article{KuklinskiHurley1994,
+author = {Kuklinski, James H. and Hurley, Norman L.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/KuklinskiHurley1994.pdf:pdf},
+journal = {The Journal of Politics},
+number = {3},
+pages = {729--751},
+title = {{On Hearing and Interpreting Political Messages : A Cautionary Tale of Citizen Cue-Taking}},
+volume = {56},
+year = {1994}
+}
+@article{Roberts2010,
+author = {Roberts, Chris},
+isbn = {0002764210},
+journal = {American Behavioral Scientist},
+keywords = {1996,421,and confused,and has led to,construct with a literature,contradictory,credibility is a long-studied,journalism,message credibility,messenger credibility,p,plentiful,scale verification,scores of operationalizations designed,self,that is},
+number = {1},
+title = {{Correlations Among Variables in Message and Messenger Credibility Scales}},
+volume = {54},
+year = {2010}
+}
+@unpublished{Babaeietal2018,
+author = {Babaei, Mahmoudreza and Redmiles, Elissa M and Gummadi, Krishna P},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Babaei et al. (2018).pdf:pdf},
+keywords = {fact-check,false news,or,or hard copies of,part or all of,perception bias,permission to make digital,this work for personal},
+title = {{Analysing Biases in Perception of Truth in News Stories and their Implications for Fact Checking}},
+year = {2018}
+}
+@article{WashburnSkitka2017,
+abstract = {We tested whether conservatives and liberals are similarly or differentially likely to deny scientific claims that conflict with their preferred conclusions. Participants were randomly assigned to read about a study with correct results that were either consistent or inconsistent with their attitude about one of several issues (e.g., carbon emissions). Participants were asked to interpret numerical results and decide what the study concluded. After being informed of the correct interpretation, participants rated how much they agreed with, found knowledgeable, and trusted the researchers' correct interpretation. Both liberals and conservatives engaged in motivated interpretation of study results and denied the correct interpretation of those results when that interpretation conflicted with their attitudes. Our study suggests that the same motivational processes underlie differences in the political priorities of those on the left and the right.},
+author = {Washburn, Anthony N. and Skitka, Linda J.},
+issn = {1948-5506},
+journal = {Social Psychological and Personality Science},
+keywords = {and researchers have made,attitudes,authors,bold,claims,many journalists,motivated reasoning,political psychology,primarily a problem on,science denial,suggesting science denial is,the},
+title = {{Science Denial Across the Political Divide}},
+year = {2017}
+}
+@article{JeritBarabas2012,
+abstract = {Perceptual bias occurs when beliefs deviate from reality. Democrats and Republicans are thought to be especially susceptible to this type of biased-information processing. And yet we know little about the pervasiveness of perceptual bias outside the domain of ‘‘performance issues'' (e.g., unemployment, inflation) or how individuallevel partisan motivation interacts with the information environment. We investigate these issues in two studies that examine perceptual bias on a wide range of political topics spanning two decades. Using survey data as well as an experiment with diverse subjects, we demonstrate that people perceive the world in a manner consistent with their political views. The result is a selective pattern of learning in which partisans have higher levels of knowledge for facts that confirm their world view and lower levels of knowledge for facts that challenge them. This basic relationship is exaggerated on topics receiving high levels of media coverage.},
+author = {Jerit, Jennifer and Barabas, Jason},
+isbn = {1468-2508},
+issn = {0022-3816},
+journal = {The Journal of Politics},
+number = {3},
+pages = {672--684},
+title = {{Partisan Perceptual Bias and the Information Environment}},
+volume = {74},
+year = {2012}
+}
+@article{Berloetal1969,
+author = {Berlo, David K . and Lemert, James B. and Mertz, Robert J.},
+journal = {The Public Opinion Quarterly},
+number = {4},
+pages = {563--576},
+title = {{Dimensions for Evaluating the Acceptability of Message Sources}},
+volume = {33},
+year = {1969}
+}
+@article{Kunda1990,
+author = {Kunda, Ziva},
+journal = {Psychological Bulletin},
+number = {3},
+pages = {480--498},
+title = {{The Case for Motivated Reasoning}},
+volume = {108},
+year = {1990}
+}
+@article{Rotter1967,
+abstract = {One of the most salient factors m the effecdveness of our present complex social organization is the willmgness of one or more mdividuals m a social unit to trust others The efficiency, adjustment, and even survival of any social group depends upon the presence or absence of such trust. Interpersonal tmst is defined here as an expectancy held by an mdividual or a group that the word, promise, verbal or wntten statement of another individual or group can be relied upon. This definition clearly departs significandy from Enkson's (1953) broad use of the concept of basic trust which Enkson descnbes as a central ingredient m "the healthy personality "},
+author = {Rotter, Julian B.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Rotter (1967).pdf:pdf},
+isbn = {0022-3506},
+issn = {14676494},
+journal = {Journal of Personality},
+number = {4},
+pages = {651--665},
+pmid = {4865583},
+title = {{A new scale for the measurement of interpersonal trust}},
+volume = {35},
+year = {1967}
+}
+@article{Kiousis2001,
+author = {Kiousis, Spiro},
+journal = {Mass Communication and Society},
+number = {4},
+pages = {381--403},
+title = {{Public Trust or Mistrust? Perceptions of Media Credibility in the Information Age}},
+volume = {4},
+year = {2001}
+}
+@misc{Eddy2017,
+author = {Eddy, Melissa},
+booktitle = {The New York Times},
+month = {feb},
+title = {{How a Refugee's Selfie With Merkel Led to a Facebook Lawsuit}},
+year = {2017}
+}
+@article{DelVicarioetal2016,
+abstract = {SignificanceThe wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web is a fruitful environment for the massive diffusion of unverified rumors. In this work, using a massive quantitative analysis of Facebook, we show that information related to distinct narratives--conspiracy theories and scientific news--generates homogeneous and polarized communities (i.e., echo chambers) having similar information consumption patterns. Then, we derive a data-driven percolation model of rumor spreading that demonstrates that homogeneity and polarization are the main determinants for predicting cascades size. The wide availability of user-provided content in online social media facilitates the aggregation of people around common interests, worldviews, and narratives. However, the World Wide Web (WWW) also allows for the rapid dissemination of unsubstantiated rumors and conspiracy theories that often elicit rapid, large, but naive social responses such as the recent case of Jade Helm 15--where a simple military exercise turned out to be perceived as the beginning of a new civil war in the United States. In this work, we address the determinants governing misinformation spreading through a thorough quantitative analysis. In particular, we focus on how Facebook users consume information related to two distinct narratives: scientific and conspiracy news. We find that, although consumers of scientific and conspiracy stories present similar consumption patterns with respect to content, cascade dynamics differ. Selective exposure to content is the primary driver of content diffusion and generates the formation of homogeneous clusters, i.e., "echo chambers." Indeed, homogeneity appears to be the primary driver for the diffusion of contents and each echo chamber has its own cascade dynamics. Finally, we introduce a data-driven percolation model mimicking rumor spreading and we show that homogeneity and polarization are the main determinants for predicting cascades size.},
+author = {{Del Vicario}, Michela and Bessi, Alessandro and Zollo, Fabiana and Petroni, Fabio and Scala, Antonio and Caldarelli, Guido and Stanley, H. Eugene and Quattrociocchi, Walter},
+issn = {0027-8424},
+journal = {Proceedings of the National Academy of Sciences},
+keywords = {facebook,fake news,filter bubbles,misinformation},
+mendeley-tags = {facebook,fake news,filter bubbles,misinformation},
+number = {3},
+pmid = {24889601},
+title = {{The spreading of misinformation online}},
+volume = {113},
+year = {2016}
+}
+@article{Rotter2005,
+author = {Rotter, Julian B},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Rotter (1971).pdf:pdf},
+number = {1},
+pages = {1--7},
+title = {{Rotter - Interpersonal trust, trustworthiness, and Gullibility}},
+url = {papers2://publication/uuid/BF397CD1-70E1-4254-A3BC-6B73371BAFC4},
+volume = {35},
+year = {2005}
+}
+@incollection{BacharachGambetta2001,
+address = {New York},
+author = {Bacharach, Michael and Gambetta, Diego},
+booktitle = {Trust in Society},
+editor = {Cook, Karen},
+pages = {148--184},
+publisher = {Russell Sage Foundation},
+title = {{Trust in Signs}},
+year = {2001}
+}
+@article{Pageetal1987,
+author = {Page, Benjamin I and Shapiro, Robert Y and Dempsey, Glenn R},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Pageetal1987.pdf:pdf},
+journal = {The American Political Science Review},
+number = {1},
+pages = {23--44},
+title = {{What Moves Public Opinion?}},
+volume = {81},
+year = {1987}
+}
+@article{Arya2018,
+abstract = {Copyright {\textcopyright} 2018 held by the paper's authors. Copying permitted for private and academic purposes. In this paper, we address the problem of evaluating the trustworthiness of a user in different types of Twitter graphs. We discuss this within the context of a persuasive recommender system that aims at creating personalized content using social media and other personal information. Twitter has been established as an alternative type of information resource due to its simplicity and its enormous number of users who transmit diverse information in real time. There is evidence that people are becoming increasingly reliant on others' opinion through their social network accounts. Trustable opinion is influential in persuading individuals to purchase products or support policy makers. The domain varies from consumer market to news and politics. Evaluating trust between two people is a delicate subject. In Twitter, neither the social graph nor structured data such as total number of likes or common retweets are sufficient to measure the trustworthiness of a user within a given social group. It is important to consider the actual sentiment associated with the tweets shared between the two parties. Existing approaches only consider relationships among users based on structured data. In this paper, we introduce a new approach to calculate a trust score as a function of time and tweet sentiment.},
+author = {Arya, Ali and Hine, Michael and Khataei, Amirsam},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Arya et al. (2018).pdf:pdf},
+issn = {16130073},
+journal = {CEUR Workshop Proceedings},
+keywords = {Network,Personalization,Persuasive,Trust,Twitter},
+pages = {93--101},
+title = {{User trust graph: A model to measure trustworthiness}},
+volume = {2089},
+year = {2018}
+}
+@article{Anson2018,
+author = {Anson, Ian G},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Anson (2018).pdf:pdf},
+journal = {Political Psychology,},
+keywords = {2011,a widely studied phenomenon,competence will judge themselves,dunning-kruger,ehrlinger,in social psychology holds,levels of,levels of competence will,motivated reasoning,overconfidence,partisanship,political knowledge,see also dunning,than they really are,that individuals with low,to be more competent,underestimate their excellence,while those with high},
+pages = {1--20},
+title = {{Partisanship, Political Knowledge, and the Dunning-Kruger Effect}},
+year = {2018}
+}
+@article{PennycookRand2018a,
+author = {Pennycook, Gordon and Rand, David G},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Pennycook {\&} Rand (2019).pdf:pdf},
+journal = {PNAS},
+title = {{Fighting misinformation on social media using crowdsourced judgments of news source quality}},
+year = {2018}
+}
+@misc{Silverman2017a,
+author = {Silverman, Craig},
+booktitle = {Buzzfeed},
+title = {{Trump Has Unleashed “Unprecedented” Levels Of Polarization In How People View The Media, Says This New Survey}},
+year = {2017}
+}
+@book{Berelsonetal1954,
+address = {Chicago},
+author = {Berelson, Bernard R. and Lazarsfeld, Paul Felix and McPhee, William N.},
+publisher = {University of Chicago Press},
+title = {{Voting: A study of opinion formation in a presidential campaign.}},
+year = {1954}
+}
+@article{MillerKrosnick2000,
+author = {Miller, Joanne M and Krosnick, Jon A},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Miller {\&} Krosnick (2000).pdf:pdf},
+journal = {American Journal of Political Science},
+number = {2},
+pages = {301--315},
+title = {{News Media Impact on the Ingredients of Presidential Evaluations: Politically Knowledgeable Citizens Are Guided by a Trusted Source}},
+volume = {44},
+year = {2000}
+}
+
+@article{West1994,
+author = {West, Mark Douglas},
+journal = {Journalism Quarterly},
+keywords = {Credibility measurement,Source Credibility},
+mendeley-tags = {Credibility measurement,Source Credibility},
+number = {1},
+title = {{Validating a Scale for the Measurement of Credibility: A Covariance Structure Approach}},
+volume = {71},
+year = {1994}
+}
+@article{Greer2003,
+author = {Greer, Jennifer D.},
+journal = {Mass Communication and Society},
+keywords = {Advertising,Experiment,Source credibility},
+mendeley-tags = {Advertising,Experiment,Source credibility},
+number = {1},
+pages = {11--28},
+title = {{Evaluating the Credibility of Online Information: A Test of Source and Advertising Influence}},
+volume = {6},
+year = {2003}
+}
+@book{OKeefe2016,
+address = {Thousand Oaks, CA},
+author = {O'Keefe, Daniel J.},
+edition = {Third Edit},
+publisher = {SAGE},
+title = {{Persuasion: Theory and Research}},
+year = {2016}
+}
+@article{KelmanHovland1953,
+author = {Kelman, Herbert C. and Hovland, Carl I.},
+journal = {The Journal of Abnormal and Social Psychology},
+number = {3},
+pages = {327--335},
+title = {{"Reinstatement" of the communicator in delayed measurement of opinion change}},
+volume = {48},
+year = {1953}
+}
+@article{Hollander2017,
+author = {Hollander, Barry A.},
+issn = {1077-6990},
+journal = {Journalism {\&} Mass Communication Quarterly},
+keywords = {2001,2007,2014,conspiracy theories,conspiracy theories are woven,democracy,donovan,far more than intellec-,goldberg,into the very fabric,life,misperceptions,news exposure,of american social and,oliver,partisanship,political,wood},
+pages = {107769901772891},
+title = {{Partisanship, Individual Differences, and News Media Exposure as Predictors of Conspiracy Beliefs}},
+year = {2017}
+}
+@article{Metzger2013,
+abstract = {Networked digital media present new challenges for people to locate information that they can trust. At the same time, societal reliance on information that is available solely or primarily via the Internet is increasing. This article discusses how and why digitally networked communication environments alter traditional notions of trust, and presents research that examines how information consumers make judgments about the credibility and accuracy of information they encounter online. Based on this research, the article focuses on the use of cognitive heuristics in credibility evaluation. Findings from recent studies are used to illustrate the types of cognitive heuristics that information consumers employ when determining what sources and information to trust online. The article concludes with an agenda for future research that is needed to better understand the role and influence of cognitive heuristics in credibility evaluation in computer-mediated communication contexts. {\textcopyright} 2013 Elsevier B.V.},
+archivePrefix = {arXiv},
+arxivId = {10.1016/j.pragma.2013.07.012},
+author = {Metzger, Miriam J. and Flanagin, Andrew J.},
+eprint = {j.pragma.2013.07.012},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Metzger {\&} Flanagin (2013).pdf:pdf},
+isbn = {0378-2166},
+issn = {03782166},
+journal = {Journal of Pragmatics},
+keywords = {Cognitive heuristics,Credibility,Trust},
+pages = {210--220},
+primaryClass = {10.1016},
+publisher = {Elsevier B.V.},
+title = {{Credibility and trust of information in online environments: The use of cognitive heuristics}},
+volume = {59},
+year = {2013}
+}
+@article{Bartels2002,
+author = {Bartels, Larry M.},
+journal = {Political Behavior},
+number = {2},
+pages = {117--150},
+title = {{Beyond the Running Tally: Partisan Bias in Political Perceptions}},
+volume = {24},
+year = {2002}
+}
+@article{Arceneauxetal2012,
+author = {Arceneaux, Kevin and Johnson, Martin and Murphy, Chad},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Arceneaux et al. (2012).pdf:pdf},
+journal = {Journal of Politics},
+number = {1},
+pages = {174--186},
+title = {{Polarized Political Communication, Oppositional Media Hostility, and Selective Exposure}},
+volume = {74},
+year = {2012}
+}
+@misc{Gallup2016,
+address = {Washington, D.C.},
+author = {Swift, Art},
+booktitle = {Gallup},
+title = {{Americans' Trust in Mass Media Sinks to New Low}},
+url = {https://news.gallup.com/poll/195542/americans-trust-mass-media-sinks-new-low.aspx},
+urldate = {2018-09-30},
+year = {2016}
+}
+@article{DiedenhofenMusch2017,
+abstract = {Cheating threatens the validity of unproctored online achievement tests. To address this problem, we developed PageFocus, a JavaScript that detects when participants abandon test pages by switching to another window or browser tab. In a first study, we aimed at testing whether PageFocus could detect and prevent cheating. We asked 115 lab and 186 online participants to complete a knowledge test comprising items that were difficult to answer but easy to look up on the Internet. Half of the participants were invited to look up the solutions, which significantly increased their test scores. The PageFocus script detected test takers who abandoned the test page with very high sensitivity and specificity, and successfully reduced cheating by generating a popup message that asked participants not to cheat. In a second study, 510 online participants completed a knowledge test comprising items that could easily be looked up and a reasoning task involving matrices that were impossible to look up. In a first group, a performance-related monetary reward was promised to the top scorers; in a second group, participants took part in a lottery that provided performance-unrelated rewards; and in a third group, no incentive was offered. PageFocus revealed that participants cheated more when performance-related incentives were offered. As expected, however, this effect was limited to items that could easily be looked up. We recommend that PageFocus be routinely employed to detect and prevent cheating on online achievement tests. {\textcopyright} 2016 Psychonomic Society, Inc.},
+author = {Diedenhofen, Birk and Musch, Jochen},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/DiedenhofenMusch2017.pdf:pdf},
+issn = {15543528},
+journal = {Behavior Research Methods},
+keywords = {Achievement tests,Cheating detection,Data quality,JavaScript,Paradata,Unproctored online testing},
+number = {4},
+pages = {1444--1459},
+publisher = {Behavior Research Methods},
+title = {{PageFocus: Using paradata to detect and prevent cheating on online achievement tests}},
+volume = {49},
+year = {2017}
+}
+@article{FlanaginMetzger2007,
+author = {Flanagin, Andrew J. and Metzger, Miriam J},
+journal = {new media {\&} society},
+number = {2},
+pages = {319--342},
+title = {{The role of site features, user attributes, and information verification behaviors on the perceived credibility of web-based information}},
+volume = {9},
+year = {2007}
+}
+@article{Meijndersetal2009,
+author = {Meijnders, Anneloes and Midden, Cees and Olofsson, Anna and {\"{O}}hman, Susanna and Matthes, J{\"{o}}rg and Bondarenko, Olha and Gutteling, Jan and Rusanen, Maria},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Meijnders (2009).pdf:pdf},
+journal = {Risk Analysis},
+number = {8},
+pages = {1116 -- 1128},
+title = {{The Role of Similarity Cues in the Development of Trust in Sources of Information About GM Food}},
+volume = {29},
+year = {2009}
+}
+@misc{Goeletal2018,
+author = {Goel, Vindu and Raj, Suhasini and Ravichandran, Priyadarshini},
+booktitle = {The New York Times},
+month = {jul},
+title = {{How WhatsApp Leads Mobs to Murder in India}},
+url = {https://www.nytimes.com/interactive/2018/07/18/technology/whatsapp-india-killings.html},
+year = {2018}
+}
+@incollection{Metzgeretal2003,
+address = {Mahwah, NJ},
+author = {Metzger, Miriam J. and Flanagin, Andrew J. and Eyal, Keren and Lemus, Daisy R. and McCann, Robert},
+booktitle = {Communication Yearbook 27},
+editor = {Kalbfleisch, Pamela},
+pages = {293--335},
+publisher = {Lawrence Erlbaum.},
+title = {{Credibility in the 21st century: Integrating perspectives on source, message, and media credibility in the contemporary media environment}},
+year = {2003}
+}
+@article{Alrubaianetal2018,
+author = {Alrubaian, Majed and Al-qurishi, Muhammad and Alamri, Atif and Al-rakhami, Mabrook and Hassan, Mohammad Mehedi and Fortino, Giancarlo},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Alrubaian et al. (2017).pdf:pdf},
+journal = {IEEE Access},
+publisher = {IEEE},
+title = {{Credibility in Online Social Networks: A Survey}},
+year = {2018}
+}
+@article{Kuklinskietal2000,
+abstract = {Scholars have documented the deficiencies in political knowledge among American citizens. An- other problem, misinformation, has received less attention. People are misinformed when they con- fidently hold wrong beliefs. We present evidence of misinformation about welfare and show that this misinformation acts as an obstacle to educating the public with correct facts. Moreover, wide- spread misinformation can lead to collective preferences that are far different from those that would exist if people were correctly informed. The misinformation phenomenon has implications for two currently influential scholarly literatures: the study of political heuristics and the study of elite per- suasion and issue framing.},
+author = {Kuklinski, James H. and Quirk, Paul J. and Jerit, Jennifer and Schwieder, David and Rich, Robert F.},
+journal = {Journal of Politics},
+keywords = {Beliefs,Misbeliefs,Misinformation,Preferences,Survey experiment},
+mendeley-tags = {Beliefs,Misbeliefs,Misinformation,Preferences,Survey experiment},
+number = {3},
+pages = {790--816},
+title = {{Misinformation and the Currency of Democratic Citizenship}},
+volume = {62},
+year = {2000}
+}
+@techreport{Roper1985,
+author = {Roper, Burns W.},
+institution = {Television Information Office},
+title = {{Public Attitudes Toward Television and Other Media in a Time of Change: The 14. Report in a Series by the Roper Organization Inc.}},
+year = {1985}
+}
+@article{Prior2013,
+author = {Prior, Markus},
+journal = {Annual Review of Political Science},
+pages = {101--27},
+title = {{Media and Political Polarization}},
+volume = {16},
+year = {2013}
+}
+@article{Rotter1971,
+abstract = {Ratings on 4-point scales of truthfulness, competence, and altruism$\backslash$nof 20 selected occupations were obtained from 4 samples of subjects.$\backslash$nThe subjects included 200 students from the University of Connecticut,$\backslash$n96 students from the University of Maryland, 50 secretaries from$\backslash$na small town in Connecticut, and 50 teachers from the public schools$\backslash$nof the same town. In spite of differences in sex, age, occupation,$\backslash$neducation, and locale, all the samples and subsamples were remarkably$\backslash$nsimilar in their ratings of the 20 occupations. A strong tendency$\backslash$nappears for professionals to be rated high and for people who may$\backslash$nbe regarded as powerful in our society to be rated poorly on all$\backslash$n3 variables. Several interesting differences in ratings on the 3$\backslash$nvariables within professions were obtained.},
+author = {Rotter, Julian B and Stein, Donald K},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Rotter and Stein (1971).pdf:pdf},
+issn = {1559-1816},
+journal = {Journal of Applied Social Psychology},
+number = {4},
+pages = {334--343},
+title = {{{\{}P{\}}ublic {\{}A{\}}ttitudes {\{}T{\}}oward the {\{}T{\}}rustworthiness, {\{}C{\}}ompetence, and {\{}A{\}}ltruism of {\{}T{\}}wenty {\{}S{\}}elected {\{}O{\}}ccupations}},
+volume = {1},
+year = {1971}
+}
+@book{Popkin1991,
+address = {Chicago},
+author = {Popkin, Samuel L.},
+publisher = {University of Chicago Press},
+title = {{The reasoning voter: communication and persuasion in presidential campaigns}},
+year = {1991}
+}
+@article{AndreoliWorchel1978,
+author = {Andreoli, Virginia and Worchel, Stephen},
+journal = {The Public Opinion Quarterly},
+number = {1},
+pages = {59--70},
+title = {{Effects of Media, Communicator, and Message Position on Attitude Change}},
+url = {http://www.jstor.org/stable/2748091{\%}255Cnhttp://www.jstor.org/stable/2748091?seq=1{\&}cid=pdf-reference{\#}references{\_}tab{\_}contents{\%}255Cnhttp://about.jstor.org/terms},
+volume = {42},
+year = {1978}
+}
+@book{EaglyChaiken1993,
+address = {Fort Worth, TX},
+author = {Eagly, Alice H. and Chaiken, Shelly},
+publisher = {Harcourt Brace College},
+title = {{The Psychology of Attitudes}},
+year = {1993}
+}
+@article{Glaeseretal2000,
+author = {Glaeser, Edward L. and Laibson, David I. and Scheinkam, Jos{\'{e}} A. and Soutter, Christine L.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Glaeseretal2000.pdf:pdf},
+journal = {The Quarterly Journal of Economics},
+number = {3},
+pages = {811--846},
+title = {{Measuring Trust}},
+volume = {115},
+year = {2000}
+}
+@techreport{KnightGallup2018,
+address = {Washington, D.C.},
+author = {{Knight Foundation} and Gallup},
+institution = {Knight Foundation/Gallup},
+title = {{Perceived Accuracy and Bias in the Media}},
+year = {2018}
+}
+@article{Survey,
+author = {Survey, Knight Foundation},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/ Knight (2018).pdf:pdf},
+title = {{Indicators of News Media Trust}}
+}
+@article{Mondak1993a,
+author = {Mondak, Jeffery J .},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Mondak1993a.pdf:pdf},
+journal = {American Journal of Political Science},
+number = {1},
+pages = {186--212},
+title = {{Source Cues and Policy Approval: The Cognitive Dynamics of Public Support for the Reagan Agenda}},
+volume = {37},
+year = {1993}
+}
+@inproceedings{Foggetal2001,
+author = {Fogg, B J and Marshall, Jonathan and Laraki, Othman and Osipovich, Alex and Varma, Chris and Fang, Nicholas and Paul, Jyoti and Rangnekar, Akshay and Shon, John and Swani, Preeti and Treinen, Marissa},
+booktitle = {Proceedings of the SIGCHI conference on Human factors in computing systems.},
+isbn = {1581133278},
+number = {1},
+pages = {61--68},
+title = {{What Makes Web Sites Credible? A Report on a Large Quantitative Study CHI 2001}},
+volume = {3},
+year = {2001}
+}
+@article{IyengarHahn2009,
+author = {Iyengar, Shanto and Hahn, Kyu S},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Iyengar, Hahn - 2009 - Red Media , Blue Media Evidence of Ideological Selectivity in Media Use.pdf:pdf},
+journal = {Journal of Communication},
+keywords = {Experiment,Media bias,Polarization,Selective Exposure},
+mendeley-tags = {Experiment,Media bias,Polarization,Selective Exposure},
+pages = {19--39},
+title = {{Red Media, Blue Media: Evidence of Ideological Selectivity in Media Use}},
+volume = {59},
+year = {2009}
+}
+@article{Park1973,
+author = {Park, College and Kimble, Charles E},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Mills {\&} Kimble (1973).pdf:pdf},
+number = {1},
+pages = {35--36},
+title = {{Opinion change as a function of perceived similarity of the communicator and subjectivity of the issue *}},
+volume = {2},
+year = {1973}
+}
+@incollection{Kahan2016b,
+address = {New York, NY},
+author = {Kahan, Dan M.},
+booktitle = {Emerging Trends in the Social and Behavioral Sciences},
+editor = {Scott, Robert and Kosslyn, Stephen},
+pages = {1--15},
+publisher = {John Wiley {\&} Sons, Inc.},
+title = {{The Politically Motivated Reasoning Paradigm, Part 2: Unanswered Questions}},
+year = {2016}
+}
+@article{Lee2010,
+abstract = {Political communication literature reveals an ongoing scholarly interest in issues surrounding the credibility of news media. Despite scientific evidence to the contrary, many consumers continue to believe U.S. news media have a political bias and, therefore, are not to be trusted. This study seeks to explain media trust using a new theoretical model. The findings, based on national survey data, suggest that political ideology and partisanship, trust in government and fellow citizens, and one's view of the economy influence the degree to which audience members trust the news media.},
+author = {Lee, Tien Tsung},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Lee (2010).pdf:pdf},
+isbn = {0002764210},
+issn = {14694441},
+journal = {American Behavioral Scientist},
+keywords = {liberal bias,media bias,media trust},
+number = {1},
+pages = {8--21},
+title = {{Why They Don't Trust the Media: An Examination of Factors Predicting Trust}},
+volume = {54},
+year = {2010}
+}
+@article{Meyer1988,
+abstract = {The article focuses on studies and instruments designed to define and measure the credibility of newspapers. It identifies believability and community affiliation as the two important aspects of credibility, which was illustrated by two separate surveys conducted in Akron, Ohio in 1978 and 1983. It adds that Cecilie Gaziano and Kristin McGrath had developed a 12-item index for evaluating a newspaper's credibility in 1984, and the reliability of the instrument was measured using a test designed by L. J. Cronbach.},
+author = {Meyer, Philip},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Meyer (1988).pdf:pdf},
+issn = {0022-5533},
+journal = {Journalism Quarterly},
+number = {3},
+pages = {567--574},
+title = {{Defining and Measuring Credibility of Newspapers: Developing an Index}},
+volume = {65},
+year = {2011}
+}
+@inproceedings{Rafalak2014,
+abstract = {This paper describes the results of a study conducted in February 2013 on Amazon Mechanical Turk aimed at identifying various determinants of credibility evaluations. 2046 adult participants evaluated credibility of websites with diversified trustworthiness reference index. We concentrated on psychological factors that lead to the characteristic positive bias observed in many working social feedback systems on the Internet. We have used International Personality Item Pool (IPIP) and measured the following traits: trust, conformity, risk taking, need for cognition and intellect. Results suggest that trustworthiness and risk taking are factors clearly differentiating people with respect to tendency to overestimate, underestimate and judge accordingly websites' credibility. Intuitively people characterized by high general trust tend to be more generous in their credibility evaluations. On the other hand, people who are more willing to take risk, tend to be more critical of the Internet content. The latter indicates that high credibility evaluations are being treated as a default option, and lower ratings require special conditions. Other, more detailed psychological patterns related to websites' credibility evaluations are described in full paper.},
+author = {Rafalak, Maria and Abramczuk, Katarzyna and Wierzbicki, Adam},
+booktitle = {Proceedings of the 23rd International Conference on World Wide Web - WWW '14 Companion},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Rafalak et al. (2014).pdf:pdf},
+isbn = {9781450327459},
+keywords = {bias,credibility,online behavior,risk-taking,trust},
+pages = {1117--1122},
+title = {{Incredible}},
+year = {2014}
+}
+@article{Trillingetal2017,
+abstract = {2015, June). . Paper presented at the , Buenos Aires, Argentinia.},
+author = {Trilling, Damian and Tolochko, Petro and Burscher, Bj{\"{o}}rn},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Trilling et al. (2017).pdf:pdf},
+isbn = {1535-1386 (Electronic) 0021-9355 (Linking)},
+issn = {2161430X},
+journal = {Journalism and Mass Communication Quarterly},
+keywords = {news dissemination,news sharing,news values,online news,social network sites},
+number = {1},
+pages = {38--60},
+pmid = {20720142},
+title = {{From Newsworthiness to Shareworthiness: How to Predict News Sharing Based on Article Characteristics}},
+volume = {94},
+year = {2017}
+}
+@article{Mosleh,
+author = {Mosleh, Mohsen and Pennycook, Gordon and Rand, David G},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Mosleh et al. (2019).pdf:pdf},
+pages = {1--8},
+title = {{Self-reported willingness to share political news articles in online surveys correlates with actual sharing on Twitter}}
+}
+@article{Kahanetal2012,
+author = {Kahan, Dan M. and Peters, Ellen and Wittlin, Maggie and Slovic, Paul and Ouellette, Lisa Larrimore and Braman, Donald and Mandel, Gregory},
+issn = {1758-678X},
+journal = {Nature Climate Change},
+keywords = {Identity protection,Misbeliefs,Motivated reasoning,Polarization},
+mendeley-tags = {Identity protection,Misbeliefs,Motivated reasoning,Polarization},
+month = {oct},
+pages = {732--735},
+publisher = {Nature Publishing Group},
+title = {{The polarizing impact of science literacy and numeracy on perceived climate change risks}},
+volume = {2},
+year = {2012}
+}
+@article{Sulflow2018,
+abstract = {Social networking sites such as Facebook are becoming increasingly important as a source for news. However, few studies have investigated what drives attention to content within the news feed and what influences the selection of news posts. We hypothesized that attitude consistency, the credibility of a source, and comments of other users raise interest in a news post in the news feed and influence the selection decision. A 2 × 2 × 2 laboratory experiment (N = 103) using eye-tracking measurement showed that attitude consistency did not influence attention distribution in the news feed, but users preferred to select news posts with content reinforcing their attitudes. Participants spent more time with news posts from sources with high credibility and selected them more frequently. Comments were not relevant for selection but were for attention within the news feed: If the news post and the comment did not share the same opinion, readers spent more time reading the content.},
+author = {S{\"{u}}lflow, Michael and Sch{\"{a}}fer, Svenja and Winter, Stephan},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/S{\"{u}}lflow et al. (2018).pdf:pdf},
+issn = {1461-4448},
+journal = {New Media {\&} Society},
+title = {{Selective attention in the news feed: An eye-tracking study on the perception and selection of political news posts on Facebook}},
+year = {2018}
+}
+@book{Lupia1998,
+author = {Lupia, Arthur and McCubbins, Mathew},
+title = {{The democratic dilemma: Can citizens learn what they need to know?}},
+year = {1998}
+}
+@article{HousholderLaMarre2014,
+abstract = {AbstractThe last two election cycles have seen an exponential rise in the number of political campaigns integrating some form of social media into their communication plans. As candidates and campaigns increase their social media communications, political communication scholars have become increasingly interested in the process through which voters assess political candidates? credibility through social networking sites. Using experimental data, this study examines the mediating role of attitude homophily in establishing political candidates? source credibility among Facebook users. A multiple mediation model outlines a process wherein attitude homophily mediates the relationship between political cues and evaluations of source credibility. Theoretical and practical implications of the results for political social media campaigns are discussed.$\backslash$nAbstractThe last two election cycles have seen an exponential rise in the number of political campaigns integrating some form of social media into their communication plans. As candidates and campaigns increase their social media communications, political communication scholars have become increasingly interested in the process through which voters assess political candidates? credibility through social networking sites. Using experimental data, this study examines the mediating role of attitude homophily in establishing political candidates? source credibility among Facebook users. A multiple mediation model outlines a process wherein attitude homophily mediates the relationship between political cues and evaluations of source credibility. Theoretical and practical implications of the results for political social media campaigns are discussed.},
+author = {Housholder, Elizabeth E. and LaMarre, Heather L.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Householder {\&} LaMarre (2014).pdf:pdf},
+isbn = {1933-1681},
+issn = {1933169X},
+journal = {Journal of Information Technology and Politics},
+keywords = {Multiple mediation,political campaigns,social media,source credibility},
+number = {4},
+pages = {368--382},
+publisher = {Routledge},
+title = {{Facebook Politics: Toward a Process Model for Achieving Political Source Credibility Through Social Media}},
+volume = {11},
+year = {2014}
+}
+@unpublished{Knudsenetal2017,
+author = {Knudsen, Erik and Poul, Mikael and Hoem, Magnus},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Knudsen, Poul, Hoem - 2017 - What Makes a News Source Trustworthy A Conjoint Experiment of How Eight Different Factors Increase or Decre.pdf:pdf},
+title = {{What Makes a News Source Trustworthy? A Conjoint Experiment of How Eight Different Factors Increase or Decrease Trust in a News Source}},
+year = {2017}
+}
+@article{Tsfati2010,
+abstract = {Based on the premise that online journalism offers readers with some features that may serve as an alternative to traditional journalism, this article explores possible associations between mistrust in mainstream news media and consumption of online news. Results from a telephone survey and an online survey demonstrate that the association between mistrust of mainstream news and exposure to online news in general is negative. But whereas mainstream exposure is related to trust in media, exposure to nonmainstream sites is related to media skepticism. The findings also shed some light on the factors contributing to audience trust in online news.},
+author = {Tsfati, Yariv},
+isbn = {0002764210},
+issn = {0002-7642},
+journal = {American Behavioral Scientist},
+keywords = {2001,Media trust,Source credibility,audience trust in the,cappella,countries,fading in many developed,flickinger,in recent years,institutions of the mainstream,media has been,media skepticism,online news exposure,see bennet,selective exposure,staci,trust-in-media},
+mendeley-tags = {Media trust,Source credibility},
+number = {1},
+pages = {22--42},
+title = {{Online News Exposure and Trust in the Mainstream Media: Exploring Possible Associations}},
+volume = {54},
+year = {2010}
+}
+@article{Pornpitakpan2004,
+author = {Pornpitakpan, Chanthika},
+journal = {Journal of Applied Social Psychology},
+number = {2},
+pages = {243--281},
+title = {{The Persuasiveness of Source Credibility : A Critical Review of Five Decades' Evidence}},
+volume = {34},
+year = {2004}
+}
+@article{KohringMatthes2007,
+author = {Kohring, Matthias and Matthes, J{\"{o}}rg},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Kohring {\&} Matthes (2007).pdf:pdf},
+journal = {Communication Quarterly},
+number = {34},
+pages = {2},
+title = {{Trust in News Media. Development and Validation of a Multidimensional Scale}},
+volume = {231-252},
+year = {2007}
+}
+@article{TaberLodge2006,
+author = {Taber, Charles S. and Lodge, Milton},
+issn = {0891-3811},
+journal = {American Journal of Political Science},
+number = {3},
+pages = {157--184},
+title = {{Motivated Skepticism in the Evaluation of Political Beliefs}},
+volume = {50},
+year = {2006}
+}
+@techreport{ChadwickVaccari2019,
+author = {Chadwick, Andrew and Vaccari, Cristian},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Chadwick {\&} Vaccari (2019).pdf:pdf},
+title = {{News sharing on UK social media: Misinformation, disinformation, and correction}},
+url = {https://dspace.lboro.ac.uk/2134/37720 Version:},
+year = {2019}
+}
+@article{Gunther1988,
+abstract = {Examines a survey of 364 households in a small northeastern city, and uses factor analysis to compare the surveillance role and communication utility of television and newspapers. Reflects a uses and gratifications approach, and defines surveillance as meeting readers'/viewers' need to know about community and world events, and communicatory utility as providing readers/viewers with information to use in social interaction with others. Results.},
+author = {Gunther, Albert},
+isbn = {1077-6990},
+issn = {1077-6990},
+journal = {Journalism Quarterly},
+keywords = {Attitude extremity,Attitudes,Media trust,Survey},
+mendeley-tags = {Attitude extremity,Attitudes,Media trust,Survey},
+number = {2},
+pages = {279--287},
+title = {{Attitude Extremity and Trust in Media}},
+volume = {65},
+year = {1988}
+}
+@book{CarpiniKeeter1996,
+address = {New Haven},
+author = {{Delli Carpini}, Michael X. and Keeter, Scott},
+publisher = {Yale University Press},
+title = {{What Americans know about politics and why it matters}},
+year = {1996}
+}
+@techreport{MediaInsight2017b,
+author = {{Media Insight Project}},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Media Insight (2017b).pdf:pdf},
+title = {{‘My' media versus ‘the' media: Trust in news depends on which news media you mean}},
+year = {2017}
+}
+@article{Bullocketal2015,
+abstract = {Partisanship seems to affect factual beliefs about politics. For example, Republicans are more likely than Democrats to say that the deficit rose during the Clinton administration; Democrats are more likely to say that inflation rose under Reagan. What remains unclear is whether such patterns reflect differing beliefs among partisans or instead reflect a desire to praise one party or criticize another. To shed light on this question, we develop a model of partisan survey response and report two experiments that are based on the model. The experiments show that small payments for correct and “don't know” responses sharply diminish the gap between Democrats and Republicans in responses to “partisan” factual questions. Our conclusion is that the apparent gulf in factual beliefs between members of different parties may be more illusory than real.},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1011.1669v3},
+author = {Bullock, John G. and Gerber, Alan S. and Hill, Seth J. and Huber, Gregory A.},
+eprint = {arXiv:1011.1669v3},
+isbn = {9788578110796},
+issn = {15540634},
+journal = {Quarterly Journal of Political Science},
+pages = {519--578},
+pmid = {25246403},
+title = {{Partisan Bias in Factual Beliefs about Politics}},
+volume = {10},
+year = {2015}
+}
+@article{GoldmanMutz2011,
+abstract = {We hypothesize that in the real world, as opposed to the lab, the norm is for people to experience friendly media that favor their political predispositions when political favoritism is perceived at all. For this reason, media are generally limited in their ability to create cross-cutting exposure. We test this hypothesis using representative survey data drawn from 11 different countries with varying media systems. We further hypothesize that television will contribute more to cross-cutting exposure than newspapers. Finally, and most importantly, we test the hypothesis that the more the structure of a country's media system parallels that of its political parties, the more that country's population will be dominated by exposure to like-minded views via mass media. We find confirmation for all 3 of these hypotheses and discuss their implications for the role of mass media in providing exposure to cross-cutting political perspectives.},
+author = {Goldman, Seth K. and Mutz, Diana C.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/GoldmanMutz2011.pdf:pdf},
+issn = {10584609},
+journal = {Political Communication},
+keywords = {Cross-cutting exposure,Hostile media,Media systems,Political communication,Selective exposure},
+number = {1},
+pages = {42--66},
+title = {{The friendly media phenomenon: A cross-national analysis of cross-cutting exposure}},
+volume = {28},
+year = {2011}
+}
+@article{BaumGroeling2009,
+abstract = {Research has shown that messages of intra-party harmony tend to be ignored by the news media, while internal disputes, especially within the governing party, generally receive prominent coverage. We examine how messages of party conflict and cooperation affect public opinion regarding national security, as well as whether and how the reputations of media outlets matter. We develop a typology of partisan messages in the news, determining their likely effects based on the char- acteristics of the speaker, listener, news outlet, and message content. We hypothesize that criticism of a Republican president by his fellow partisan elites should be exceptionally damaging (especially on a conservative media outlet), while opposition party praise of the president should be the most helpful (especially on a liberal outlet). We test our hypotheses through an experiment and a national survey on attitudes regarding the Iraq War. The results show that credible communication (i.e., "costly" rhetoric harmful to a party) is more influential than "cheap talk" in moving public opinion. Ironically, news media outlets perceived as ideologically hostile can actually enhance the credibility of certain messages relative to "friendly" news sourc},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1011.1669v3},
+author = {Baum, Matthew A. and Groeling, Tim},
+eprint = {arXiv:1011.1669v3},
+isbn = {1626008914},
+issn = {13100351},
+journal = {Political Behavior},
+number = {2},
+pages = {157--186},
+pmid = {15974422},
+title = {{Partisan Cues and Public Opinion regarding National Security and War}},
+volume = {31},
+year = {2009}
+}
+@article{Kahanetal2017b,
+abstract = {Why does public conflict over societal risks persist in the face of compelling and widely accessible scientific evidence? We conducted an experiment to probe two alternative answers: the “Science Comprehension Thesis” (SCT), which identifies defects in the public's knowledge and reasoning capacities as the source of such controversies; and the “Identity-protective Cognition Thesis” (ICT) which treats cultural conflict as disabling the faculties that members of the public use to make sense of decision-relevant science. In our experiment, we presented subjects with a difficult problem that turned on their ability to draw valid causal inferences from empirical data. As expected, subjects highest in Numeracy — a measure of the ability and disposition to make use of quantitative information — did substantially better than less numerate ones when the data were presented as results from a study of a new skin-rash treatment. Also as expected, subjects' responses became politically polarized — and even less accurate — when the same data were presented as results from the study of a gun-control ban. But contrary to the prediction of SCT, such polarization did not abate among subjects highest in Numeracy; instead, it increased. This outcome supported ICT, which predicted that more Numerate subjects would use their quantitative-reasoning capacity selectively to conform their interpretation of the data to the result most consistent with their political outlooks. We discuss the theoretical and practical significance of these findings.},
+author = {Kahan, Dan M. and Peters, Ellen and Dawson, Erica Cantrell and Slovic, Paul},
+isbn = {1469-1825 (Electronic)$\backslash$n0140-525X (Linking)},
+issn = {1556-5068},
+journal = {Behavioural Public Policy},
+keywords = {Cultural cognition,Experiment,Identity protection,Motivated reasoning},
+mendeley-tags = {Cultural cognition,Experiment,Identity protection,Motivated reasoning},
+number = {1},
+pages = {54--86},
+pmid = {21447233},
+series = {Yale Law School, Public Law Working Paper No. 307},
+title = {{Motivated Numeracy and Enlightened Self-Government}},
+volume = {1},
+year = {2017}
+}
+@article{Tuckeretal2017,
+abstract = {How can one technology—social media—simultaneously give rise to hopes for liberation in authoritarian regimes, be used for repression by these same regimes, and be harnessed by antisystem actors in democracy? We present a simple framework for reconciling these contradictory developments based on two propositions: 1) that social media give voice to those previously excluded from political discussion by traditional media, and 2) that although social media democratize access to information, the platforms themselves are neither inherently democratic nor nondemocratic, but represent a tool political actors can use for a variety of goals, including, paradoxically, illiberal goals.},
+author = {Tucker, Joshua A. and Theocharis, Yannis and Roberts, Margaret E. and Barber{\'{a}}, Pablo},
+issn = {1086-3214},
+journal = {Journal of Democracy},
+number = {4},
+pages = {46--59},
+title = {{From Liberation to Turmoil: Social Media And Democracy}},
+url = {https://muse.jhu.edu/article/671987},
+volume = {28},
+year = {2017}
+}
+@article{Slater1996,
+author = {Slater, By Michael D and Rouner, Donna},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Slater {\&} Rouner (1996).pdf:pdf},
+journal = {Communication Quarterly},
+title = {{How MESSAGE EVALUATION AND SOURCE ASSESSMENT AND BEUET CHANGE}},
+year = {1996}
+}
+@inproceedings{Taneja2019,
+author = {Taneja, Harsh and Yaeger, Katie},
+booktitle = {CHIConference on Human Factors in Computing Systems Proceedings (CHI2019)},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Taneja {\&} Yaeger (2019).pdf:pdf},
+isbn = {9781450359702},
+keywords = {media choice,media use,ness,news media,online news,rational choice,trust,trustworthi-,trustworthiness},
+title = {{Do People Consume the News they Trust ?}},
+year = {2019}
+}
+@book{Lippmann1922,
+address = {Mansfield Centre, CT},
+author = {Lippmann, Walter},
+publisher = {Martino Publishing},
+title = {{Public Opinion}},
+year = {1922}
+}
+@book{Snidermanetal1991,
+address = {New York},
+author = {Sniderman, Paul M . and Brody, Richard A. and Tetlock, Philip E.},
+publisher = {Cambridge University Press},
+title = {{Reasoning and Choice: Explorations in Po- litical Psychology.}},
+year = {1991}
+}
+@article{Kahanetal2017c,
+abstract = {This article describes evidence suggesting that science curiosity counteracts politically biased information processing. This finding is in tension with two bodies of research. The first casts doubt on the existence of “curiosity” as a measurable disposition. The other suggests that individual differences in cognition related to science comprehension—of which science curiosity, if it exists, would presumably be one—do not mitigate politically biased information processing but instead aggravate it. The article describes the scale-development strategy employed to overcome the problems associated with meas- uring science curiosity. It also reports data, observational and experimental, showing that science cu- riosity promotes open-minded engagement with information that is contrary to individuals' political predispositions. We conclude by identifying a series of concrete research questions posed by these results.},
+author = {Kahan, Dan M. and Landrum, Asheley R. and Carpenter, Katie and Helft, Laura and Jamieson, Kathleen Hall},
+journal = {Advances in Political Psychology},
+keywords = {Experiment,Information,Misinformation,Motivated reasoning,Observational,Science curiosity},
+mendeley-tags = {Experiment,Information,Misinformation,Motivated reasoning,Observational,Science curiosity},
+number = {1},
+pages = {179--199},
+title = {{Science Curiosity and Political Information Processing}},
+volume = {38},
+year = {2017}
+}
+@article{Woodside1974,
+abstract = {none},
+author = {Woodside, Arch G. and Davenport, J. William},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Woodside {\&} Davenport (1974).pdf:pdf},
+isbn = {0022-2437},
+issn = {00222437},
+journal = {Journal of Marketing Research},
+number = {2},
+pages = {198},
+pmid = {5002999},
+title = {{The Effect of Salesman Similarity and Expertise on Consumer Purchasing Behavior}},
+url = {https://www.jstor.org/stable/3150562?origin=crossref},
+volume = {11},
+year = {1974}
+}
+@unpublished{BauerClemm2019,
+author = {Bauer, Paul C. and {Clemm von Hohenberg}, Bernhard},
+title = {{Media Sources, Fake News and Trust}},
+year = {2019}
+}
+@article{Motta2018,
+author = {Motta, Matthew and Callaghan, Timothy and Sylvester, Steven},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Motta et al. (2018).pdf:pdf},
+issn = {0277-9536},
+journal = {Social Science {\&} Medicine},
+keywords = {Anti-vax,Dunning-kruger effects,Health policy,Political psychology,Vaccines},
+number = {January},
+pages = {274--281},
+publisher = {Elsevier},
+title = {{Social Science {\&} Medicine Knowing less but presuming more : Dunning-Kruger e ff ects and the endorsement of anti-vaccine policy attitudes}},
+volume = {211},
+year = {2018}
+}
+@unpublished{Bauer2014a,
+author = {Bauer, Paul C.},
+title = {{Conceptualizing and Measuring Trust and Trustworthiness}},
+year = {2014}
+}
+@techreport{PWC2018,
+author = {PricewaterhouseCoopers},
+file = {:Users/bernhardclemm/Google Drive/2019{\_}Media Trust Evolution/External Data/PWC (2018).pdf:pdf},
+title = {{Vertrauen in Medien 2018}},
+year = {2018}
+}
+@book{PettyCacioppo1986,
+address = {New York, NY},
+author = {Petty, Richard E. and Cacioppo, John T.},
+publisher = {Springer},
+title = {{Communication and Persuasion. Central and Peripheral Routes to Attitude Change}},
+year = {1986}
+}
+@article{Pennycooketal2018,
+author = {Pennycook, Gordon and Cannon, Tyrone D. and Rand, David G.},
+journal = {Journal of Experimental Psychology: General},
+number = {12},
+pages = {1865--1880},
+title = {{Prior exposure increases perceived accuracy of fake news}},
+url = {https://papers.ssrn.com/sol3/papers.cfm?abstract{\_}id=3173303},
+volume = {147},
+year = {2018}
+}
+@article{Lordetal1979,
+author = {Lord, Charles G. and Ross, Lee and Lepper, Mark R.},
+journal = {Journal of Personality and Social Psychology},
+keywords = {beliefs,experiment,motivated reasoning,science trust},
+mendeley-tags = {beliefs,experiment,motivated reasoning,science trust},
+number = {11},
+pages = {2089--2109},
+title = {{Biased Assimilation and Attitude Polarization: The Effects of Prior Theories on Subsequently Considered Evidence}},
+volume = {37},
+year = {1979}
+}
+@article{Crawfordetal2013,
+abstract = {This study tested the dual-process motivational (DPM) model, which posits that right-wing authoritarianism (RWA) and social dominance orientation (SDO) differentially predict attitudes toward socially threatening or subordinate groups, respectively. Participants read articles on same-sex relationships and affirmative action and evaluated the article content and the biases of the article authors. The article conclusions (i.e., pro- or anti-same-sex relationships and affirmative action) were varied between subjects. As expected, only RWA predicted evaluations of the same-sex relationships articles and authors, whereas only SDO predicted evaluations of the affirmative action articles and authors. These results extend applications of the dual-process model by demonstrating that RWA and SDO differentially predict evaluations of political information that pertains to socially threatening or subordinate groups, respectively. (PsycINFO Database Record (c) 2013 APA, all rights reserved)(journal abstract)},
+author = {Crawford, Jarret T. and Jussim, Lee and Cain, Thomas R. and Cohen, Florette},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Crawford et al. (2013).pdf:pdf},
+isbn = {0022-3115},
+issn = {00219029},
+journal = {Journal of Applied Social Psychology},
+number = {1},
+pages = {163--174},
+title = {{Right-wing authoritarianism and social dominance orientation differentially predict biased evaluations of media reports}},
+volume = {43},
+year = {2013}
+}
+@article{Jones2004,
+abstract = {An alarming number of Americans no longer trust the media to report the news fairly--a serious problem in a democracy that depends so much on news organizations to inform its citizens. As a first step toward explaining this phenomenon, this study explores various factors that explain individual-level variation in media trust. One key factor appears to be trust in government, suggesting that the media's lowly stature may stem more from general political malaise than from the many shortcomings of contemporary news coverage. Interestingly, trust in the media is particularly low among conservative Republicans, especially those who listen to political talk radio. For these Americans, perhaps the problem with the media rests on what they see as a liberal bias, not declining journalistic standards.},
+author = {Jones, David A.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Jones2004.pdf:pdf},
+issn = {1081180X},
+journal = {Harvard International Journal of Press/Politics},
+keywords = {Media and politics,Media bias,Political communication,Public opinion,Public trust},
+number = {2},
+pages = {60--75},
+title = {{Why Americans Don't Trust the Media: A Preliminary Analysis}},
+volume = {9},
+year = {2004}
+}
+@article{Kuruetal2017,
+abstract = {How do citizens' motivations shape their perceptions of poll reports? Increasingly, scholars are finding that citizens engage in motivated reasoning, whereby they discredit information that differs from their preexisting attitudes. The perceived credibility of opinion polls might be prone to similar motivational processes, as individuals could discount results suggesting that they hold minority opinions. We assess whether motivated reasoning influences the credibility of poll results and whether features of the presentation of those results might moderate and potentially counteract these motivational processes. In an online survey experiment conducted with a national sample of American adults (N = 1,211), respondents were exposed to poll reports about both gun control and abortion and were asked to rate the credibility of these polls. For each report, three aspects of presentation were randomized: the direction of the poll result (majority supports/opposes), the news source reporting the poll (FoxNews/MSNBC), and the amount of methodological detail reported (none/a lot). In line with theories of motivated reasoning, respondents who held issue positions that contradicted the results of the polls found those polls less credible. Further, this decreased credibility was particularly evident among individuals with high levels of political knowledge. Source credibility cues—such as the ideological alignment of source and respondent and the presence of a message from an unexpected source—did not moderate this relationship and were unrelated to poll credibility. However, evidence suggests that methodological disclosure could moderate the motivational biases in credibility assessments.},
+author = {Kuru, Ozan and Pasek, Josh and Traugott, Michael W.},
+isbn = {0033-362X},
+issn = {15375331},
+journal = {Public Opinion Quarterly},
+number = {2},
+pages = {422--446},
+title = {{Motivated reasoning in the perceived credibility of public opinion polls}},
+volume = {81},
+year = {2017}
+}
+@article{Gaechteretal2004,
+abstract = {We report survey and experimental evidence on trust and voluntary cooperation from more than 630 non-student and student participants in rural and urban Russia. Our subjects have a diverse socio-economic background that we relate to the answers of a survey on trust attitudes and to contribution behavior in a one-shot public goods game. We find that the socio-economic background affects trust attitudes, but we find no separate influence of socio-economic variables on cooperative behavior in a one-shot public goods experiment. However, cooperation is significantly positively correlated to trust toward strangers and beliefs about the fairness and helpfulness of others. {\textcopyright} 2004 Elsevier B.V. All rights reserved.},
+author = {G{\"{a}}chter, Simon and Herrmann, Benedikt and Th{\"{o}}ni, Christian},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Gaechteretal2004.pdf:pdf},
+issn = {01672681},
+journal = {Journal of Economic Behavior and Organization},
+keywords = {Demographics,Experiments,Russia,Social capital,Surveys,Trust,Voluntary cooperation},
+number = {4 SPEC.ISS.},
+pages = {505--531},
+title = {{Trust, voluntary cooperation, and socio-economic background: Survey and experimental evidence}},
+volume = {55},
+year = {2004}
+}
+@misc{Mosseri2018,
+author = {Mosseri, Adam},
+booktitle = {Facebook Newsroom},
+title = {{Helping Ensure News on Facebook Is From Trusted Sources}},
+urldate = {2018},
+year = {2018}
+}
+@article{HovlandWeiss1951,
+author = {Hovland, Carl Iver and Weiss, Walter},
+journal = {The Public Opinion Quarterly},
+number = {4},
+pages = {635--650},
+title = {{The Influence of Source Credibility on Communication Effectiveness}},
+volume = {15},
+year = {1951}
+}
+@article{MacCounPaletz2009,
+author = {MacCoun, Rob and Paletz, Susannah},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/McCoun {\&} Paletz (2009).pdf:pdf},
+journal = {Political Psychology},
+keywords = {a complex mix of,and empirical uncertainties,belief updating,biased judgment,bring about,but it is rare,clarifying the empirical issues,controversial policy disputes involve,for empirical research to,ideological conflicts,ideology,inform these debates by,partisanship,public opinion,social scientists seek to},
+number = {1},
+pages = {43--65},
+title = {{Citizens' Perceptions of Ideological Bias in Policy Research}},
+volume = {30},
+year = {2009}
+}
+@techreport{Pew2018b,
+author = {{Pew Research Center}},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Pew (2018b).pdf:pdf},
+title = {{News Use Across Social Media Platforms 2018}},
+year = {2018}
+}
+@article{Jacobson1969,
+abstract = {Multivariate analysis of large N data on comparative believability of the media reveals subtle differences in their images; it also shows newspapers are seen as least objective, even by those who rate them most believable.},
+author = {Jacobson, Harvey K.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Jacobson1969.pdf:pdf},
+issn = {0022-5533},
+journal = {Journalism Quarterly},
+number = {1},
+pages = {20--28},
+title = {{Mass Media Believability: A Study of Receiver Judgments}},
+volume = {46},
+year = {2011}
+}
+@article{Worcheletal1975,
+author = {Worchel, Stephen and Andreoli, Virginia and Eason, Joe},
+journal = {Journal of Applied Social Psychology},
+number = {2},
+pages = {157--172},
+title = {{Is the Medium the Message? A Study of the Effects of Media, Communicator, and Message Characteristics on Attitude Change}},
+volume = {5},
+year = {1975}
+}
+@article{TsfatiCappella2003,
+author = {Tsfati, Yariv and Cappella, Joseph N.},
+journal = {Communication Research},
+number = {5},
+pages = {504--529},
+title = {{Do People Watch What They Do Not Trust? Exploring the Association Between News Media Skepticism and Exposure}},
+volume = {30},
+year = {2003}
+}
+@article{Sternthaletal1978,
+abstract = {Two experiments are reported identifying the circumstances in which high credibility either facilitates, inhibits, or has no effect on the communicator's persuasiveness in relation to a less credible source. These data provide support for the cognitive response view of information processing and suggest the importance of message recipient's initial opinion as a determinant of persuasion. [ABSTRACT FROM AUTHOR]},
+author = {Sternthal, Brian and Dholakia, Ruby and Leavitt, Clark},
+isbn = {00935301},
+issn = {0093-5301},
+journal = {Journal of Consumer Research},
+pages = {252--260},
+pmid = {10297222},
+title = {{The Persuasive Effect of Source Credibility: Tests of Cognitive Response}},
+volume = {4},
+year = {1978}
+}
+@article{Kaiser2018,
+abstract = {Incidental exposure to shared news on Facebook is a vital but understudied aspect of how citizens get involved with politics. This experiment investigates the influence of recommender characteristics (tie strength, political knowledge, political similarity) and different media sources (tabloids, legacy, and digital-born outlets) including multiple mediators (e.g., social pressure, outlet credibility) on incidental exposure to political news on Facebook. A 3 × 3 multi-stimulus, between-subject experiment with two additional quasi-factors and 135 different stimuli was conducted using a representative sample (N = 507). Results showed that strong ties and recommenders with high knowledge increase news exposure, but the impact of knowledge is limited to recommenders with similar political opinions. Similar effects occur for different media types, which also have an independent impact on news exposure. Structural equation modeling reveals that media source effects are mediated through media perceptions, whereas...},
+author = {Kaiser, Johannes and Keller, Tobias R. and {Kleinen-von K{\"{o}}nigsl{\"{o}}w}, Katharina},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Kaiser et al. (2018).pdf:pdf},
+issn = {0093-6502},
+journal = {Communication Research},
+keywords = {Facebook,experiment,incidental news exposure,news sharing,social ties},
+pages = {009365021880352},
+title = {{Incidental News Exposure on Facebook as a Social Experience: The Influence of Recommender and Media Cues on News Selection}},
+year = {2018}
+}
+@book{HochschildEinstein2015,
+abstract = {A democracy falters when most of its citizens are uninformed or misinformed, when misinformation affects political decisions and actions, or when political actors foment misinformation—the state of affairs the United States faces today, as this timely book makes painfully clear. In Do Facts Matter? Jennifer L. Hochschild and Katherine Levine Einstein start with Thomas Jefferson's ideal citizen, who knows and uses correct information to make policy or political choices. What, then, the authors ask, are the consequences if citizens are informed but do not act on their knowledge? More serious, what if they do act, but on incorrect information? Analyzing the use, nonuse, and misuse of facts in various cases—such as the call to impeach Bill Clinton, the response to global warming, Clarence Thomas's appointment to the Supreme Court, the case for invading Iraq, beliefs about Barack Obama's birthplace and religion, and the Affordable Care Act—Hochschild and Einstein argue persuasively that errors of commission (that is, acting on falsehoods) are even more troublesome than errors of omission. While citizens' inability or unwillingness to use the facts they know in their political decision making may be frustrating, their acquisition and use of incorrect “knowledge” pose a far greater threat to a democratic political system.Do Facts Matter? looks beyond individual citizens to the role that political elites play in informing, misinforming, and encouraging or discouraging the use of accurate or mistaken information or beliefs. Hochschild and Einstein show that if a well-informed electorate remains a crucial component of a successful democracy, the deliberate concealment of political facts poses its greatest threat.},
+author = {Hochschild, Jennifer L. and Einstein, Katherine Levine},
+booktitle = {Political Science Quarterly},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Hochschild, Einstein - 2015 - Do Facts Matter Information and Misinformation in American Politics.pdf:pdf},
+isbn = {9780806146867},
+issn = {1538165X},
+keywords = {Information,Knowledge,Misbeliefs,Observational},
+mendeley-tags = {Information,Knowledge,Misbeliefs,Observational},
+number = {4},
+pages = {585--624},
+title = {{Do Facts Matter? Information and Misinformation in American Politics}},
+volume = {130},
+year = {2015}
+}
+@inproceedings{Corritoreetal2005,
+author = {Corritore, Cynthia L and Marble, Robert P and Wiedenbeck, Susan and Kracher, Beverly and Chandran, Ashwin},
+booktitle = {AMCIS 2005 Proceedings.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Corritore et al. (2005).pdf:pdf},
+title = {{Measuring Online Trust of Websites: Credibility, Perceived Ease of Use, and Risk}},
+url = {http://aisel.aisnet.org/amcis2005/370{\%}0AThis},
+year = {2005}
+}
+@incollection{BauerFreitag2017,
+author = {Bauer, Paul C and Freitag, Markus},
+booktitle = {The Oxford Handbook of Social and Political Trust},
+editor = {Uslaner, Eric M.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Bauer and Freitag (2017).pdf:pdf},
+isbn = {9780190274801},
+publisher = {Oxford University Press},
+title = {{Oxford Handbooks Online Measuring Trust}},
+year = {2017}
+}
+@phdthesis{Waters2016,
+author = {Waters, Anna},
+title = {{Whose tweets do you trust? Message and messenger Credibility among mainstream and new media news organizations on Twitter}},
+url = {https://ir.ua.edu/handle/123456789/2781},
+year = {2016}
+}
+@article{JensenThomsen2014,
+abstract = {Measuring citizens' political knowledge is important for understanding public opinion formation. In view of the increasing popularity of Web surveys, this paper examines the limitations of this interviewing facility when measuring factual political knowledge. We show that Web surveys contain a source of measurement error as respondents can " Google " the correct answers. This cheating activity is our principal concern. Past efforts are extended by: (1) offering a self-reported estimate of the share of Googling cheaters, (2) showing that the positive effect of education on factual political knowledge is most probably underestimated when cheating occurs, and (3) showing that self-reported cheating activity is inversely related to actual response time. In the concluding section, we discuss the implications of these results and the extent to which cheating can be reduced. The empirical analyses are based on a Danish Web sample from 2012 (N = 1,509).},
+author = {Jensen, Carsten and Thomsen, Jens Peter Fr{\o}lund},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Jensen {\&} Thomsen (2014).pdf:pdf},
+issn = {15737845},
+journal = {Quality and Quantity},
+keywords = {Political knowledge,Response time limits,Self-reported cheating,The education effect,Web surveys},
+number = {6},
+pages = {3343--3354},
+title = {{Self-reported cheating in web surveys on political knowledge}},
+volume = {48},
+year = {2014}
+}
+@article{Hill2017,
+author = {Hill, Seth J.},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Hill - 2016 - Learning Together Slowly Bayesian Updating About Political Facts.pdf:pdf},
+journal = {The Journal of Politics},
+keywords = {Bayesian Learning,Experiment,Formal Modelling,Information,Motivated reasoning,bayesian learning,crossover,motivated reasoning,perceptual bias,political information},
+mendeley-tags = {Bayesian Learning,Experiment,Formal Modelling,Information,Motivated reasoning},
+number = {4},
+pages = {1403--1418},
+title = {{Learning Together Slowly: Bayesian Updating About Political Facts}},
+url = {http://www.sethjhill.com/SJH{\_}InfoBayes.pdf},
+volume = {79},
+year = {2017}
+}
+@article{VragaBode2017,
+abstract = {Social media are often criticized as serving as a source of misinformation, but in this study we examine how they may also function to correct misperceptions on an emerging health issue. We use an experimental design to consider social correction that occurs via peers, testing both the type of correction (i.e., whether a source is provided or not) and the platform on which the correction occurs (i.e., Facebook versus Twitter). Our results suggest that a source is necessary to correct misperceptions about the causes of the Zika virus on both Facebook and Twitter, but the mechanism by which such correction occurs differs across platforms. Implications for successful social media campaigns to address health misinformation are addressed.},
+author = {Vraga, Emily K. and Bode, Leticia},
+issn = {1369-118X},
+journal = {Information, Communication {\&} Society},
+pages = {1--17},
+title = {{I do not believe you: how providing a source corrects health misperceptions across social media platforms}},
+year = {2017}
+}
+@article{Wagner2017,
+abstract = {Two studies assessed the extent to which people incorporated false facts provided by bogus others into their own recognition memory reports, and how these false memory reports were affected by: (a) truth of the information in others' summaries supporting the false facts, (b) motivation to process stories and summaries, (c) source credibility, and (d) ease of remembering original facts. False memory report frequency increased when false facts in a summary were supported by true information and varied inversely with the ease with which original facts could be remembered. Results from a measure probing participants' memory perceptions suggest that some false memories are authentic: People sometimes lack awareness of both the incorporation of false facts into their memory reports and where the false facts came from. However, many false memories are inauthentic: Despite reporting a false memory, people sometimes retain knowledge of the original stimulus and/or the origin of false facts.},
+author = {Wagner, Michael F and Skowronski, John J},
+issn = {1053-8100},
+journal = {Consciousness and Cognition},
+keywords = {False memory,Informational social influence,Memory routes,Misinformation effect,Normative social influence,experiment,false memory,informational social influence,memory,memory routes,misinformation,misinformation effect,normative social influence,source credibility},
+mendeley-tags = {experiment,false memory,informational social influence,memory,memory routes,misinformation,misinformation effect,normative social influence,source credibility},
+pages = {34--52},
+title = {{Social influence and mental routes to the production of authentic false memories and inauthentic false memories}},
+url = {http://www.sciencedirect.com/science/article/pii/S1053810017300880},
+volume = {51},
+year = {2017}
+}
+@article{Carl2018,
+abstract = {Since the UK's vote to leave the European Union, there has been considerable debate about whether voters (particularly Leave voters) were well-informed prior to making their decisions. We gave a 15-item EU knowledge quiz to a large, nationally representative sample of the British population via an online survey. Our quiz included nine ‘ideologically neutral' items, as well as six items that we deemed more ‘ideologically convenient' for one side or the other. Overall, there was no average difference between Leave voters and Remain voters (either before or after controlling for covariates), despite the fact that Remain voters scored slightly higher on a short test of probability reasoning. In addition, both Leave and Remain voters were more likely to answer correctly on items that were ‘ideologically convenient' for them. Consistent with the previous literature, older age, male gender, higher education, and stronger political interest were all significant predictors of EU knowledge. Interestingly however, these variables only predicted knowledge on the nine ‘ideologically neutral' items; their associations with knowledge on the six ‘ideologically convenient' items were generally weak and non-significant.},
+author = {Carl, Noah and Richards, Lindsay and Heath, Anthony},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Carl et al. (2019).pdf:pdf},
+issn = {0261-3794},
+journal = {Electoral Studies},
+keywords = {Brexit,EU,Ideological bias,Political knowledge,Referendum},
+number = {November 2018},
+pages = {90--98},
+publisher = {Elsevier},
+title = {{Leave and Remain voters' knowledge of the EU after the referendum of 2016}},
+volume = {57},
+year = {2018}
+}
+@article{BaumGussin2008,
+author = {Baum, Matthew A. and Gussin, Phil},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/BaumGussin2008.pdf:pdf},
+title = {{In the Eye of the Beholder: How Information Shortcuts Shape Individual Perceptions of Bias in the Media}},
+year = {2004}
+}
+@unpublished{Kearney2017,
+author = {Kearney, Michael W.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Kearney (2017).pdf:pdf},
+pages = {1--12},
+title = {{Trusting News Project Report}},
+year = {2017}
+}
+@article{DruckmannLupia2000,
+author = {Druckman, James N and Lupia, Arthur},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/DruckmannLupia2000.pdf:pdf},
+journal = {Annual Review of Political Science},
+keywords = {accessibility,belief formation,concerns political preferences,on-line processing,persuasion,preference reversals,processes of,s abstract this review,the close relationship between,they come from,we begin by documenting,what they are and,where},
+pages = {1--24},
+title = {{Preference Formation}},
+volume = {3},
+year = {2000}
+}
+@article{Ladd2010,
+author = {Ladd, Jonathan Mcdonald},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Ladd2010.pdf:pdf},
+journal = {Political Behavior},
+number = {4},
+pages = {567--585},
+title = {{The Role of Media Distrust in Partisan Voting}},
+volume = {32},
+year = {2010}
+}
+@article{Metzgeretal2015,
+abstract = {Selective exposure research indicates that news consumers tend to seek out attitude-consistent information and avoid attitude-challenging information. This study examines online news credibility and cognitive dissonance as theoretical explanations for partisan selective exposure behavior. After viewing an attitudinally consistent, challenging, or politically balanced online news source, cognitive dissonance, credibility perceptions, and likelihood of selective exposure were measured. Results showed that people judge attitude-consistent and neutral news sources as more credible than attitude-challenging news sources, and although people experience slightly more cognitive dissonance when exposed to attitude-challenging news sources, overall dissonance levels were quite low. These results refute the cognitive dissonance explanation for selective exposure and suggest a new explanation that is based on credibility perceptions rather than psychological discomfort with attitude-challenging information.},
+author = {Metzger, Miriam J. and Hartsell, Ethan H. and Flanagin, Andrew J.},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Metzgeretal2015.pdf:pdf},
+issn = {0093-6502},
+journal = {Communication Research},
+pages = {1--26},
+title = {{Cognitive Dissonance or Credibility?}},
+year = {2015}
+}
+@article{MutzPemantle2015,
+author = {Mutz, Diana C. and Pemantle, Robin},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Mutz {\&} Pemantle (2015).pdf:pdf},
+journal = {Journal of Experimental Political Science},
+pages = {192--215},
+title = {{Standards for Experimental Research: Encouraging a Better Understanding of Experimental Methods}},
+volume = {2},
+year = {2015}
+}
+@article{Effron2018,
+author = {Effron, Daniel A},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Effron (2018).pdf:pdf},
+keywords = {2017,clinton,counterfactual thinking,dishonesty,doubted that truth and,ethics,lies,morality,no one has ever,political psychology,politics are on rather,received april 14,revision accepted november 13,social judgment,trump},
+title = {{It Could Have Been True: How Counterfactual Thoughts Reduce Condemnation of Falsehoods and Increase Political Polarization}},
+year = {2018}
+}
+@article{Junetal2017,
+author = {Jun, Youjung and Meng, Rachel and Johar, Gita Venkataramani},
+doi = {10.1073/pnas.1700175114},
+isbn = {1700175114},
+issn = {0027-8424},
+journal = {Proceedings of the National Academy of Sciences},
+number = {23},
+pages = {201700175},
+pmid = {28533396},
+title = {{Perceived social presence reduces fact-checking}},
+url = {http://www.pnas.org/lookup/doi/10.1073/pnas.1700175114},
+volume = {114},
+year = {2017}
+}
+@misc{Schultheis2019,
+author = {Schultheis, Emily},
+booktitle = {The Atlantic},
+title = {{Der Spiegel Made Up Stories. How Can It Regain Readers' Trust?}},
+url = {https://www.theatlantic.com/international/archive/2019/01/der-spiegal-fabrication-scandal-global/579889/},
+year = {2019}
+}
+@article{Carletal2018,
+abstract = {Since the UK's vote to leave the European Union, there has been considerable debate about whether voters (particularly Leave voters) were well-informed prior to making their decisions. We gave a 15-item EU knowledge quiz to a large, nationally representative sample of the British population via an online survey. Our quiz included nine ‘ideologically neutral' items, as well as six items that we deemed more ‘ideologically convenient' for one side or the other. Overall, there was no average difference between Leave voters and Remain voters (either before or after controlling for covariates), despite the fact that Remain voters scored slightly higher on a short test of probability reasoning. In addition, both Leave and Remain voters were more likely to answer correctly on items that were ‘ideologically convenient' for them. Consistent with the previous literature, older age, male gender, higher education, and stronger political interest were all significant predictors of EU knowledge. Interestingly however, these variables only predicted knowledge on the nine ‘ideologically neutral' items; their associations with knowledge on the six ‘ideologically convenient' items were generally weak and non-significant.},
+author = {Carl, Noah and Richards, Lindsay and Heath, Anthony},
+doi = {10.1016/J.ELECTSTUD.2018.11.003},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/Carl et al. (2019).pdf:pdf},
+issn = {0261-3794},
+journal = {Electoral Studies},
+keywords = {Brexit,EU,Ideological bias,Political knowledge,Referendum},
+number = {November 2018},
+pages = {90--98},
+publisher = {Elsevier},
+title = {{Leave and Remain voters' knowledge of the EU after the referendum of 2016}},
+url = {https://www.sciencedirect.com/science/article/pii/S0261379418302609},
+volume = {57},
+year = {2018}
+}
+@article{BoczkowskiMitchelstein2012,
+abstract = {This study examines the uptake of multiple interactive features on news sites. It looks at the thematic composition of the most clicked, most e-mailed, and most commented stories during periods of heightened and routine political activity. Results show that (a) during the former period, the most commented stories were more likely to be focused on political,$\backslash$r$\backslash$neconomic, and international topics (or ‘public affairs'' news) than the most clicked and most e-mailed articles. (b) The 3 types of interactivity exhibited a greater presence of public affairs content during the period of heightened political activity than during its$\backslash$r$\backslash$nroutine counterpart. (c) As the period of heightened political activity unfolded, consumers' propensity to click on, e-mail, and comment about public affairs stories increased.},
+author = {Boczkowski, Pablo J. and Mitchelstein, Eugenia},
+doi = {10.1111/j.1468-2958.2011.01418.x},
+file = {:Users/bernhardclemm/Dropbox/PhD/Literatur/BoczkowskiMitchelstein2012.pdf:pdf},
+issn = {03603989},
+journal = {Human Communication Research},
+number = {1},
+pages = {1--22},
+title = {{How users take advantage of different forms of interactivity on online news sites: Clicking, e-mailing, and commenting}},
+volume = {38},
+year = {2012}
+}
+@book{KeppelWickens2004,
+author = {Keppel, Geoffrey and Wickens, Thomas D.},
+publisher = {Pearson Prentice-Hall},
+title = {{Design and Analysis: A Researcher's Handbook}},
+year = {2004}
+}
+@article{GentzkowShapiro2011,
+abstract = {We use individual and aggregate data to ask how the Internet is changing the ideological segregation of the American electorate. Focusing on online news consumption, offline news consumption, and face-to-face social interactions, we define ideological segregation in each domain using standard indices from the literatureonracial segregation.Wefindthat ideological segregationofonlinenews consumption is lowin absolute terms, higher than the segregation ofmost offline news consumption, and significantly lower than the segregation of face-to-face interactionswith neighbors, co-workers, or familymembers. Wefind no evidence that the Internet is becomingmore segregatedover time. JEL},
+archivePrefix = {arXiv},
+arxivId = {arXiv:1011.1669v3},
+author = {Gentzkow, Matthew and Shapiro, Jesse M.},
+doi = {10.1093/qje/qjr044},
+eprint = {arXiv:1011.1669v3},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Gentzkow, Shapiro - 2011 - Ideological segregation online and offline.pdf:pdf;:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Gentzkow, Shapiro - 2011 - Ideological segregation online and offline.docx:docx},
+isbn = {0033553315314650},
+issn = {00335533},
+journal = {Quarterly Journal of Economics},
+keywords = {Fragmentation,Internet,Observational,Selective Exposure},
+mendeley-tags = {Fragmentation,Internet,Observational,Selective Exposure},
+number = {4},
+pages = {1799--1839},
+pmid = {1289398},
+title = {{Ideological segregation online and offline}},
+volume = {126},
+year = {2011}
+}
+@article{Flaxmanetal2016,
+abstract = {Online publishing, social networks, and web search have dramatically lowered the costs to produce, distribute, and discover news articles. Some scholars argue that such technological changes increase exposure to diverse perspectives, while others worry they increase ideological segregation. We address the issue by examining web browsing histories for 50,000 U.S.-located users who regularly read online news. We find that social networks and search engines increase the mean ideological distance between individuals. However, somewhat counterintuitively, we also find these same channels increase an individual's exposure to material from his or her less preferred side of the political spectrum. Finally, we show that the vast majority of online news consumption is accounted for by individuals simply visiting the home pages of their favorite, typically mainstream, news outlets, tempering the consequences—both positive and negative—of recent technological changes. We thus uncover evidence for both sides of the debate, while also finding that the magnitude of the e↵ects are relatively modest.},
+author = {Flaxman, Seth R. and Goel, Sharad and Rao, Justin M.},
+doi = {10.1093/poq/nfw006},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Flaxman, Goel, Rao - 2016 - Filter Bubbles, Echo Chambers, and Online News Consumption.pdf:pdf},
+issn = {0033-362X},
+journal = {Public Opinion Quarterly},
+keywords = {Browsing Histories,Filter bubbles,Observational,Social Media},
+mendeley-tags = {Browsing Histories,Filter bubbles,Observational,Social Media},
+number = {Special Issue},
+pages = {298--320},
+title = {{Filter Bubbles, Echo Chambers, and Online News Consumption}},
+volume = {80},
+year = {2016}
+}
+@article{Bakshyetal2015,
+abstract = {Exposure to news, opinion, and civic information increasingly occurs through social media. How do these online networks influence exposure to perspectives that cut across ideological lines? Using deidentified data,we examined how 10.1million U.S. Facebook users interact with socially shared news.We directlymeasured ideological homophily in friend networks and examined the extent to which heterogeneous friends could potentially expose individuals to cross-cutting content.We then quantified the extent to which individuals encounter comparativelymore or less diverse content while interacting via Facebook's algorithmically rankedNews Feed and further studied users'choices to click through to ideologically discordant content. Compared with algorithmic ranking, individuals' choices played a stronger role in limiting exposure to cross-cutting content. Supplementary mateirals included},
+archivePrefix = {arXiv},
+arxivId = {arXiv:gr-qc/9809069v1},
+author = {Bakshy, Eytan and Messing, Solomon and Adamic, Lada A},
+doi = {10.1126/science.aaa1160},
+eprint = {9809069v1},
+file = {:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Bakshy, Messing, Adamic - 2015 - Exposure to ideologically diverse news and opinion on Facebook.pdf:pdf;:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Bakshy, Messing, Adamic - 2015 - Exposure to ideologically diverse news and opinion on Facebook(2).pdf:pdf;:Users/bernhardclemm/Library/Application Support/Mendeley Desktop/Downloaded/Bakshy, Messing, Adamic - 2015 - Exposure to ideologically diverse news and opinion on Facebook.docx:docx},
+isbn = {1460-2466},
+issn = {0036-8075},
+journal = {Science},
+keywords = {Deep learning: ethics,Deep learning: social consequences,Facebook,Public opinion: diversity},
+number = {6239},
+pages = {1130--1132},
+pmid = {18787764},
+primaryClass = {arXiv:gr-qc},
+title = {{Exposure to ideologically diverse news and opinion on Facebook}},
+volume = {348},
+year = {2015}
+}
+
