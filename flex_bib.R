@@ -209,21 +209,27 @@ flex_bib <- function(rmarkdown_file,
     
     # Write multiple bib files
     for (file in seq_along(bib_outputs)) {
-      # Define file anme
-      new_file_name <-
-        paste0(gsub(".bib$", "", bib_output), "_", file, ".bib")
-      
-      # Write file
-      df2bib(bib_outputs[[file]] %>%
-               select(-one_of(to_remove)),
-             new_file_name)
-      cat(paste0(new_file_name, " created.\n"))
-      
-      # Repair?
-      if (isTRUE(repair)) {
-        bibfile <- repair_bib_file(new_file_name)
-        stringi::stri_write_lines(bibfile, new_file_name)
-        cat(paste0(new_file_name, " repaired.\n"))
+      if (nrow(bib_outputs[[file]]) > 0 ) {
+        # Define file anme
+        new_file_name <-
+          paste0(gsub(".bib$", "", bib_output), "_", file, ".bib")
+        
+        # Write file
+        df2bib(bib_outputs[[file]] %>%
+                 dplyr::select(-one_of(to_remove)),
+               new_file_name)
+        cat(paste0(new_file_name, " created.\n"))
+        
+        # Repair?
+        if (isTRUE(repair)) {
+          bibfile <- repair_bib_file(new_file_name)
+          stringi::stri_write_lines(bibfile, new_file_name)
+          cat(paste0(new_file_name, " repaired.\n"))
+        }
+      } else {
+        print(paste0("No citations after split point ",
+                     by_sections[file - 1], 
+                     ". No bib-file created for this section."))
       }
     }
   }
