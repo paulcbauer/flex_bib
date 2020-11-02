@@ -1,0 +1,26 @@
+Package: flex_bib
+Type: Package
+Title: Creates new output bib files that only contain the cited works
+Version: 0.0.1
+Authors@R: c(
+  person("Denis", "Cohen", email = "denis.cohen@mzes.uni-mannheim.de <denis.cohen@mzes.uni-mannheim.de", role = c("cre","aut")),
+  person("Paul C.", "Bauer", email = "mail@paulcbauer.eu", role = c("cre","aut"))
+Description: flex_bib is being developed by Paul C. Bauer and Denis Cohen. It deals with two problems:    
+    We normally use (one or several) large .bib files as input for our paper .rmd files. These are based on one or several authors' literature databases. However, we ideally want to end up with one single (max. two) .bib file(s) that includes only those references that were cited in our paper, e.g., if we prepare reproduction files.
+    Papers normally have at least two sections - namely a main text and an appendix - that often have separate bibliographies. Ideally, in compiling our RMarkdown paper, we want two independent bibliographies that correspond to those sections and are located at their end. While one way of achieving this is two set up seprate .rmd files for the main text and the appendix, this approach does not allow for cross-referencing across the two parts.    
+    flex_bib offers an automated solution to these problems. Based on the citations from one or several input bib file(s) in a .rmd file, it creates new output bib files that only contain the cited works within predefined reference sections.
+License: GPL-3
+URL: https://github.com/paulcbauer/flex_bib
+BugReports: https://github.com/paulcbauer/flex_bib/issues
+Depends: R (>=3.6.1)
+Imports: bib2df (>= 1.0.0)  
+         dplyr (>= 1.0.0) 
+         stringr (>= 1.0.0) 
+Suggests: 
+    rmarkdown,
+    knitr
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
