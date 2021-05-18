@@ -148,7 +148,7 @@ flex_bib <- function(rmarkdown_file,
   
   # ---- Run core function ----
   # ---- by_sections == NULL: read in rmd file as one long string ----
-  if (is.null(by_sections)) {
+  if (is.null(by_sections) & length(rmarkdown_file) == 1L) {
     rmd_text <- paste(readLines(rmarkdown_file), collapse = " ")
     
     # Run core function
@@ -164,10 +164,27 @@ flex_bib <- function(rmarkdown_file,
       stringi::stri_write_lines(bibfile, bib_output)
       cat("Repaired new bib file.\n")
     }
-
+    
+  # ---- by_sections == NULL; combine several rmd files in one long string ----  
+  } else if (is.null(by_sections) & length(rmarkdown_file) > 1L) {
+    rmd_text <- paste(sapply(rmarkdown_file, readLines), collapse = " ")
+    
+    # Run core function
+    bibliography_new <- flex_bib_file_core(rmd_text, complete_bib)
+    
+    # Write bib
+    df2bib(bibliography_new,  bib_output)
+    cat("New bib file created.\n")
+    
+    # Repair?
+    if (isTRUE(repair)) {
+      bibfile <- repair_bib_file(bib_output)
+      stringi::stri_write_lines(bibfile, bib_output)
+      cat("Repaired new bib file.\n")
+    }
     
   # ---- by_sections != NULL: split by sections ----
-  } else {
+  } else if (!(is.null(by_sections)) & length(rmarkdown_file) == 1L) {
     
     # Validate by_section input
     if (!(is.vector(by_sections) &
